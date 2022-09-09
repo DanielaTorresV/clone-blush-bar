@@ -1,0 +1,49 @@
+{
+    "header-row#header__middle":{
+        "title": "Header Middle",
+        "children": [
+            "flex-layout.row#header__middle--row"
+          ],
+          "props":{
+            "blockClass": "header__middle"
+          }
+    },
+    "flex-layout.row#header__middle--row":{
+        "title": "Header Row Middle Flex",
+        "children": [
+          "flex-layout.col#header__middle--search",
+          "flex-layout.col#header__middle--logo",
+          "flex-layout.col#header__middle--cart"
+        ],
+        "props": {
+          "blockClass": "header__middle--row"
+        }
+    },
+    "flex-layout.col#header__middle--search": {
+        "title": "Header Middle Search",
+        "children": [
+
+        ],
+        "props":{
+            "width": "grow"
+        }
+    },
+    "flex-layout.col#header__middle--logo": {
+        "title": "Header Middle Logo",
+        "children": [
+            "logo#header__middle--logo"
+        ],
+        "props":{
+            "width": "grow"
+        }
+    },
+    "flex-layout.col#header__middle--cart": {
+        "title": "Header Middle Cart",
+        "children": [
+
+        ],
+        "props":{
+            "width": "grow"
+        }
+    }
+}

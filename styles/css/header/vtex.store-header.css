@@ -1,0 +1,9 @@
+.headerStickyRow--header__top{
+    margin: 0 8px;
+    border-bottom: 1px solid #FFD7DE;
+}
+
+.flexRow--header__middle--row{
+    width: 1083px !important;
+}
+
