@@ -1,55 +1,24 @@
 {
     "header-row#header__top": {
         "title": "Header Row Top",
-        "children": [
-          "flex-layout.row#header__top--row"
+        "children": [          
+          "rich-text#header__top--left",
+          "header-spacer",
+          "flex-layout.row#header__top--right"
         ],
         "props":{
           "blockClass": "header__top"
         }
       },
-      "flex-layout.row#header__top--row": {
-        "title": "Header Row Top Flex",
-        "children": [
-          "flex-layout.col#header__top--left",
-          "flex-layout.col#header__top--right"
-        ],
-        "props": {
-          "blockClass": "header__top--row",
-          "colJustify": "around"
-        }
-      },
-      "flex-layout.col#header__top--left": {
-        "title": "Header Top Left",
-        "children": [
-          "rich-text#header__left--text"
-        ],
-        "props": {
-          "blockClass": "header__top--left",
-          "width": "25%"
-        }
-      },
-      "rich-text#header__left--text":{
+      "rich-text#header__top--left":{
         "title": "Text Left",
         "props": {
           "text": "Envíos gratuitos con amor a todo Colombia a partir de $150.000!!",
           "font": "t-mini"
         }
       },
-      "flex-layout.col#header__top--right": {
-        "title": "Header Top Right",
-        "children": [
-          "flex-layout.row#header__right--container"
-        ],
-        "props": {
-          "blockClass": "header__top--right",
-          "marginLeft": 10,
-          "paddingLeft": 10,
-          "width": "75%"
-        }
-      },
-      "flex-layout.row#header__right--container": {
-        "title": "Header Top Right Row",
+      "flex-layout.row#header__top--right": {
+        "title": "Header Right Top Flex",
         "children": [
           "flex-layout.col#right__container--account",
           "flex-layout.col#right__container--stores",      
@@ -57,10 +26,12 @@
           "flex-layout.col#right__container--about",
           "flex-layout.col#right__container--original"
         ],
-        "props":{      
-          "blockClass": "top__right--row"
+        "props": {
+          "blockClass": "header__top--right",
+          "colGap": 4
         }
       },
+      
       "flex-layout.col#right__container--account": {
         "title": "Column my account",
         "children": [

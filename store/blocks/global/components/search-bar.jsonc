@@ -1,0 +1,10 @@
+{
+    "search-bar#header__middle--search":{
+    "title": "Searcher",
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+        "openAutocompleteOnFocus": true,
+        "maxWidth": 200
+    }
+    }
+}

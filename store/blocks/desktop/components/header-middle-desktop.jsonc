@@ -2,48 +2,42 @@
     "header-row#header__middle":{
         "title": "Header Middle",
         "children": [
-            "flex-layout.row#header__middle--row"
+            "search-bar#header__middle--search",
+            "header-spacer",
+            "logo#header__middle--logo",
+            "header-spacer",
+            "flex-layout.row#header__middle--cart"            
           ],
           "props":{
             "blockClass": "header__middle"
           }
     },
-    "flex-layout.row#header__middle--row":{
-        "title": "Header Row Middle Flex",
+    "flex-layout.row#header__middle--cart": {
+        "title": "Cart",
         "children": [
-          "flex-layout.col#header__middle--search",
-          "flex-layout.col#header__middle--logo",
-          "flex-layout.col#header__middle--cart"
+            "image#middle__cart--flat",
+            "image#middle__cart--bag"
         ],
+        "props":{
+            "horizontalAlign": "center"
+        }
+    },
+    "image#middle__cart--flat": {
+        "title": "Flat Image",
         "props": {
-          "blockClass": "header__middle--row"
+            "src": "assets/img/flat.jpg",
+            "title": "Flat",
+            "maxWidth": 40,
+            "maxHeight": 40
         }
     },
-    "flex-layout.col#header__middle--search": {
-        "title": "Header Middle Search",
-        "children": [
-
-        ],
-        "props":{
-            "width": "grow"
-        }
-    },
-    "flex-layout.col#header__middle--logo": {
-        "title": "Header Middle Logo",
-        "children": [
-            "logo#header__middle--logo"
-        ],
-        "props":{
-            "width": "grow"
-        }
-    },
-    "flex-layout.col#header__middle--cart": {
-        "title": "Header Middle Cart",
-        "children": [
-
-        ],
-        "props":{
-            "width": "grow"
+    "image#middle__cart--bag": {
+        "title": "Bag Image",
+        "props": {
+            "src": "assets/img/bag.jpg",
+            "title": "Bag",
+            "maxWidth": 60,
+            "maxHeight": 40
         }
     }
 }
