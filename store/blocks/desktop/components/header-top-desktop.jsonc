@@ -35,23 +35,15 @@
       "flex-layout.col#right__container--account": {
         "title": "Column my account",
         "children": [
-          "rich-text#right__account--text"
+          "vtex.menu@2.x:menu#menu__account"
         ],
         "props": {
           "width": "grow",
           "verticalAlign": "middle"
         }
       },
-      "rich-text#right__account--text": {
-        "props": {
-          "text": "Mi Cuenta",
-          "font": "t-small",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER"
-        }
-      },
       "flex-layout.col#right__container--stores": {
-        "title": "Column my account",
+        "title": "Column stores",
         "children": [
           "link#container__stores--link"
         ],
@@ -78,7 +70,7 @@
       },
 
       "flex-layout.col#right__container--blog": {
-        "title": "Column my account",
+        "title": "Column Blog",
         "children": [
           "link#container__blog--link"
         ],
@@ -105,7 +97,7 @@
       },
 
       "flex-layout.col#right__container--about": {
-        "title": "Column my account",
+        "title": "Column About us",
         "children": [
           "link#container__about--link"
         ],
@@ -132,7 +124,7 @@
       },
 
       "flex-layout.col#right__container--original": {
-        "title": "Column my account",
+        "title": "Column Original",
         "children": [
           "link#container__original--link"
         ],

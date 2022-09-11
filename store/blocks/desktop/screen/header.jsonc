@@ -15,7 +15,8 @@
     "title": "Desktop Header",
     "children": [
       "header-row#header__top",
-      "header-row#header__middle"
+      "header-row#header__middle",
+      "header-row#header__down"
     ]
   }  
   /*"header-layout.mobile": {

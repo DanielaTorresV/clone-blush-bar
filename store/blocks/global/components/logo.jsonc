@@ -1,9 +1,9 @@
 {
-    "logo#header__middle--logo":{
+    "logo#header__middle--logo": {
         "title": "logo",
         "props": {
             "url": "assets/img/logo-blushBar.jpg",
-            "width": 200,
+            "width": 250,
             "height": 60
         }
     }

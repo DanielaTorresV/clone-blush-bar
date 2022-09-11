@@ -1,0 +1,85 @@
+{
+    "vtex.menu@2.x:menu#menu__account":{
+        "title": "Menu Account",
+        "children": [
+            "menu-item#department__account"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__account": {
+        "title": "Department Account",        
+        "props": {
+            "id": "menu-item-account",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "Account",
+              "text": "Mi cuenta"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__account"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__account": {
+        "title": "Submenu Account",
+        "children": [
+            "vtex.menu@2.x:menu#category__account"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__account": {
+        "title": "Categories Account",
+        "children": [
+            "menu-item#category__account--profile",
+            "menu-item#category__account--products",
+            "menu-item#category__account--logout"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__account--profile": {
+        "title": "",
+        "props": {
+            "id": "menu-item-profile",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Profile",
+              "text": "Mi Perfil"
+            }
+        }
+    },
+    "menu-item#category__account--products": {
+        "title": "",
+        "props": {
+            "id": "menu-item-products",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Products",
+              "text": "Mis Pedidos"
+            }
+        }
+    },
+    "menu-item#category__account--logout": {
+        "title": "",
+        "props": {
+            "id": "menu-item-logout",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Log Out",
+              "text": "Cerrar Sesión"
+            }
+        }
+    }
+}

@@ -15,11 +15,21 @@
     "flex-layout.row#header__middle--cart": {
         "title": "Cart",
         "children": [
-            "image#middle__cart--flat",
-            "image#middle__cart--bag"
+            "flex-layout.col#header__middle--flat",
+            "flex-layout.col#header__middle--bag"
         ],
         "props":{
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "colGap": 3
+        }
+    },
+    "flex-layout.col#header__middle--flat":{
+        "title": "Container Flat",
+        "children": [
+            "image#middle__cart--flat"
+        ],
+        "props": {
+            "verticalAlign": "middle"
         }
     },
     "image#middle__cart--flat": {
@@ -27,8 +37,17 @@
         "props": {
             "src": "assets/img/flat.jpg",
             "title": "Flat",
-            "maxWidth": 40,
-            "maxHeight": 40
+            "maxWidth": 30,
+            "maxHeight": 25
+        }
+    },
+    "flex-layout.col#header__middle--bag":{
+        "title": "Container Bag",
+        "children": [
+            "image#middle__cart--bag"
+        ],
+        "props": {
+            "verticalAlign": "middle"
         }
     },
     "image#middle__cart--bag": {
@@ -36,8 +55,8 @@
         "props": {
             "src": "assets/img/bag.jpg",
             "title": "Bag",
-            "maxWidth": 60,
-            "maxHeight": 40
+            "maxWidth": 70,
+            "maxHeight": 50
         }
     }
 }

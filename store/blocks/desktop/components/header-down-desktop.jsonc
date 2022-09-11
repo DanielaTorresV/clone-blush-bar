@@ -1,0 +1,22 @@
+{
+    "header-row#header__down": {
+        "title": "Header Row Down",
+        "children": [
+            "link#header__down--new",
+            "vtex.menu@2.x:menu#header__down--makeup",
+            "vtex.menu@2.x:menu#header__down--skin",
+            "vtex.menu@2.x:menu#header__down--perfum",
+            "vtex.menu@2.x:menu#header__down--access",
+            "vtex.menu@2.x:menu#header__down--brands",
+            "vtex.menu@2.x:menu#header__down--sale",
+            "link#header__down--class",
+            "link#header__down--creators",
+            "vtex.menu@2.x:menu#header__down--services",
+            "link#header__down--gift",
+            "link#header__down--points"
+        ],
+        "props": {
+            "blockClass": "header__down"
+        }
+    }
+}

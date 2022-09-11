@@ -4,7 +4,14 @@
 }
 
 .headerStickyRow--header__middle{
-    margin: 20px 20px;
+    margin: 15px 50px;
 }
 
+.headerStickyRow--header__down{
+    margin: 0 8px;
+}
+
+.headerRowBackground--header__down {
+    background-color: #FFD7DE;
+}
 

@@ -1,0 +1,553 @@
+{
+    "vtex.menu@2.x:menu#header__down--makeup": {
+        "title": "Menu MakeUp",
+        "children": [
+            "menu-item#department__makeup"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__makeup": {
+        "title": "Department makeup",        
+        "props": {
+            "id": "menu-item-makeup",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "makeup",
+              "text": "MAQUILLAJE"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__makeup"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__makeup": {
+        "title": "Submenu makeup",
+        "children": [
+            "vtex.menu@2.x:menu#category__makeup"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__makeup": {
+        "title": "Categories makeup",
+        "children": [
+            "menu-item#category__makeup--face",
+            "menu-item#category__makeup--eyes",
+            "menu-item#category__makeup--lips"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__makeup--face": {
+        "title": "",
+        "props": {
+            "id": "menu-item-face",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "face",
+              "text": "Maquillaje para cara"
+            }
+        }
+    },
+    "menu-item#category__makeup--eyes": {
+        "title": "",
+        "props": {
+            "id": "menu-item-eyes",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "eyes",
+              "text": "Maquillaje para ojos"
+            }
+        }
+    },
+    "menu-item#category__makeup--lips": {
+        "title": "",
+        "props": {
+            "id": "menu-item-lips",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "lips",
+              "text": "Maquillaje para labios"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#header__down--skin": {
+        "title": "Menu skin",
+        "children": [
+            "menu-item#department__skin"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__skin": {
+        "title": "Department skin",        
+        "props": {
+            "id": "menu-item-skin",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "skin",
+              "text": "CUIDADO PIEL"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__skin"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__skin": {
+        "title": "Submenu skin",
+        "children": [
+            "vtex.menu@2.x:menu#category__skin"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__skin": {
+        "title": "Categories skin",
+        "children": [
+            "menu-item#category__skin--eyes",
+            "menu-item#category__skin--face",
+            "menu-item#category__skin--body"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__skin--eyes": {
+        "title": "",
+        "props": {
+            "id": "menu-item-eyes",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "eyes",
+              "text": "Contorno de Ojos"
+            }
+        }
+    },
+    "menu-item#category__skin--face": {
+        "title": "",
+        "props": {
+            "id": "menu-item-face",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "face",
+              "text": "Cremas & Hidratantes"
+            }
+        }
+    },
+    "menu-item#category__skin--body": {
+        "title": "",
+        "props": {
+            "id": "menu-item-body",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "body",
+              "text": "Ceuidado Corporal"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#header__down--perfum": {
+        "title": "Menu perfum",
+        "children": [
+            "menu-item#department__perfum"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__perfum": {
+        "title": "Department perfum",        
+        "props": {
+            "id": "menu-item-perfum",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "perfum",
+              "text": "PERFUMES"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__perfum"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__perfum": {
+        "title": "Submenu perfum",
+        "children": [
+            "vtex.menu@2.x:menu#category__perfum"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__perfum": {
+        "title": "Categories perfum",
+        "children": [
+            "menu-item#category__perfum--woman",
+            "menu-item#category__perfum--man"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__perfum--woman": {
+        "title": "",
+        "props": {
+            "id": "menu-item-woman",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "woman",
+              "text": "Perfumes de Mujer"
+            }
+        }
+    },
+    "menu-item#category__perfum--man": {
+        "title": "",
+        "props": {
+            "id": "menu-item-man",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "man",
+              "text": "Perfumes de Hombre"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#header__down--access": {
+        "title": "Menu access",
+        "children": [
+            "menu-item#department__access"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__access": {
+        "title": "Department access",        
+        "props": {
+            "id": "menu-item-access",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "access",
+              "text": "ACCESORIOS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__access"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__access": {
+        "title": "Submenu access",
+        "children": [
+            "vtex.menu@2.x:menu#category__access"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__access": {
+        "title": "Categories access",
+        "children": [
+            "menu-item#category__access--brush",
+            "menu-item#category__access--cosmeticbag",
+            "menu-item#category__access--others"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__access--brush": {
+        "title": "",
+        "props": {
+            "id": "menu-item-brush",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "brush",
+              "text": "Brochas"
+            }
+        }
+    },
+    "menu-item#category__access--cosmeticbag": {
+        "title": "",
+        "props": {
+            "id": "menu-item-cosmeticbag",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "cosmeticbag",
+              "text": "Cosmetiqueras"
+            }
+        }
+    },
+    "menu-item#category__access--others": {
+        "title": "",
+        "props": {
+            "id": "menu-item-others",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "Log Out",
+              "text": "Otros Accesorios"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#header__down--brands": {
+        "title": "Menu brands",
+        "children": [
+            "menu-item#department__brands"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__brands": {
+        "title": "Department brands",        
+        "props": {
+            "id": "menu-item-brands",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "brands",
+              "text": "MARCAS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__brands"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__brands": {
+        "title": "Submenu brands",
+        "children": [
+            "vtex.menu@2.x:menu#category__brands"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__brands": {
+        "title": "Categories brands",
+        "children": [
+            "menu-item#category__brands--dkny",
+            "menu-item#category__brands--clinique",
+            "menu-item#category__brands--dermanat"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__brands--dkny": {
+        "title": "",
+        "props": {
+            "id": "menu-item-dkny",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "dkny",
+              "text": "DKNY"
+            }
+        }
+    },
+    "menu-item#category__brands--clinique": {
+        "title": "",
+        "props": {
+            "id": "menu-item-clinique",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "clinique",
+              "text": "CLINIQUE"
+            }
+        }
+    },
+    "menu-item#category__brands--dermanat": {
+        "title": "",
+        "props": {
+            "id": "menu-item-dermanat",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "dermanat",
+              "text": "DERMANAT"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#header__down--sale": {
+        "title": "Menu sale",
+        "children": [
+            "menu-item#department__sale"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__sale": {
+        "title": "Department sale",        
+        "props": {
+            "id": "menu-item-sale",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "sale",
+              "text": "DESCUENTOS"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__sale"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__sale": {
+        "title": "Submenu sale",
+        "children": [
+            "vtex.menu@2.x:menu#category__sale"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__sale": {
+        "title": "Categories sale",
+        "children": [
+            "menu-item#category__sale--dcto",
+            "menu-item#category__sale--dctoxproduct"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__sale--dcto": {
+        "title": "",
+        "props": {
+            "id": "menu-item-dcto",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "dcto",
+              "text": "DESCUENTOS"
+            }
+        }
+    },
+    "menu-item#category__sale--dctoxproduct": {
+        "title": "",
+        "props": {
+            "id": "menu-item-dctoxproduct",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "dctoxproduct",
+              "text": "DESCUENTOS POR COMPRA"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#header__down--services": {
+        "title": "Menu services",
+        "children": [
+            "menu-item#department__services"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__services": {
+        "title": "Department services",        
+        "props": {
+            "id": "menu-item-services",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "services",
+              "text": "SERVICIOS BB"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__services"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__services": {
+        "title": "Submenu services",
+        "children": [
+            "vtex.menu@2.x:menu#category__services"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__services": {
+        "title": "Categories services",
+        "children": [
+            "menu-item#category__services--class",
+            "menu-item#category__services--tutorials",
+            "menu-item#category__services--virtual"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__services--class": {
+        "title": "",
+        "props": {
+            "id": "menu-item-class",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "class",
+              "text": "AGENDA TU CLASE"
+            }
+        }
+    },
+    "menu-item#category__services--tutorials": {
+        "title": "",
+        "props": {
+            "id": "menu-item-tutorials",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "tutorials",
+              "text": "TUTORIALES"
+            }
+        }
+    },
+    "menu-item#category__services--virtual": {
+        "title": "",
+        "props": {
+            "id": "menu-item-virtual",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "virtual",
+              "text": "CLASES VIRTUALES"
+            }
+        }
+    }
+}
