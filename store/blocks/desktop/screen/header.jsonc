@@ -18,12 +18,13 @@
       "header-row#header__middle",
       "header-row#header__down"
     ]
-  }  
-  /*"header-layout.mobile": {
+  },  
+  "header-layout.mobile": {
     "title": "Mobile Header",
     "children": [
-      "header-row#header__top"
+      "header-row#header__topMobile",
+      "header-row#header__middleMobile"
     ]
-  }*/
+  }
   
 }

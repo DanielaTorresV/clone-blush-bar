@@ -148,5 +148,14 @@
           "textAlignment": "CENTER",
           "textPosition": "CENTER"
         }
+      },
+      "header-row#header__topMobile": {
+        "title": "Header Row Top Mobile",
+        "children": [          
+          "rich-text#header__top--left"
+        ],
+        "props":{
+          "blockClass": "header__top"
+        }
       }
 }
