@@ -10,13 +10,127 @@
             "vtex.menu@2.x:menu#header__down--brands",
             "vtex.menu@2.x:menu#header__down--sale",
             "link#header__down--class",
+            "header-spacer",
             "link#header__down--creators",
+            "image#img__link--creators",
             "vtex.menu@2.x:menu#header__down--services",
             "link#header__down--gift",
+            "image#img__link--gift",
+            "header-spacer",
             "link#header__down--points"
         ],
         "props": {
             "blockClass": "header__down"
+        }
+    },
+    "header-row#header__downMobile": {
+        "title": "Header Row Down Mobile",
+        "children": [
+            "slider-layout#header__down--slider"
+        ],
+        "props": {
+            "blockClass": "header__down--mobile"
+        }
+    },
+    "slider-layout#header__down--slider": {
+        "props": {
+            "itemsPerPage": {
+              "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "desktopOnly",
+            "blockClass": "header__down--slider",
+            "autoplay": {
+              "timeout": 5000,
+              "stopOnHover": true
+            }
+          },
+          "children": [
+            "link#item___new--1",
+            "link#item___makeup--2",
+            "link#item___skin--3",
+            "link#item___access--4",
+            "link#item___sales--5",
+            "link#item___class--6",
+            "link#item___points--7"
+          ]
+    },
+    "link#item___new--1": {
+        "title": "Item 1 New",
+        "props": {
+            "href": "/",
+            "label": "NUEVO",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___makeup--2": {
+        "title": "Item 2 Make Up",
+        "props": {
+            "href": "/",
+            "label": "MAQUILLAJE",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___skin--3": {
+        "title": "Item 3 Skin",
+        "props": {
+            "href": "/",
+            "label": "CUIDADO DE PIEL",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___access--4": {
+        "title": "Item 4 access",
+        "props": {
+            "href": "/",
+            "label": "ACCESSORIOS",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___sales--5": {
+        "title": "Item 5 sales",
+        "props": {
+            "href": "/",
+            "label": "DESCUENTOS",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___class--6": {
+        "title": "Item 6 class",
+        "props": {
+            "href": "/",
+            "label": "REGRESO A CLASES",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___points--7": {
+        "title": "Item 7 Points",
+        "props": {
+            "href": "/",
+            "label": "PUNTOS GLOW",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
         }
     }
 }

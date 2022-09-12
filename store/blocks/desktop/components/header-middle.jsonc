@@ -31,8 +31,8 @@
             "maxHeight": 50
         }
     },
-    "header-row#header__middleMobile": {
-        "title": "Header Middle",
+    "header-row#header__middleMobile--sectionone": {
+        "title": "Header Middle Section one",
         "children": [
             "drawer#header__middleMobile--drawer",
             "header-spacer",
@@ -42,7 +42,56 @@
             "image#middle__cart--bag"           
           ],
           "props":{
-            "blockClass": "header__middle--mobile"
+            "blockClass": "header__middle--sectiononemobile"
           }
+    },
+    "header-row#header__middleMobile--sectiontwo": {
+        "title": "Header Middle Section two",
+        "children": [
+            "flex-layout.row#searchbar__mobile",
+            "header-spacer",
+            "rich-text#middle__stores--text",
+            "image#middle__stores--icon"                    
+          ],
+          "props":{
+            "blockClass": "header__middle--sectiontwomobile"
+          }
+    },
+    "flex-layout.row#searchbar__mobile": {
+        "title": "Row to Search",
+        "children": [
+            "search-bar#header__middle--search"
+        ],
+        "props": {
+            /*"marginRight": 3,
+            "borderWidth": 0,
+            "borderColor": "c-black-40",
+            "border": "right"*/
+
+        }
+    },
+    "rich-text#middle__stores--text":{
+        "title": "Stores",
+        "props": {
+            "text": "Tiendas",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "image#middle__stores--icon": {
+        "title": "Icon Stores",
+        "props": {
+            "src": "assets/img/icoBoutiques.png",
+            "title": "Creators",
+            "maxWidth": 30,
+            "maxHeight": 30,
+            "link": {
+                "url": "https://www.google.com/",
+                "newTab": true,
+                "attributeNofollow": true
+            }
+        }
+        
     }
 }

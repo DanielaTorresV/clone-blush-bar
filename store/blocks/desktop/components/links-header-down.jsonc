@@ -40,8 +40,7 @@
     "link#header__down--creators": { 
         "title": "Link to Creators",
         "children":[
-            "rich-text#text__creators",
-            "image#img__link--creators"
+            "rich-text#text__creators"            
         ],
         "props": {
             "href": "/",
@@ -69,8 +68,7 @@
     "link#header__down--gift": { 
         "title": "Link to Gift",
         "children":[
-            "rich-text#text__gift",
-            "image#img__link--gift"
+            "rich-text#text__gift"            
         ],
         "props": {
             "href": "/"
