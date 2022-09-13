@@ -1,13 +1,16 @@
 {
   "store.home": { 
     "blocks": [
-      "flex.layout.col#home__section1"
+      "flex-layout.row#home__section1"
     ]
   },
-  "flex.layout.col#home__section1": { 
-    "title": "Section1, slider",
+  "flex-layout.row#home__section1": { 
+    "title": "Section1 Column",
     "children": [
       "slider-layout#home__section1--slider"
-    ]    
-  }
+    ],
+    "props": {
+      "blockClass": "home__section1"
+    }   
+  } 
 }

@@ -1,0 +1,88 @@
+{
+    "flex-layout.col#home__section2--column": {
+        "title": "Section2 home column",
+        "children": [
+            "flex-layout.row#home__section2--favorite",
+            "flex-layout.row#home__section2--slider"
+        ],
+        "props": {
+            "blockClass": "home__section2--column",
+            "horizontlaAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.row#home__section2--favorite": {
+        "title": "Row with favorite text",
+        "children": [
+            "flex-layout.col#section2__leftcolumn",
+            "flex-layout.col#section2__text",
+            "flex-layout.col#section2__rightcolumn"
+        ]
+    },
+    "flex-layout.col#section2__leftcolumn": {
+        "title": "Column left side",
+        "props": {
+            "horizontlaAlign": "center",
+            "verticalAlign": "middle",
+            "borderColor": "c-on-action-primary",
+            "borderWidth": 3,
+            "border": "top",
+            "width": "grow"
+        }
+    },
+    "flex-layout.col#section2__text": {
+        "title": "Column center with text",
+        "children": [
+            "rich-text#section2__text--favorites"
+        ],
+        "props": {
+            "horizontlaAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#section2__text--favorites": {
+        "title": "Text Favorites",
+        "props": {
+            "text": "FAVORITOS",
+            "font": "t-heading-2",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#section2__rightcolumn": {
+        "title": "Column right side",
+        "props": {
+            "horizontlaAlign": "center",
+            "verticalAlign": "middle",
+            "borderColor": "c-on-action-primary",
+            "borderWidth": 3,
+            "border": "top",
+            "width": "grow"
+        }
+    },
+    "flex-layout.row#home__section2--slider": {
+        "title": "Row with img and slider",
+        "children": [
+            "responsive-layout.desktop#section2__slider--imgLeft",
+            "slider-layout#section2__slider"
+        ]
+    },
+    "responsive-layout.desktop#section2__slider--imgLeft": {
+        "title": "Image only in Desktop",
+        "children": [
+            "image#section2__imgleft"
+        ]
+    },
+    "image#section2__imgleft":{
+        "title": "Image left section2",
+        "props": {
+            "src": "assets/img/niacitheordinayr.png",
+            "title": "Niacitheordinayr",
+            "link": {                                                 // Objeto que determina las características de la imágen.
+            "url": "https://www.google.com/",
+            "newTab": true,
+            "attributeNofollow": true
+            }
+        }
+    }
+}
