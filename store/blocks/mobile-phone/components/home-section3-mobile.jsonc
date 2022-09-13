@@ -1,0 +1,21 @@
+{
+    "responsive-layout.phone#home__section3--phone": {
+        "children": [
+            "flex-layout.col#section3__slider"
+        ]
+    },
+    "responsive-layout.phone#section3__text--newPhone": {
+        "children": [
+            "rich-text#section3__text--newMobile"
+        ]
+    },
+    "rich-text#section3__text--newMobile": {
+        "title": "Text new",
+        "props": {
+            "text": "PRODUCTOS NUEVOS",
+            "font": "t-body",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "slider-layout#section3__slider--content": {
+        "title": "Slider products section3",
+        "props": {
+            "itemsPerPage": {
+              "desktop": 3,
+              "tablet": 3,
+              "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "arrowSize": 20,
+            "blockClass": "home__section3--slider",
+            "autoplay": {
+              "timeout": 3000,
+              "stopOnHover": true
+            }
+          },
+          "children": [
+            "rich-text#section3__slider--one", 
+            "rich-text#section3__slider--two", 
+            "rich-text#section3__slider--three",
+            "rich-text#section3__slider--four",
+            "rich-text#section3__slider--five",
+            "rich-text#section3__slider--six"
+          ]
+    },
+    "rich-text#section3__slider--one": {
+        "title": "Product 1",
+        "props": {
+            "text": "Producto UNO",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }, 
+    "rich-text#section3__slider--two": {
+        "title": "Product 2",
+        "props": {
+            "text": "Producto DOS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }, 
+    "rich-text#section3__slider--three": {
+        "title": "Product 3",
+        "props": {
+            "text": "Producto TRES",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#section3__slider--four": {
+        "title": "Product 4",
+        "props": {
+            "text": "Producto CUATRO",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#section3__slider--five": {
+        "title": "Product 5",
+        "props": {
+            "text": "Producto CINCO",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#section3__slider--six": {
+        "title": "Product 6",
+        "props": {
+            "text": "Producto SEIS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.headerStickyRow--header__top{
+    margin: 0 8px;
+    border-bottom: 1px solid #FFD7DE;
+}
+
+.headerStickyRow--header__middle{
+    margin: 10px 50px;
+}
+
+.headerStickyRow--header__down{
+    margin: 0 8px;
+}
+
+.headerRowBackground--header__down {
+    background-color: #FFD7DE;
+}
+
+.headerStickyRow--header__middle--sectiontwomobile{
+    margin: 0 8px;
+    border-top: 1px solid #dbd8d8;
+}
+
+.headerRow--header__middle--sectiontwomobile{
+    margin: 0 15px;
+}
+
+.headerStickyRow--header__down--mobile {
+    margin: 5px 10px;
+}
+
+.sliderLayoutContainer--header__down--slider
+:global(.vtex-store-link-0-x-link){
+    background: #FCE7EA;
+}

@@ -1,0 +1,113 @@
+{
+    "link#header__down--new": { 
+        "title": "Link to New",
+        "children":[
+            "rich-text#text__new"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#text__new": {
+        "title": "Text New",
+        "props": {
+          "text": "NUEVO",
+          "font": "t-small",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "textColor": "c-on-action-primary"
+        }
+    },
+    "link#header__down--class": { 
+        "title": "Link to Class",
+        "children":[
+            "rich-text#text__class"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#text__class": {
+        "title": "Text Class",
+        "props": {
+          "text": "REGRESO A CLASES",
+          "font": "t-small",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "textColor": "c-on-action-secondary"
+        }
+    },
+    "link#header__down--creators": { 
+        "title": "Link to Creators",
+        "children":[
+            "rich-text#text__creators"            
+        ],
+        "props": {
+            "href": "/",
+            "orientation": "horizontal"
+        }
+    },
+    "rich-text#text__creators": {
+        "title": "Text Creators",
+        "props": {
+          "text": "BB CREATORS",
+          "font": "t-small",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+    },
+    "image#img__link--creators": {
+        "title": "Creators Image",
+        "props": {
+            "src": "assets/img/corazon.png",
+            "title": "Creators",
+            "maxWidth": 20,
+            "maxHeight": 20
+        }
+    },
+    "link#header__down--gift": { 
+        "title": "Link to Gift",
+        "children":[
+            "rich-text#text__gift"            
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#text__gift": {
+        "title": "Text Gift",
+        "props": {
+          "text": "BONO REGALO",
+          "font": "t-small",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+    },
+    "image#img__link--gift": {
+        "title": "Gift Image",
+        "props": {
+            "src": "assets/img/regalo.png",
+            "title": "Gift",
+            "maxWidth": 20,
+            "maxHeight": 20
+        }
+    },
+    "link#header__down--points": { 
+        "title": "Link to Points",
+        "children":[
+            "rich-text#text__points"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#text__points": {
+        "title": "Text Points",
+        "props": {
+          "text": "PUNTOS GLOW",
+          "font": "t-small",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+    }
+}
