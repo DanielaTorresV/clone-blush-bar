@@ -265,7 +265,7 @@
               "href": "#",
               "noFollow": false,
               "tagTitle": "anastasia",
-              "text": "ANASTASIA BEVERLY HILLS"
+              "text": "ANASTASIA"
             }
         }
     },
@@ -307,7 +307,49 @@
               "href": "#",
               "noFollow": false,
               "tagTitle": "carolina",
-              "text": "CAROLINA HERRERA"
+              "text": "CAROLINA H"
+            }
+        }
+    },
+    "menu-item#category__brands--clinique": {
+        "title": "",
+        "props": {
+            "id": "menu-item-clinique",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "clinique",
+              "text": "CLINIQUE"
+            }
+        }
+    },
+    "menu-item#category__brands--dermanat": {
+        "title": "",
+        "props": {
+            "id": "menu-item-dermanat",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "dermanat",
+              "text": "DERMANAT"
+            }
+        }
+    },
+    "menu-item#category__brands--dkny": {
+        "title": "",
+        "props": {
+            "id": "menu-item-dkny",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "dkny",
+              "text": "DKNY"
             }
         }
     },
@@ -321,7 +363,7 @@
               "href": "#",
               "noFollow": false,
               "tagTitle": "dose",
-              "text": "DOSE OF COLORS"
+              "text": "DOSE COLORS"
             }
         }
     },

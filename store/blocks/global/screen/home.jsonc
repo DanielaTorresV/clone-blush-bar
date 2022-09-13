@@ -1,0 +1,13 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex.layout.col#home__section1"
+    ]
+  },
+  "flex.layout.col#home__section1": { 
+    "title": "Section1, slider",
+    "children": [
+      "slider-layout#home__section1--slider"
+    ]    
+  }
+}

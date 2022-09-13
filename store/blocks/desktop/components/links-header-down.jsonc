@@ -61,8 +61,8 @@
         "props": {
             "src": "assets/img/corazon.png",
             "title": "Creators",
-            "maxWidth": 30,
-            "maxHeight": 30
+            "maxWidth": 20,
+            "maxHeight": 20
         }
     },
     "link#header__down--gift": { 
@@ -88,8 +88,8 @@
         "props": {
             "src": "assets/img/regalo.png",
             "title": "Gift",
-            "maxWidth": 30,
-            "maxHeight": 30
+            "maxWidth": 20,
+            "maxHeight": 20
         }
     },
     "link#header__down--points": { 
