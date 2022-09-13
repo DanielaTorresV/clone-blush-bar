@@ -1,7 +1,9 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#home__section1"
+      "flex-layout.row#home__section1",
+      "flex-layout.row#home__section2",
+      "flex-layout.row#home__section3"
     ]
   },
   "flex-layout.row#home__section1": { 
@@ -12,5 +14,23 @@
     "props": {
       "blockClass": "home__section1"
     }   
-  } 
+  },
+  "flex-layout.row#home__section2": {
+    "title": "Section2 Column",
+    "children": [
+      "flex-layout.col#home__section2--column"
+    ],
+    "props": {
+      "blockClass": "home__section2"
+    } 
+  },
+  "flex-layout.row#home__section3":{
+    "title": "Section3 Column",
+    "children": [
+      "flex-layout.col#home__section3--column"
+    ],
+    "props": {
+      "blockClass": "home__section3"
+    } 
+  }
 }
