@@ -3,11 +3,13 @@
     "blocks": [
       "flex-layout.row#home__section1",
       "flex-layout.row#home__section2",
-      "flex-layout.row#home__section3"
+      "flex-layout.row#home__section3",
+      "flex-layout.row#home__section4",
+      "flex-layout.row#home__section5"
     ]
   },
   "flex-layout.row#home__section1": { 
-    "title": "Section1 Column",
+    "title": "Section1 Row",
     "children": [
       "slider-layout#home__section1--slider"
     ],
@@ -16,7 +18,7 @@
     }   
   },
   "flex-layout.row#home__section2": {
-    "title": "Section2 Column",
+    "title": "Section2 Row",
     "children": [
       "flex-layout.col#home__section2--column"
     ],
@@ -25,12 +27,28 @@
     } 
   },
   "flex-layout.row#home__section3":{
-    "title": "Section3 Column",
+    "title": "Section3 Row",
     "children": [
       "flex-layout.col#home__section3--column"
     ],
     "props": {
       "blockClass": "home__section3"
     } 
+  },
+  "flex-layout.row#home__section4":{
+    "title": "Section4 Row",
+    "children": [
+      "flex-layout.col#home__section4--columnOne",
+      "flex-layout.col#home__section4--columnTwo",
+      "flex-layout.col#home__section4--columnThree",
+      "flex-layout.col#home__section4--columnFour"
+    ],
+    "props": {
+      "blockClass": "home__section4",
+      "colGap": 3
+    } 
+  },
+  "flex-layout.row#home__section5": {
+    "title": "Section5 Row"
   }
 }
