@@ -381,7 +381,7 @@
       },
       "mini": {
         "fontFamily": "Georgia, Times New Roman, Times, serif",
-        "fontWeight": "bold",
+        "fontWeight": "normal",
         "fontSize": "0.65rem",
         "textTransform": "initial",
         "letterSpacing": "0"

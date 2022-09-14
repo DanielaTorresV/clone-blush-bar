@@ -22,3 +22,8 @@
     padding-top: 50px;
     padding-bottom: 35px;
 }
+
+.flexRow--footer__main{
+    margin: 0px 4px;
+    background-color: rgb(39, 37, 37);
+}

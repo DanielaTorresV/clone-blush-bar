@@ -1,0 +1,105 @@
+{
+    "flex-layout.row#footer__main": {
+        "title": "Main Footer",
+        "children": [
+          "flex-layout.col#footer__main--column1",
+          "flex-layout.col#footer__main--column2",
+          "flex-layout.col#footer__main--column3",
+          "flex-layout.col#footer__main--column4"
+        ],
+        "props": {
+            "blockClass": "footer__main"
+        }
+    },
+    "flex-layout.col#footer__main--column1": {
+        "title": "Column1 newsletter and social media",
+        "children": [
+            "newsletter-form#footer__main--newsletter",
+            "flex-layout.row#footer__main--socialmedia"
+        ],
+        "props": {
+            "blockClass": "footer__main--column1"
+        }
+    },
+    "flex-layout.row#footer__main--socialmedia": {
+        "title": "Row to Social Media", 
+        "children": [
+            "rich-text#main__socialmedia--text",
+            "social-networks#main__socialmedia--logos"
+        ]
+    },
+    "rich-text#main__socialmedia--text": {
+        "title": "Text Social Media",
+        "props": {
+            "text": "SÍGUENOS EN: ",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "social-networks#main__socialmedia--logos": {
+        "title": "Logos Social Media",
+        "props": {
+            "socialNetworks": [
+                { "url": "https://facebook.com/blushbar", "name": "Facebook" },
+                { "url": "https://instagram.com/blushbar", "name": "Instagram" },
+                { "url": "https://pinterest.com/blushbar", "name": "Pinterest" }
+            ]
+        }
+    },
+    "flex-layout.col#footer__main--column2": {
+        "title": "Column2 Links",
+        "children": [
+            "rich-text#main__column2--title",
+            "link#main__column2--link1",
+            "link#main__column2--link2",
+            "link#main__column2--link3",
+            "link#main__column2--link4",
+            "link#main__column2--link5",
+            "link#main__column2--link6",
+            "link#main__column2--link7"
+        ],
+        "props": {
+            "blockClass": "footer__main--column2"
+        }
+    },
+    "rich-text#main__column2--title": {
+        "title": "Text title column 2",
+        "props": {
+            "text": "LINKS DE INTERÉS",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "flex-layout.col#footer__main--column3": {
+        "title": "Column2 Links",
+        "children": [
+            "flex-layout.row",
+            "link#main__column3--link1",
+            "link#main__column3--link2",
+            "link#main__column3--link3",
+            "link#main__column3--link4",
+            "link#main__column3--link5",
+            "link#main__column3--link6"
+        ],
+        "props": {
+            "blockClass": "footer__main--column3"
+        }
+    },
+    "flex-layout.col#footer__main--column4": {
+        "title": "Column4 Links",
+        "children": [
+            "flex-layout.row",
+            "link#main__column4--link1",
+            "link#main__column4--link2",
+            "link#main__column4--link3",
+            "link#main__column4--link4",
+            "link#main__column4--link5",
+            "link#main__column4--link6"
+        ],
+        "props": {
+            "blockClass": "footer__main--column4"
+        }
+    }
+}
