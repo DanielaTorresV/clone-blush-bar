@@ -56,7 +56,8 @@
       "flex-layout.col#home__section5--columnTwo"
     ],
     "props": {
-      "blockClass": "home__section5"
+      "blockClass": "home__section5",
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#home__section6": {
