@@ -1,24 +1,24 @@
 .flexRow--home__section1{
-    margin: 0px 4px;
+    padding: 0px 4px;
 }
 
 .flexCol--home__section2--column{
-    margin: 10px 50px;
+    padding: 10px 50px;
 }
 
 .flexCol--home__section3--column{
-    margin: 10px 50px;
+    padding: 10px 50px;
 }
 
 .flexRow--home__section4{
-    margin: 50px 20px;
+    padding: 50px 20px;
 }
 
 .flexRow--home__section5{
-    margin: 5px 60px;
+    padding: 5px 60px;
 }
 
 .flexRow--home__section6{
-    margin-top: 50px;
-    margin-bottom: 35px;
+    padding-top: 50px;
+    padding-bottom: 35px;
 }

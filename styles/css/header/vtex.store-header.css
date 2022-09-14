@@ -3,12 +3,12 @@
     border-bottom: 1px solid #FFD7DE;
 }
 
-.headerStickyRow--header__middle{
-    margin: 10px 50px;
+.headerRowContainer--header__middle{
+    padding: 0px 50px;
 }
 
-.headerStickyRow--header__down{
-    margin: 0 8px;
+.headerRow--header__down{
+    padding: 0px 8px;
 }
 
 .headerRowBackground--header__down {
@@ -16,16 +16,17 @@
 }
 
 .headerStickyRow--header__middle--sectiontwomobile{
-    margin: 0 8px;
     border-top: 1px solid #dbd8d8;
+    margin: 0px 8px;
 }
 
-.headerRow--header__middle--sectiontwomobile{
-    margin: 0 15px;
+.headerRowContainer--header__middle--sectiontwomobile{
+    padding: 0px 20px;
 }
 
 .headerStickyRow--header__down--mobile {
-    margin: 5px 10px;
+    padding: 5px 10px;
+    background-color: white;
 }
 
 .sliderLayoutContainer--header__down--slider
