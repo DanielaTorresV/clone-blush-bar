@@ -1,0 +1,17 @@
+{    
+    "minicart.v2": {
+        "title": "Bag to minicart",
+        "props": {
+            "MinicartIcon": "icon#icon-bag",
+            "variation": "link",
+            "itemCountMode": "total",
+            "quantityDisplay": "always"
+        }        
+    },
+    "icon#icon-bag": {
+        "props": {
+            "id": "mpa-bag",
+            "size": 30
+        }
+    }
+}

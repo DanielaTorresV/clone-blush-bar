@@ -22,24 +22,6 @@
             "maxHeight": 25
         }
     },
-    "minicart.v2": {
-        "title": "Bag to minicart",
-        /*"children": [
-            "icon#icon-bag"
-        ],*/
-        "props": {
-            "MinicartIcon": "icon#icon-bag",
-            "variation": "link",
-            "itemCountMode": "total",
-            "quantityDisplay": "always"
-        }        
-    },
-    "icon#icon-bag": {
-        "props": {
-            "id": "mpa-bag",
-            "size": 30
-        }
-    },
     "header-row#header__middleMobile--sectionone": {
         "title": "Header Middle Section one",
         "children": [
