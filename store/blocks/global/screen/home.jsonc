@@ -5,7 +5,8 @@
       "flex-layout.row#home__section2",
       "flex-layout.row#home__section3",
       "flex-layout.row#home__section4",
-      "flex-layout.row#home__section5"
+      "flex-layout.row#home__section5",
+      "flex-layout.row#home__section6"
     ]
   },
   "flex-layout.row#home__section1": { 
@@ -49,6 +50,28 @@
     } 
   },
   "flex-layout.row#home__section5": {
-    "title": "Section5 Row"
-  }
+    "title": "Section5 Row",
+    "children": [
+      "flex-layout.col#home__section5--columnOne",
+      "flex-layout.col#home__section5--columnTwo"
+    ],
+    "props": {
+      "blockClass": "home__section5"
+    }
+  },
+  "flex-layout.row#home__section6": {
+    "title": "Section6 Row",
+    "children": [
+      "image#home__section6--img"
+    ],
+    "props": {
+      "blockClass": "home__section6"
+    }
+  },
+  "image#home__section6--img": {
+    "title": "Final Image",
+    "props": {
+        "src": "assets/img/img-final.jpg"
+    }
+}
 }
