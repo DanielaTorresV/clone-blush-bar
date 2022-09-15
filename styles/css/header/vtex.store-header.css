@@ -12,6 +12,7 @@
 }
 
 .headerRowBackground--header__down {
+    padding: 15px 2px;
     background-color: #FFD7DE;
 }
 
