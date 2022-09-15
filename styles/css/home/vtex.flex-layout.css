@@ -26,4 +26,30 @@
 .flexRow--footer__main{
     margin: 0px 8px;
     background-color: rgb(39, 37, 37);
+    padding-top: 15px;
 }
+
+.flexCol--footer__main--column2{
+    padding-bottom: 80px;
+}
+
+.flexCol--footer__main--column3{
+    padding-bottom: 80px;
+}
+
+.flexCol--footer__main--column4{
+    padding-bottom: 80px;
+}
+
+.flexCol--footer__main--column5{
+    padding-bottom: 15px;
+}
+
+.flexRow--footer__payment{
+    margin: 2px 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    height: 25px;
+}
+

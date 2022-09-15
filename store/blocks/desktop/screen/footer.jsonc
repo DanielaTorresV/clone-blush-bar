@@ -4,7 +4,8 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer__main"
+      "flex-layout.row#footer__main",
+      "flex-layout.row#footer__paymentSafety"
     ]
   }
   /*"footer-layout.mobile": { 

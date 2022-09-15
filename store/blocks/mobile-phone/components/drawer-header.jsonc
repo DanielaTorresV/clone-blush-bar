@@ -1,6 +1,6 @@
 {
     "drawer#header__middleMobile--drawer": {
-        "title": "Dreawer to header middle Mobile",
+        "title": "Drawer to header middle Mobile",
         "children": [
             "vtex.menu@2.x:menu#menu__drawer"         
         ]

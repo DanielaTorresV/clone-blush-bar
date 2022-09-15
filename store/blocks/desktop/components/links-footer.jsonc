@@ -11,6 +11,7 @@
     "rich-text#column2__link1--text": {
         "title": "Text to link1 column 2",
         "props": {
+            "blockClass": "linkFooter--text",
             "text": "Contáctanos",
             "font": "t-mini",
             "textColor": "c-on-base--inverted"

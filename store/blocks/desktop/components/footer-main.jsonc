@@ -16,10 +16,7 @@
         "title": "Column1 newsletter and social media",
         "children": [
             "newsletter-form#footer__main--newsletter",
-            "flex-layout.row#footer__main--socialmedia",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row"
+            "flex-layout.row#footer__main--socialmedia"
         ],
         "props": {
             "blockClass": "footer__main--column1",
@@ -63,13 +60,7 @@
             "link#main__column2--link4",
             "link#main__column2--link5",
             "link#main__column2--link6",
-            "link#main__column2--link7",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row"
+            "link#main__column2--link7"
         ],
         "props": {
             "blockClass": "footer__main--column2",
@@ -94,13 +85,7 @@
             "link#main__column3--link3",
             "link#main__column3--link4",
             "link#main__column3--link5",
-            "link#main__column3--link6",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row"
+            "link#main__column3--link6"
         ],
         "props": {
             "blockClass": "footer__main--column3",
@@ -116,13 +101,7 @@
             "link#main__column4--link3",
             "link#main__column4--link4",
             "link#main__column4--link5",
-            "link#main__column4--link6",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row",
-            "flex-layout.row"
+            "link#main__column4--link6"
         ],
         "props": {
             "blockClass": "footer__main--column4",
@@ -137,15 +116,19 @@
             "rich-text#main__column5--text1",
             "rich-text#main__column5--text2",
             "rich-text#main__column5--text3",
+            "flex-layout.row#divider",
             "rich-text#main__column5--title2",
             "flex-layout.row#footer__main--column5Row"
         ],
         "props": {
             "blockClass": "footer__main--column5",
             "paddingLeft": 10,
-            "width": "30%",
-            "preventVerticalStretch": true  
-            
+            "width": "30%"
+        }
+    },
+    "flex-layout.row#divider": {
+        "props": {
+            "marginTop": 4
         }
     },
     "flex-layout.row#footer__main--column5Row": {
