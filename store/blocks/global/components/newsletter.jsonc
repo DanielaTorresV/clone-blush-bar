@@ -6,7 +6,10 @@
             "rich-text#main__newsletter--description",
             "flex-layout.row#main__newsletter--emailandsubmit",
             "flex-layout.row#main__newsletter--policies"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer__main--newsletter"
+        }
     },
     "rich-text#main__newsletter--title": {
         "title": "Title newsletter",
@@ -29,7 +32,10 @@
         "children": [
             "newsletter-input-email",
             "newsletter-submit"
-        ]
+        ],
+        "props": {
+            "fullWidth": true
+        }
     },
     "newsletter-input-email": {
         "title": "Email",

@@ -5,7 +5,8 @@
           "flex-layout.col#footer__main--column1",
           "flex-layout.col#footer__main--column2",
           "flex-layout.col#footer__main--column3",
-          "flex-layout.col#footer__main--column4"
+          "flex-layout.col#footer__main--column4",
+          "flex-layout.col#footer__main--column5"
         ],
         "props": {
             "blockClass": "footer__main"
@@ -15,10 +16,16 @@
         "title": "Column1 newsletter and social media",
         "children": [
             "newsletter-form#footer__main--newsletter",
-            "flex-layout.row#footer__main--socialmedia"
+            "flex-layout.row#footer__main--socialmedia",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row"
         ],
         "props": {
-            "blockClass": "footer__main--column1"
+            "blockClass": "footer__main--column1",
+            "width": "38%",
+            "paddingLeft": 8,
+            "paddingRight": 5
         }
     },
     "flex-layout.row#footer__main--socialmedia": {
@@ -33,7 +40,6 @@
         "props": {
             "text": "SÍGUENOS EN: ",
             "font": "t-small",
-            "textAlignment": "CENTER",
             "textColor": "c-on-base--inverted"
         }
     },
@@ -57,10 +63,18 @@
             "link#main__column2--link4",
             "link#main__column2--link5",
             "link#main__column2--link6",
-            "link#main__column2--link7"
+            "link#main__column2--link7",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row"
         ],
         "props": {
-            "blockClass": "footer__main--column2"
+            "blockClass": "footer__main--column2",
+            "paddingLeft": 4,
+            "width": "12%"
         }
     },
     "rich-text#main__column2--title": {
@@ -68,7 +82,6 @@
         "props": {
             "text": "LINKS DE INTERÉS",
             "font": "t-small",
-            "textAlignment": "CENTER",
             "textColor": "c-on-base--inverted"
         }
     },
@@ -81,10 +94,17 @@
             "link#main__column3--link3",
             "link#main__column3--link4",
             "link#main__column3--link5",
-            "link#main__column3--link6"
+            "link#main__column3--link6",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row"
         ],
         "props": {
-            "blockClass": "footer__main--column3"
+            "blockClass": "footer__main--column3",
+            "width": "10%"
         }
     },
     "flex-layout.col#footer__main--column4": {
@@ -96,10 +116,65 @@
             "link#main__column4--link3",
             "link#main__column4--link4",
             "link#main__column4--link5",
-            "link#main__column4--link6"
+            "link#main__column4--link6",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row",
+            "flex-layout.row"
         ],
         "props": {
-            "blockClass": "footer__main--column4"
+            "blockClass": "footer__main--column4",
+            "paddingRight": 7,
+            "width": "10%" 
+        }
+    },
+    "flex-layout.col#footer__main--column5": {
+        "title": "Column5 Client",
+        "children": [
+            "rich-text#main__column5--title1",
+            "rich-text#main__column5--text1",
+            "rich-text#main__column5--text2",
+            "rich-text#main__column5--text3",
+            "rich-text#main__column5--title2",
+            "flex-layout.row#footer__main--column5Row"
+        ],
+        "props": {
+            "blockClass": "footer__main--column5",
+            "paddingLeft": 10,
+            "width": "30%",
+            "preventVerticalStretch": true  
+            
+        }
+    },
+    "flex-layout.row#footer__main--column5Row": {
+        "title": "Column5 Row to Phones",
+        "children": [
+            "flex-layout.col#main__column5Row--column1"
+        ],
+        "props": {
+            "blockClass": "footer__main--column5Row"
+        }
+    },
+    "flex-layout.col#main__column5Row--column1": {
+        "title": "Column5 Column to Phones",
+        "children": [
+            "flex-layout.row#column5Row__row1",
+            "flex-layout.row#column5Row__row2",
+            "flex-layout.row#column5Row__row3",
+            "flex-layout.row#column5Row__row4",
+            "flex-layout.row#column5Row__row5",
+            "flex-layout.row#column5Row__row6",
+            "flex-layout.row#column5Row__row7",
+            "flex-layout.row#column5Row__row8",
+            "flex-layout.row#column5Row__row9",
+            "flex-layout.row#column5Row__row10",
+            "flex-layout.row#column5Row__row11"
+        ],
+        "props": {
+            "blockClass": "main__column5Row--column1",
+            "preventVerticalStretch": true          
         }
     }
 }

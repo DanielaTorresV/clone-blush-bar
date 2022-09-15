@@ -1,0 +1,295 @@
+{
+    "rich-text#main__column5--title1": {
+        "title": "Title 1 column5",
+        "props": {
+            "text": "SERVICIO AL CLIENTE:",
+            "font": "t-small",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#main__column5--text1": {
+        "title": "Text 1 column 5",
+        "props": {
+            "text": "Horario: Lunes a Viernes",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#main__column5--text2": {
+        "title": "Text 1 column 5",
+        "props": {
+            "text": "9:00am a 6:00pm",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#main__column5--text3": {
+        "title": "Text 1 column 5",
+        "props": {
+            "text": "shop@blush-bar.com",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#main__column5--title2": {
+        "title": "Title 2 column5",
+        "props": {
+            "text": "AGENDA TU CITA",
+            "font": "t-small",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "flex-layout.row#column5Row__row1": {
+        "title": "Row to phone 1",
+        "children": [
+            "rich-text#row1__city",
+            "rich-text#row1__phone"
+        ]
+    },
+    "rich-text#row1__city": {
+        "title": "Text to city",
+        "props": {
+            "text": "Bogotá Andino:",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#row1__phone": {
+        "title": "Text to phone",
+        "props": {
+            "text": "(601) 742-3990",
+            "font": "t-mini",
+            "textColor": "c-on-action-primary"
+        }
+    },
+    "flex-layout.row#column5Row__row2": {
+        "title": "Row to phone 1",
+        "children": [
+            "rich-text#row2__city",
+            "rich-text#row2__phone"
+        ]
+    },
+    "rich-text#row2__city": {
+        "title": "Text to city",
+        "props": {
+            "text": "Bogotá Zona T:",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#row2__phone": {
+        "title": "Text to phone",
+        "props": {
+            "text": "(601) 466-1216",
+            "font": "t-mini",
+            "textColor": "c-on-action-primary"
+        }
+    },
+    "flex-layout.row#column5Row__row3": {
+        "title": "Row to phone 1",
+        "children": [
+            "rich-text#row3__city",
+            "rich-text#row3__phone"
+        ]
+    },
+    "rich-text#row3__city": {
+        "title": "Text to city",
+        "props": {
+            "text": "Bogotá Parque la Colina:",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#row3__phone": {
+        "title": "Text to phone",
+        "props": {
+            "text": "(601) 746-2858",
+            "font": "t-mini",
+            "textColor": "c-on-action-primary"
+        }
+    },
+    "flex-layout.row#column5Row__row4": {
+        "title": "Row to phone 1",
+        "children": [
+            "rich-text#row4__city",
+            "rich-text#row4__phone"
+        ]
+    },
+    "rich-text#row4__city": {
+        "title": "Text to city",
+        "props": {
+            "text": "Bogotá Gran Estación:",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#row4__phone": {
+        "title": "Text to phone",
+        "props": {
+            "text": "(601) 743-0632",
+            "font": "t-mini",
+            "textColor": "c-on-action-primary"
+        }
+    },
+    "flex-layout.row#column5Row__row5": {
+        "title": "Row to phone 1",
+        "children": [
+            "rich-text#row5__city",
+            "rich-text#row5__phone"
+        ]
+    },
+    "rich-text#row5__city": {
+        "title": "Text to city",
+        "props": {
+            "text": "Bogotá Unicentro:",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#row5__phone": {
+        "title": "Text to phone",
+        "props": {
+            "text": "(601) 746-4677",
+            "font": "t-mini",
+            "textColor": "c-on-action-primary"
+        }
+    },
+    "flex-layout.row#column5Row__row6": {
+        "title": "Row to phone 1",
+        "children": [
+            "rich-text#row6__city",
+            "rich-text#row6__phone"
+        ]
+    },
+    "rich-text#row6__city": {
+        "title": "Text to city",
+        "props": {
+            "text": "Bogotá Fontanar:",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#row6__phone": {
+        "title": "Text to phone",
+        "props": {
+            "text": "(601) 884-4667",
+            "font": "t-mini",
+            "textColor": "c-on-action-primary"
+        }
+    },
+    "flex-layout.row#column5Row__row7": {
+        "title": "Row to phone 1",
+        "children": [
+            "rich-text#row7__city",
+            "rich-text#row7__phone"
+        ]
+    },
+    "rich-text#row7__city": {
+        "title": "Text to city",
+        "props": {
+            "text": "Barranquilla C.C. Viva:",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#row7__phone": {
+        "title": "Text to phone",
+        "props": {
+            "text": "(605) 386-1033",
+            "font": "t-mini",
+            "textColor": "c-on-action-primary"
+        }
+    },
+    "flex-layout.row#column5Row__row8": {
+        "title": "Row to phone 1",
+        "children": [
+            "rich-text#row8__city",
+            "rich-text#row8__phone"
+        ]
+    },
+    "rich-text#row8__city": {
+        "title": "Text to city",
+        "props": {
+            "text": "Medellín C.C. El Tesoro:",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#row8__phone": {
+        "title": "Text to phone",
+        "props": {
+            "text": "(604) 557-9615",
+            "font": "t-mini",
+            "textColor": "c-on-action-primary"
+        }
+    },
+    "flex-layout.row#column5Row__row9": {
+        "title": "Row to phone 1",
+        "children": [
+            "rich-text#row9__city",
+            "rich-text#row9__phone"
+        ]
+    },
+    "rich-text#row9__city": {
+        "title": "Text to city",
+        "props": {
+            "text": "Medellín C.C. SantaFé:",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#row9__phone": {
+        "title": "Text to phone",
+        "props": {
+            "text": "(604) 473-3040",
+            "font": "t-mini",
+            "textColor": "c-on-action-primary"
+        }
+    },
+    "flex-layout.row#column5Row__row10": {
+        "title": "Row to phone 1",
+        "children": [
+            "rich-text#row10__city",
+            "rich-text#row10__phone"
+        ]
+    },
+    "rich-text#row10__city": {
+        "title": "Text to city",
+        "props": {
+            "text": "Calí C.C. Jardín Plaza:",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#row10__phone": {
+        "title": "Text to phone",
+        "props": {
+            "text": "(602) 486-3012",
+            "font": "t-mini",
+            "textColor": "c-on-action-primary"
+        }
+    },
+    "flex-layout.row#column5Row__row11": {
+        "title": "Row to phone 1",
+        "children": [
+            "rich-text#row11__city",
+            "rich-text#row11__phone"
+        ]
+    },
+    "rich-text#row11__city": {
+        "title": "Text to city",
+        "props": {
+            "text": "Cartagena La Serrezuela:",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#row11__phone": {
+        "title": "Text to phone",
+        "props": {
+            "text": "(605) 647-8936",
+            "font": "t-mini",
+            "textColor": "c-on-action-primary"
+        }
+    }
+}
