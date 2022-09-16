@@ -8,10 +8,9 @@
       "flex-layout.row#footer__paymentSafety",
       "flex-layout.row#footer__poweredby"
     ]
-  }
-  /*"footer-layout.mobile": { 
+  },
+  "footer-layout.mobile": { 
     "children": [
-      "flex-layout.row#footer"
     ]
-  }*/  
+  }
 }

@@ -30,11 +30,21 @@
     "flex-layout.row#main__newsletter--emailandsubmit": {
         "title": "Email and submit",
         "children": [
-            "newsletter-input-email",
-            "newsletter-submit"
+            "flex-layout.col#main__newsletter--email",
+            "flex-layout.col#main__newsletter--submit"           
         ],
         "props": {
-            "fullWidth": true
+            "blockClass": "footer__main--newsletterRow"
+        }
+    },
+    "flex-layout.col#main__newsletter--email": {
+        "title": "Column to input",
+        "children": [
+            "newsletter-input-email"
+        ],
+        "props": {
+            "blockClass": "footermain__newsletter--input",
+            "width": "90%"
         }
     },
     "newsletter-input-email": {
@@ -42,6 +52,16 @@
         "props": {
             "placeholderText": "Ingresa tu e-mail",
             "errorMessage": "El e-mail es inválido."
+        }
+    },
+    "flex-layout.col#main__newsletter--submit": {
+        "title": "Column to submit",
+        "children": [
+            "newsletter-submit"
+        ],
+        "props": {
+            "blockClass": "footermain__newsletter--button",
+            "width": "20%"
         }
     },
     "newsletter-submit": {
@@ -79,7 +99,7 @@
         "props": {
             "text": "Políticas de Datos",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
           }
     }
 }

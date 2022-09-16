@@ -59,7 +59,7 @@
         "props": {
             "text": "(601) 742-3990",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
         }
     },
     "flex-layout.row#column5Row__row2": {
@@ -82,7 +82,7 @@
         "props": {
             "text": "(601) 466-1216",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
         }
     },
     "flex-layout.row#column5Row__row3": {
@@ -105,7 +105,7 @@
         "props": {
             "text": "(601) 746-2858",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
         }
     },
     "flex-layout.row#column5Row__row4": {
@@ -128,7 +128,7 @@
         "props": {
             "text": "(601) 743-0632",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
         }
     },
     "flex-layout.row#column5Row__row5": {
@@ -151,7 +151,7 @@
         "props": {
             "text": "(601) 746-4677",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
         }
     },
     "flex-layout.row#column5Row__row6": {
@@ -174,7 +174,7 @@
         "props": {
             "text": "(601) 884-4667",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
         }
     },
     "flex-layout.row#column5Row__row7": {
@@ -197,7 +197,7 @@
         "props": {
             "text": "(605) 386-1033",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
         }
     },
     "flex-layout.row#column5Row__row8": {
@@ -220,7 +220,7 @@
         "props": {
             "text": "(604) 557-9615",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
         }
     },
     "flex-layout.row#column5Row__row9": {
@@ -243,7 +243,7 @@
         "props": {
             "text": "(604) 473-3040",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
         }
     },
     "flex-layout.row#column5Row__row10": {
@@ -266,7 +266,7 @@
         "props": {
             "text": "(602) 486-3012",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
         }
     },
     "flex-layout.row#column5Row__row11": {
@@ -289,7 +289,7 @@
         "props": {
             "text": "(605) 647-8936",
             "font": "t-mini",
-            "textColor": "c-on-action-primary"
+            "textColor": "c-on-emphasis"
         }
     }
 }

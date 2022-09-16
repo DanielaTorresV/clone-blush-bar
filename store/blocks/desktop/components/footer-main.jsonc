@@ -106,7 +106,7 @@
         "props": {
             "blockClass": "footer__main--column4",
             "paddingRight": 7,
-            "width": "10%" 
+            "width": "12%" 
         }
     },
     "flex-layout.col#footer__main--column5": {
@@ -123,7 +123,7 @@
         "props": {
             "blockClass": "footer__main--column5",
             "paddingLeft": 10,
-            "width": "30%"
+            "width": "28%"
         }
     },
     "flex-layout.row#divider": {

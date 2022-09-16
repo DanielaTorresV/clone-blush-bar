@@ -3,6 +3,7 @@
     "title": "Searcher",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
+        "blocksClass": "header__middle--search",
         "openAutocompleteOnFocus": true,
         "maxWidth": 200
     }

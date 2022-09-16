@@ -15,7 +15,8 @@
             "rich-text#footer__poweredby--text"
         ],
         "props": {
-            "blockClass": "footer__poweredby--text"
+            "blockClass": "footer__poweredby--text",
+            "width": "55%"
         }
     },
     "rich-text#footer__poweredby--text": {
@@ -32,7 +33,8 @@
             "image#footer__poweredby--img"
         ],
         "props": {
-            "blockClass": "footer__poweredby--image"
+            "blockClass": "footer__poweredby--image",
+            "width": "45%"
         }
     },
     "image#footer__poweredby--img": {
