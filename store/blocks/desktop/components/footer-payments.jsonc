@@ -76,7 +76,8 @@
         "title": "Image Safety Place",
         "props": {
             "src": "assets/img/sitio_seguro.jpg",
-            "height": 30
+            "height": 30,
+            "blockClass": "image-safety"
         }
     }
 }

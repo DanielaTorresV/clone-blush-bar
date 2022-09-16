@@ -34,7 +34,8 @@
             "flex-layout.col#main__newsletter--submit"           
         ],
         "props": {
-            "blockClass": "footer__main--newsletterRow"
+            "blockClass": "footer__main--newsletterRow",
+            "preserveLayoutOnMobile": true
         }
     },
     "flex-layout.col#main__newsletter--email": {
@@ -75,7 +76,10 @@
         "children": [
             "rich-text#newsletter__policies--text",
             "link#newsletter__policies--link"
-        ]
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
     },
     "rich-text#newsletter__policies--text": {
         "title": "Text policies",
