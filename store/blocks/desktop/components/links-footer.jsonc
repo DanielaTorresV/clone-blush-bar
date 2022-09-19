@@ -1,0 +1,328 @@
+{
+    "link#main__column2--link1": {
+        "title": "Link main footer column 2 num 1",
+        "children": [
+            "rich-text#column2__link1--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column2__link1--text": {
+        "title": "Text to link1 column 2",
+        "props": {
+            "blockClass": "linkFooter--text",
+            "text": "Contáctanos",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column2--link2": {
+        "title": "Link main footer column 2 num 2",
+        "children": [
+            "rich-text#column2__link2--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column2__link2--text": {
+        "title": "Text to link2 column 2",
+        "props": {
+            "text": "Trabaja con Nosotros",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column2--link3": {
+        "title": "Link main footer column 2 num 3",
+        "children": [
+            "rich-text#column2__link3--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column2__link3--text": {
+        "title": "Text to link3 column 2",
+        "props": {
+            "text": "¿Qués es Blush-Bar?",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column2--link4": {
+        "title": "Link main footer column 2 num 4",
+        "children": [
+            "rich-text#column2__link4--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column2__link4--text": {
+        "title": "Text to link4 column 2",
+        "props": {
+            "text": "Nuestras Tiendas",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column2--link5": {
+        "title": "Link main footer column 2 num 5",
+        "children": [
+            "rich-text#column2__link5--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column2__link5--text": {
+        "title": "Text to link5 column 2",
+        "props": {
+            "text": "BB Glow",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column2--link6": {
+        "title": "Link main footer column 2 num 6",
+        "children": [
+            "rich-text#column2__link6--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column2__link6--text": {
+        "title": "Text to link6 column 2",
+        "props": {
+            "text": "Marcas Cruelty Free",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column2--link7": {
+        "title": "Link main footer column 2 num 7",
+        "children": [
+            "rich-text#column2__link7--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column2__link7--text": {
+        "title": "Text to link7 column 2",
+        "props": {
+            "text": "Bioseguridad",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    //Column 3
+    "link#main__column3--link1": {
+        "title": "Link main footer column 3 num 1",
+        "children": [
+            "rich-text#column3__link1--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column3__link1--text": {
+        "title": "Text to link1 column 3",
+        "props": {
+            "text": "Agenda tu Cita",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column3--link2": {
+        "title": "Link main footer column 3 num 2",
+        "children": [
+            "rich-text#column3__link2--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column3__link2--text": {
+        "title": "Text to link2 column 3",
+        "props": {
+            "text": "Servicios BB",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column3--link3": {
+        "title": "Link main footer column 3 num 3",
+        "children": [
+            "rich-text#column3__link3--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column3__link3--text": {
+        "title": "Text to link3 column 3",
+        "props": {
+            "text": "Eventos Pro",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column3--link4": {
+        "title": "Link main footer column 3 num 4",
+        "children": [
+            "rich-text#column3__link4--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column3__link4--text": {
+        "title": "Text to link4 column 3",
+        "props": {
+            "text": "Tono Perfecto",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column3--link5": {
+        "title": "Link main footer column 3 num 5",
+        "children": [
+            "rich-text#column3__link5--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column3__link5--text": {
+        "title": "Text to link5 column 3",
+        "props": {
+            "text": "BB Makeup Party",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column3--link6": {
+        "title": "Link main footer column 3 num 6",
+        "children": [
+            "rich-text#column3__link6--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column3__link6--text": {
+        "title": "Text to link6 column 3",
+        "props": {
+            "text": "Gift Cards",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    // Column 4
+    "link#main__column4--link1": {
+        "title": "Link main footer column 4 num 1",
+        "children": [
+            "rich-text#column4__link1--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column4__link1--text": {
+        "title": "Text to link1 column 4",
+        "props": {
+            "text": "Clases Virtuales",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column4--link2": {
+        "title": "Link main footer column 4 num 2",
+        "children": [
+            "rich-text#column4__link2--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column4__link2--text": {
+        "title": "Text to link2 column 4",
+        "props": {
+            "text": "Best Sellers",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column4--link3": {
+        "title": "Link main footer column 4 num 3",
+        "children": [
+            "rich-text#column4__link3--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column4__link3--text": {
+        "title": "Text to link3 column 4",
+        "props": {
+            "text": "Productos Nuevos",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column4--link4": {
+        "title": "Link main footer column 4 num 4",
+        "children": [
+            "rich-text#column4__link4--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column4__link4--text": {
+        "title": "Text to link4 column 4",
+        "props": {
+            "text": "Preguntas Frecuentes",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column4--link5": {
+        "title": "Link main footer column 4 num 5",
+        "children": [
+            "rich-text#column4__link5--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column4__link5--text": {
+        "title": "Text to link5 column 4",
+        "props": {
+            "text": "Términos y Condiciones",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#main__column4--link6": {
+        "title": "Link main footer column 4 num 6",
+        "children": [
+            "rich-text#column4__link6--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#column4__link6--text": {
+        "title": "Text to link6 column 4",
+        "props": {
+            "text": "100% Original",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    }
+}

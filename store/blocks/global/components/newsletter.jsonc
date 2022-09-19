@@ -1,0 +1,109 @@
+{
+    "newsletter-form#footer__main--newsletter": {
+        "title": "Newsletter",
+        "children": [
+            "rich-text#main__newsletter--title",
+            "rich-text#main__newsletter--description",
+            "flex-layout.row#main__newsletter--emailandsubmit",
+            "flex-layout.row#main__newsletter--policies"
+        ],
+        "props": {
+            "blockClass": "footer__main--newsletter"
+        }
+    },
+    "rich-text#main__newsletter--title": {
+        "title": "Title newsletter",
+        "props": {
+            "text": "SUSCRÍBETE",
+            "font": "t-small",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "rich-text#main__newsletter--description": {
+        "title": "Description newsletter",
+        "props": {
+            "text": "Registra tu E-mail y conoce nuestros productos nuevos, exclusivos lanzamientos y Blush-Bar tips",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "flex-layout.row#main__newsletter--emailandsubmit": {
+        "title": "Email and submit",
+        "children": [
+            "flex-layout.col#main__newsletter--email",
+            "flex-layout.col#main__newsletter--submit"           
+        ],
+        "props": {
+            "blockClass": "footer__main--newsletterRow",
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#main__newsletter--email": {
+        "title": "Column to input",
+        "children": [
+            "newsletter-input-email"
+        ],
+        "props": {
+            "blockClass": "footermain__newsletter--input",
+            "width": "90%"
+        }
+    },
+    "newsletter-input-email": {
+        "title": "Email",
+        "props": {
+            "placeholderText": "Ingresa tu e-mail",
+            "errorMessage": "El e-mail es inválido."
+        }
+    },
+    "flex-layout.col#main__newsletter--submit": {
+        "title": "Column to submit",
+        "children": [
+            "newsletter-submit"
+        ],
+        "props": {
+            "blockClass": "footermain__newsletter--button",
+            "width": "20%"
+        }
+    },
+    "newsletter-submit": {
+        "title": "Button Submit",
+        "props": {
+            "submitButtonLabel": "OK"
+        }
+    },
+    "flex-layout.row#main__newsletter--policies": {
+        "title": "Policies text",
+        "children": [
+            "rich-text#newsletter__policies--text",
+            "link#newsletter__policies--link"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "rich-text#newsletter__policies--text": {
+        "title": "Text policies",
+        "props": {
+            "text": "Al dar click en OK aceptas nuestras ",
+            "font": "t-mini",
+            "textColor": "c-on-base--inverted"
+        }
+    },
+    "link#newsletter__policies--link": {
+        "title": "Link policies",
+        "children": [
+            "rich-text#policies__link--text"
+        ],
+        "props": {
+            "href": "/"
+        }
+    },
+    "rich-text#policies__link--text": {
+        "title": "Text to link policies",
+        "props": {
+            "text": "Políticas de Datos",
+            "font": "t-mini",
+            "textColor": "c-on-emphasis"
+          }
+    }
+}

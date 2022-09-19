@@ -7,6 +7,7 @@
       "flex-layout.row#home__section4",
       "flex-layout.row#home__section5",
       "flex-layout.row#home__section6"
+      /*"search-result-layout.customQuery#home__result"*/ //Para mostrar productos
     ]
   },
   "flex-layout.row#home__section1": { 
@@ -74,5 +75,43 @@
     "props": {
         "src": "assets/img/img-final.jpg"
     }
-}
+  }
+  /*"search-result-layout.customQuery#home__result": {
+    "props": {
+      "blocks": [
+        "search-result-layout.desktop#home__result--desktop",
+        "search-not-found-layout"
+      ],
+      "querySchema": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "search-result-layout.desktop#home__result--desktop": {
+    "children": [
+      "flex-layout.row#home__results"
+    ]
+  },
+  "flex-layout.row#home__results": {
+    "children": [
+      "flex-layout.col#home__results--search"
+    ]
+  },
+  "flex-layout.col#home__results--search": {
+    "children": [
+      "search-content#home__result--search"
+    ]
+  },
+  "search-content#home__result--search": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  }*/ // Código del Search Result, no hay productos en la tienda
 }

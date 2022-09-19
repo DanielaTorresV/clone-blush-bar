@@ -1,0 +1,75 @@
+{    
+    "minicart.v2": {
+        "title": "Bag to minicart",
+        "children": [
+            "minicart-base-content"
+        ],
+        "props": {
+            "MinicartIcon": "icon#icon-bag",
+            "itemCountMode": "total",
+            "quantityDisplay": "always"
+        }        
+    },
+    "icon#icon-bag": {
+        "props": {
+            "id": "mpa-bag",
+            "size": 30
+        }
+    },
+    "minicart-base-content": {
+        "title": "Minicart Base Content",
+        "blocks": [
+            "minicart-empty-state#custom__minicart--empty"
+        ],
+        "children": [
+            "minicart-product-list",
+            "flex-layout.row#minicart__footer--content"
+        ]
+    },
+    "minicart-empty-state#custom__minicart--empty": {
+        "title": "Custom minicart empty",
+        "children": [
+            "flex-layout.row#minicart__empty"
+        ]
+    },
+    "flex-layout.row#minicart__empty": {
+        "title": "Row minicart empty",
+        "children": [
+            "flex-layout.col#minicart__empty"
+        ]
+    },
+    "flex-layout.col#minicart__empty": {
+        "title": "Column minicart empty",
+        "children": [
+            "icon-cart#minicart__empty--icon",
+            "rich-text#minicart__empty--text"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "paddingLeft": 5,
+            "paddingRight": 5
+        }
+    },
+    "icon-cart#minicart__empty--icon": {
+        "title": "Icon Cart empty",
+        "props": {
+            "size": 150
+        }
+    },
+    "rich-text#minicart__empty--text": {
+        "title": "Text minicart empty",
+        "props": {
+            "text": "El carrito está vacío. ¡Te invitamos a comprar nuestros productos!",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#minicart__footer--content": {
+        "title": "Minicart Footer Content",
+        "children": [
+            "minicart-summary",
+            "minicart-checkout-button"
+        ]
+    }
+}

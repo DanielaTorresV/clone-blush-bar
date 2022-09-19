@@ -15,7 +15,7 @@
           "font": "t-small",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "textColor": "c-on-action-primary"
+          "textColor": "c-emphasis"
         }
     },
     "link#header__down--class": { 
