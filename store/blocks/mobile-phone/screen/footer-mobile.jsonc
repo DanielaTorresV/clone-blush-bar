@@ -121,23 +121,48 @@
         "title": "Column to footer mobile payment and safety",
         "children": [
             "rich-text#footer__payment--titlePayment",
-            "image#footer__payment--imgPayment",
+            "flex-layout.row#footerMobile__payment--imgPayment",
             "flex-layout.row",
             "rich-text#footer__payment--titleSafety",
-            "image#footer__payment--imgSafety"
+            "flex-layout.row#footerMobile__payment--imgSafety"            
         ],
         "props": {
           "blockClass": "footer__mobilePaymentSafety--column"
         }
     },
+    "flex-layout.row#footerMobile__payment--imgPayment": {
+        "children": [
+            "image#footer__payment--imgPayment"
+        ]
+    },
+    "flex-layout.row#footerMobile__payment--imgSafety": {
+        "children": [
+            "image#footer__payment--imgSafety"
+        ]
+    },
     "flex-layout.row#footer__mobile--poweredby": {
         "title": "Footer mobile powered by",
         "children": [
-            "rich-text#footer__poweredby--text",
-            "image#footer__poweredby--img"
+            "flex-layout.col#footerMobile__poweredby--text",
+            "flex-layout.col#footerMobile__poweredby--img"
         ],
         "props": {
             "blockClass": "footer__mobile--poweredby"
         }
+    },
+    "flex-layout.col#footerMobile__poweredby--text": {
+        "children": [
+            "rich-text#footer__poweredby--text"
+        ],
+        "props": {
+            "width": "60%",
+            "horizontalAlign": "right",
+            "paddingRight": 2
+        }
+    },
+    "flex-layout.col#footerMobile__poweredby--img": {
+        "children": [
+            "image#footer__poweredby--img"
+        ]
     }
 }
