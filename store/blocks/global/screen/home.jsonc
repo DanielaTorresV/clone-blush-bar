@@ -77,11 +77,11 @@
     }
   }
   /*"search-result-layout.customQuery#home__result": {
-    "props": {
-      "blocks": [
+    "blocks": [
         "search-result-layout.desktop#home__result--desktop",
         "search-not-found-layout"
       ],
+    "props": {      
       "querySchema": {
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
