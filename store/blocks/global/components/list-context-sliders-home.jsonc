@@ -1,5 +1,6 @@
 {
     "list-context.product-list#section2__slider":{
+        "title": "List Context to Section 2 Home",
         "blocks": [
             "product-summary.shelf#home__sliders"
         ],
@@ -8,6 +9,7 @@
         ]
     },
     "list-context.product-list#section3__slider":{
+        "title": "List Context to Section 3 Home",
         "blocks": [
             "product-summary.shelf#home__sliders"
         ],
@@ -16,6 +18,7 @@
         ]
     },
     "product-summary.shelf#home__sliders": {
+        "title": "Product summary for sliders home",
         "children": [
             "product-summary-image",
             "product-summary-name",
