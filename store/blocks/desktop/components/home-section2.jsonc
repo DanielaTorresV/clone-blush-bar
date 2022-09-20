@@ -117,7 +117,7 @@
     "flex-layout.col#section2__slider": {
         "title": "Column to slider",
         "children": [
-            "slider-layout#section2__slider--content"
+            "list-context.product-list#section2__slider"            
         ],
         "props": {
             "horizontlaAlign": "center",
