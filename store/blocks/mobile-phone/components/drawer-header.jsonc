@@ -2,7 +2,7 @@
     "drawer#header__middleMobile--drawer": {
         "title": "Drawer to header middle Mobile",
         "children": [
-            "vtex.menu@2.x:menu#menu__drawer"         
+            "vtex.menu@2.x:menu#menu__drawer"      
         ]
     },
     "vtex.menu@2.x:menu#menu__drawer": {
@@ -10,7 +10,6 @@
         "children": [
             "vtex.menu@2.x:menu#menu__drawer--categories",
             "vtex.menu@2.x:menu#menu__drawer--brands",
-            "vtex.menu@2.x:menu#menu__account",
             "vtex.menu@2.x:menu#menu__drawer--aboutus",
             "vtex.menu@2.x:menu#menu__drawer--servicesbb"
         ],

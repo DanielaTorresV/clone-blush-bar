@@ -152,10 +152,21 @@
       "header-row#header__topMobile": {
         "title": "Header Row Top Mobile",
         "children": [          
-          "rich-text#header__top--left"
+          "rich-text#header__top--left",
+          "header-spacer",
+          "flex-layout.row#headerMobile__top--right"
         ],
         "props":{
           "blockClass": "header__top"
+        }
+      },
+      "flex-layout.row#headerMobile__top--right": {
+        "title": "Header Right Top Flex Mobile",
+        "children": [
+          "flex-layout.col#right__container--account"
+        ],
+        "props": {
+          "blockClass": "header__top--right"
         }
       }
 }
