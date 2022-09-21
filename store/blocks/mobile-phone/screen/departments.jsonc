@@ -1,0 +1,31 @@
+{
+    "search-result-layout.mobile#mobile__department": {
+        "children": [
+            "responsive-layout.tablet#tablet__department",
+            "responsive-layout.phone#phone__department"
+        ]
+    },
+    "responsive-layout.phone#phone__department": {
+        "title": "Responsive layout to Phone department",
+        "children": [
+            "flex-layout.row#construccion__results"
+        ]
+    },
+    "flex-layout.row#construccion__results": {
+        "title": "Row to Phone department",
+        "children": [
+            "flex-layout.col#construccion__results--filter",
+            "flex-layout.col#construccion__results--content"
+        ]
+    },
+    "flex-layout.col#construccion__results--filter": {
+        "title": "Col to Filter Phone Department",
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props": {
+            "width": "25%"
+        }
+    },
+    "flex-layout.col#construccion__results--content": {}
+}

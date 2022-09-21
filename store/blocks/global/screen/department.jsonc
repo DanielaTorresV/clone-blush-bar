@@ -11,67 +11,9 @@
     "search-result-layout#department": {
         "title": "Search x Department",
         "blocks": [
-            "search-result-layout.desktop#department",
-            "search-result-layout.mobile#department",
+            "search-result-layout.desktop#desktop__department",
+            "search-result-layout.mobile#mobile__department",
             "search-not-found-layout"
           ]
-    },
-    "search-result-layout.desktop#department": {
-        "title": "Search x Department Desktop",
-        "children": [
-            "flex-layout.row#department__breadcrumb"
-            //"flex-layout.row#department__results--desktop"
-        ]
-    },
-    "search-result-layout.mobile#department": {
-        "title": "Search x Department Mobile",
-        "children": [
-            "flex-layout.row#department__breadcrumb",
-            "flex-layout.row#department__results"
-        ]
-    },
-    "flex-layout.row#department__breadcrumb": {
-        "title": "BreadCrumb Row",
-        "children": [
-            "flex-layout.col#department__breadcrumb"
-        ]
-    },
-    "flex-layout.col#department__breadcrumb": {
-        "title": "BreadCrumb Col",
-        "children": [
-            "breadcrumb.search"
-        ]
-    },
-    "breadcrumb.search": {
-        "props": {
-          "showOnMobile": true
-        }
-    },
-    "flex-layout.row#department__results": {
-        "title": "Department Results Row",
-        "children": [
-            "gallery-layout-switcher",
-            "search-content#phone"
-        ]
-    },
-    "gallery-layout-switcher": {
-        "children": [
-            "gallery-layout-option#grid__two--columns",
-            "gallery-layout-option#grid__one--column"
-        ]
-    },
-    "gallery-layout-option#grid__two--columns": {
-        "title": "Grid two Columns",
-        "props": {
-            "name": "grid-two-columns",
-            "blockClass": "grid__selector--two-columns"
-        }
-    },
-    "gallery-layout-option#grid__one--column": {
-        "title": "Grid one Column",
-        "props": {
-            "name": "grid-one-column",
-            "blockClass": "grid__selector--one-column"
-        }
     }
 }
