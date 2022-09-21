@@ -21,6 +21,10 @@
     margin: 0px 8px;
 }
 
+.headerRowContainer--header__middle--sectiononemobile{
+    padding: 10px;
+}
+
 .headerRowContainer--header__middle--sectiontwomobile{
     padding: 10px 20px;
 }

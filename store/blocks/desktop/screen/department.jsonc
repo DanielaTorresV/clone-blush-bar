@@ -1,5 +1,9 @@
 {
     "search-result-layout.desktop#desktop__department": {
-        
+        "title": "Responsive layout to Desktop department",
+        "children": [
+            "flex-layout.row#construccion__breadcrumb",
+            "flex-layout.row#construccion__results"
+        ]
     }
 }
