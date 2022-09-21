@@ -35,7 +35,7 @@
       "flex-layout.col#right__container--account": {
         "title": "Column my account",
         "children": [
-          "vtex.menu@2.x:menu#menu__account"
+          "login"
         ],
         "props": {
           "width": "grow",
