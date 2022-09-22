@@ -1,0 +1,15 @@
+{
+    "search-result-layout.mobile#mobile__category": {
+        "children": [
+            "responsive-layout.tablet#tablet__category",
+            "responsive-layout.phone#phone__category"
+        ]
+    },
+    "responsive-layout.phone#phone__category": {
+        "title": "Responsive layout to Phone category",
+        "children": [
+            "flex-layout.row#construccion__breadcrumb",
+            "flex-layout.row#construccion__results"
+        ]
+    }
+}
