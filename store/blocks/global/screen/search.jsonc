@@ -56,8 +56,10 @@
     "product-summary.shelf": {
         "title": "Product summary for department, category screen",
         "children": [
+            "add-to-list-btn",
             "product-summary-image",
             "product-summary-name",
+            "product-rating-inline",
             "product-summary-space",
             "product-summary-sku-selector",
             "product-list-price",
@@ -125,6 +127,7 @@
     "flex-layout.col#quick-view__modal--info": {
         "title": "Col Modal Info",
         "children": [
+            "add-to-list-btn",
             "vtex.store-components:product-name",
             "vtex.store-components:product-brand",
             "product-list-price",
