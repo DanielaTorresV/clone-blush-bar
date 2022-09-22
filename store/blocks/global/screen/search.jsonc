@@ -52,5 +52,87 @@
         "props": {
             "text": "# Mobile Search"
         }
+    },
+    "product-summary.shelf": {
+        "title": "Product summary for department, category screen",
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-space",
+            "product-summary-sku-selector",
+            "product-list-price",
+            "product-selling-price",
+            "product-summary-space",            
+            "product-identifier.summary",
+            "add-to-cart-button",
+            "modal-trigger#global__quick-view"
+          ]
+    },
+    "product-summary-name": {
+        "title": "Name Product",
+        "props": {
+            "tag": "h3"
+        }
+    },
+    "product-summary-sku-selector": {
+        "props": {
+            "hideImpossibleCombinations": false
+          }
+    },
+    "add-to-cart-button": {
+        "props": {
+            "text": "Agregar a mi Bolsa"
+        }
+    },
+    "modal-trigger#global__quick-view": {
+        "title": "Modal Trigger",
+        "children": [
+            "rich-text#global__quick-view--trigger",
+            "modal-layout#global__quick-view--modal"
+        ]
+    },
+    "rich-text#global__quick-view--trigger": {
+        "title": "Trigger Text to Modal",
+        "props": {
+            "text": "Vista Rápida",
+            "blockClass": "quick-view--trigger"
+        }
+    },
+    "modal-layout#global__quick-view--modal": {
+        "title": "Modal",
+        "children": [
+            "flex-layout.row#quick-view__modal"
+        ]
+    },
+    "flex-layout.row#quick-view__modal": {
+        "title": "Row Modal",
+        "children": [
+            "flex-layout.col#quick-view__modal--image",
+            "flex-layout.col#quick-view__modal--info"
+        ]
+    },
+    "flex-layout.col#quick-view__modal--image": {
+        "title": "Col Modal Image",
+        "children": [
+            "product-images"
+        ]
+    },
+    "product-images": {
+        "props": {
+            "maxHeight": 250
+        }
+    },
+    "flex-layout.col#quick-view__modal--info": {
+        "title": "Col Modal Info",
+        "children": [
+            "vtex.store-components:product-name",
+            "vtex.store-components:product-brand",
+            "product-list-price",
+            "product-selling-price",
+            "product-description",
+            "share",
+            "product-quantity",
+            "add-to-cart-button"
+        ]
     }
 }
