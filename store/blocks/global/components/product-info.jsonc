@@ -1,0 +1,26 @@
+{
+    "flex-layout.row#product__info": {
+        "title": "Row to general info",
+        "children": [
+          "flex-layout.col#product__info--image",
+          "flex-layout.col#product__info--data"
+        ],
+        "props": {
+            "blockClass": "product__info"
+        }
+    },
+      "flex-layout.col#product__info--image": {
+        "title": "Col to info image pdp",
+        "children": [
+            "product-images"
+        ]
+    },
+      "flex-layout.col#product__info--data": {
+        "title": "Col to info data pdp",
+        "children": [
+            "vtex.store-components:product-name",
+            "product-price",
+            "product-quantity"
+        ]
+    }
+}
