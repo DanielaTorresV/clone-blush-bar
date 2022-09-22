@@ -4,7 +4,7 @@
 }
 
 .headerRowContainer--header__middle{
-    padding: 0px 50px;
+    padding: 10px 50px;
 }
 
 .headerRow--header__down{
@@ -21,8 +21,12 @@
     margin: 0px 8px;
 }
 
+.headerRowContainer--header__middle--sectiononemobile{
+    padding: 10px;
+}
+
 .headerRowContainer--header__middle--sectiontwomobile{
-    padding: 0px 20px;
+    padding: 10px 20px;
 }
 
 .headerStickyRow--header__down--mobile {

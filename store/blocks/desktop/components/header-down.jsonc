@@ -40,15 +40,16 @@
     "slider-layout#header__down--slider": {
         "props": {
             "itemsPerPage": {
-              "phone": 2
+                "tablet": 3,
+                "phone": 2
             },
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
             "showPaginationDots": "desktopOnly",
             "blockClass": "header__down--slider",
             "autoplay": {
-              "timeout": 5000,
-              "stopOnHover": true
+                "timeout": 5000,
+                "stopOnHover": true
             }
           },
           "children": [
