@@ -107,3 +107,7 @@
     height: 50px;
     border-top: 1px solid #dbd8d8;
 }
+
+.flexRow--about-us{
+    margin: 15px
+}
