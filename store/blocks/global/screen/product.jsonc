@@ -6,8 +6,5 @@
       "flex-layout.row#product__info",
       "flex-layout.row#product__tabs"
     ]
-  },
-  "flex-layout.row#product__tabs": {
-    "title": "Row to aditional info"
-  }
+  }  
 }

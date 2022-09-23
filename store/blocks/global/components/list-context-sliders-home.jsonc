@@ -20,11 +20,13 @@
     "product-summary.shelf#home__sliders": {
         "title": "Product summary for sliders home",
         "children": [
+            "add-to-list-btn",
             "product-summary-image",
-            "product-summary-name",
+            "product-summary-name",            
             "product-summary-space",
             "product-list-price",
             "product-selling-price",
+            "product-rating-inline",
             "product-summary-space",
             "add-to-cart-button"
           ]

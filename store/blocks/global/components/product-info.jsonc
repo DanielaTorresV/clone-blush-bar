@@ -6,21 +6,60 @@
           "flex-layout.col#product__info--data"
         ],
         "props": {
-            "blockClass": "product__info"
+            "blockClass": "product__info",
+            "marginTop": 4,
+            "marginBottom": 4
         }
     },
       "flex-layout.col#product__info--image": {
         "title": "Col to info image pdp",
         "children": [
-            "product-images"
-        ]
+            "product-images#product__info--image"
+        ],
+        "props": {
+          "width": "40%"
+        }
+    },
+    "product-images#product__info--image": {
+      "title": "Images to pdp",
+      "props": {
+        "zoomMode": "in-place-hover"
+      }
     },
       "flex-layout.col#product__info--data": {
         "title": "Col to info data pdp",
         "children": [
+            "add-to-list-btn",
+            "share",
             "vtex.store-components:product-name",
+            "vtex.store-components:product-brand",
+            "product-description",
             "product-price",
-            "product-quantity"
-        ]
+            "product-quantity",
+            "product-rating-inline",
+            "flex-layout.row#add-to-cart-button__product"           
+        ],
+        "props": {
+          "width": "60%",
+          "paddingLeft": 5,
+          "paddingRight": 3,
+          "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#add-to-cart-button__product": {
+      "title": "Row to button",
+      "children": [
+        "flex-layout.col#add-to-cart-button__product"
+      ]
+    },
+    "flex-layout.col#add-to-cart-button__product": {
+      "title": "Col to button",
+      "children": [
+        "add-to-cart-button"
+      ],
+      "props": {
+        "paddingLeft": 10,
+        "paddingRight": 10
+      }
     }
 }
