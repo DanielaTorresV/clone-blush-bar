@@ -17,6 +17,7 @@
             "product-images#product__info--image"
         ],
         "props": {
+          "paddingLeft": 5,
           "width": "40%"
         }
     },

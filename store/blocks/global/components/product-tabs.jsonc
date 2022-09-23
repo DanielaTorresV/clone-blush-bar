@@ -2,7 +2,81 @@
     "flex-layout.row#product__tabs": {
         "title": "Row to aditional info",
         "children": [
-            
+            "tab-layout#product__tabs"
         ]
+      },
+      "tab-layout#product__tabs": {
+        "title": "Product Tabs",
+        "children": [
+          "tab-list#product__tabs--list",
+          "tab-content#product__tabs--content"
+        ]
+      },
+      "tab-list#product__tabs--list": {
+        "title": "Tab List",
+        "children": [
+          "tab-list.item#tabs__list--reviews-and-ratings",
+          "tab-list.item#tabs__list--product-specification",
+          "tab-list.item#tabs__list--questions"
+        ]
+      },      
+      "tab-list.item#tabs__list--reviews-and-ratings": {
+        "title": "Tab List Reviews ans Ratings",
+        "props": {
+          "tabId": "reviews-and-ratings",
+          "label": "Revisión y Calificación",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#tabs__list--product-specification": {
+        "title": "Tab List Product cification",
+        "props": {
+          "tabId": "product-specification",
+          "label": "Especificaciones de Producto",
+          "defaultActiveTab": false
+        }
+      },
+      "tab-list.item#tabs__list--questions": {
+        "title": "Tab List Questions",
+        "props": {
+          "tabId": "questions",
+          "label": "Preguntas",
+          "defaultActiveTab": false
+        }
+      },
+      "tab-content#product__tabs--content": {
+        "title": "Tab Content",
+        "children": [
+          "tab-content.item#tabs__list--reviews-and-ratings",
+          "tab-content.item#tabs__list--product-specification",
+          "tab-content.item#tabs__list--questions"
+        ]
+      },
+      "tab-content.item#tabs__list--reviews-and-ratings": {
+        "title": "Content List Reviews ans Ratings",
+        "children": [
+          "product-reviews"
+        ],
+        "props": {
+          "tabId": "reviews-and-ratings"
+        }
+      },
+      "tab-content.item#tabs__list--product-specification": {
+        "title": "Content List Product cification",
+        "children": [
+          "product-specifications"
+        ],
+        "props": {
+          "tabId": "product-specification"
+        }
+      },
+      "tab-content.item#tabs__list--questions": {
+        "title": "Content List Questions",
+        "children": [
+          "questions-and-answers"
+        ],
+        "props": {
+          "tabId": "questions"
+        }
       }
 }
