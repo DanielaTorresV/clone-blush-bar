@@ -9,6 +9,7 @@
         "title": "Responsive layout to Phone department",
         "children": [
             "flex-layout.row#construccion__breadcrumb",
+            "flex-layout.row#construccion__header",
             "flex-layout.row#construccion__results"
         ]
     },
@@ -29,6 +30,44 @@
             "showOnMobile": true
           }
     },
+    "flex-layout.row#construccion__header": {
+        "title": "Row for header department page",
+        "children": [
+            "flex-layout.col#construccion__header--title",
+            "flex-layout.col#construccion__header--number",
+            "flex-layout.col#construccion__header--order"
+        ]
+    },
+    "flex-layout.col#construccion__header--title": {
+        "title": "Title header product",
+        "children": [
+            "search-title.v2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#construccion__header--number": {
+        "title": "Number products",
+        "children": [
+            "total-products.v2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#construccion__header--order": {
+        "title": "Order products",
+        "children": [
+            "order-by.v2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
     "flex-layout.row#construccion__results": {
         "title": "Row to Phone department",
         "children": [
@@ -42,7 +81,8 @@
             "filter-navigator.v3"
         ],
         "props": {
-            "width": "25%"
+            "width": "25%",
+            "paddingLeft": 4
         }
     },
     "flex-layout.col#construccion__results--content": {
@@ -51,7 +91,8 @@
             "search-content#results__content--products"
         ],
         "props": {
-            "width": "75%"
+            "width": "75%",
+            "paddingRight": 3
         }
     },
     "search-content#results__content--products": {

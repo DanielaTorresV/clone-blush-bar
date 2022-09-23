@@ -88,6 +88,9 @@
         "title": "Trigger Text to Modal",
         "props": {
             "text": "Vista Rápida",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "textColor": "c-emphasis",
             "blockClass": "quick-view--trigger"
         }
     },
@@ -108,7 +111,10 @@
         "title": "Col Modal Image",
         "children": [
             "product-images"
-        ]
+        ],
+        "props": {
+            "blockClass": "quick-view__modal--image"
+        }
     },
     "product-images": {
         "props": {
@@ -127,6 +133,11 @@
             "share",
             "product-quantity",
             "add-to-cart-button"
-        ]
+        ],
+        "props": {
+            "blockClass": "quick-view__modal--info",
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
     }
 }

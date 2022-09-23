@@ -3,6 +3,7 @@
         "title": "Responsive layout to Tablet department",
         "children": [
             "flex-layout.row#construccion__breadcrumb",
+            "flex-layout.row#construccion__header",
             "flex-layout.row#construccion__results"
         ]
     }

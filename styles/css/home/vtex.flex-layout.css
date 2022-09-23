@@ -111,3 +111,11 @@
 .flexRow--about-us{
     margin: 15px
 }
+
+.flexCol--quick-view__modal--info{
+    padding: 5px;
+}
+
+.flexCol--quick-view__modal--image{
+    padding: 5px;
+}
