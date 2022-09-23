@@ -4,8 +4,10 @@
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
         "blocksClass": "header__middle--search",
+        "attemptPageTypeSearch": true,
         "openAutocompleteOnFocus": true,
-        "maxWidth": 200
-    }
+        "maxWidth": 250,
+        "containerMode": "container"
+        }
     }
 }
