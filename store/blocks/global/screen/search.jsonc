@@ -74,7 +74,7 @@
     },
     "add-to-cart-button": {
         "props": {
-            "text": "Agregar a mi Bolsa"
+            "text": "COMPRAR"
         }
     },
     "modal-trigger#global__quick-view": {

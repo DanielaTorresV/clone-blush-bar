@@ -20,21 +20,48 @@
     "product-summary.shelf#home__sliders": {
         "title": "Product summary for sliders home",
         "children": [
-            "add-to-list-btn",
-            "product-summary-image",
-            "product-summary-name",            
-            "product-summary-space",
-            "product-list-price",
+            "flex-layout.row#sliders__summary--imgandwish",
+            "product-summary-brand",            
+            "product-summary-name",
             "product-selling-price",
-            "product-rating-inline",
-            "product-summary-space",
-            "add-to-cart-button"
+            "product-rating-inline"
           ]
+    },
+    "flex-layout.row#sliders__summary--imgandwish": {
+        "title": "Row to image and button wishlist",
+        "children": [
+            "flex-layout.col#sliders__summary--image",
+            "flex-layout.col#sliders__summary--wishlist"           
+        ],
+        "props": {
+            "marginBottom": 4
+        }
+    },
+    "flex-layout.col#sliders__summary--image": {
+        "title": "Col to summary image",
+        "children": [
+            "product-summary-image"
+        ],
+        "props": {
+            "width": "80%",
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#sliders__summary--wishlist": {
+        "title": "Col to button add to wishlist",
+        "children": [
+            "add-to-list-btn"
+        ],
+        "props": {
+            "width": "20%",
+            "horizontalAlign": "center",
+            "verticalAlign": "bottom"
+        }
     },
     "product-summary-image": {
       "props": {
         "showBadge": true,
-        "height": 100
+        "height": 150
       }
     }
 }
