@@ -1,0 +1,70 @@
+{
+    "responsive-layout.tablet#section2__info--data": {
+        "title": "Tablet section 2 info data",
+        "children": [
+            "flex-layout.row#section2tablet__info--data"
+        ]
+    },
+    "flex-layout.row#section2tablet__info--data": {
+        "title": "Row to section 2 data tablet",
+        "children": [
+            "flex-layout.col#section2tablet__info--data"
+      ]
+    },
+    "flex-layout.col#section2tablet__info--data": {
+        "title": "Col to section 2 data tablet",
+        "children": [
+          "product-quantity",
+          "flex-layout.row#add-to-cart-button__producttablet",
+          "flex-layout.row#others__producttablet"          
+      ]
+    },
+    "flex-layout.row#add-to-cart-button__producttablet": {
+        "title": "Row to button",
+      "children": [
+        "flex-layout.col#add-to-cart-button__producttablet"
+      ]
+    },
+    "flex-layout.col#add-to-cart-button__producttablet": {
+      "title": "Col to button",
+      "children": [
+        "add-to-cart-button"
+      ],
+      "props": {
+        "width": "40%"
+      }
+    },
+    "flex-layout.row#others__producttablet": {
+        "title": "Row to others",
+        "children": [
+            "flex-layout.col#others__producttablet"
+        ]
+    },
+    "flex-layout.col#others__producttablet": {
+        "title": "Col to others",
+        "children": [
+            "product-rating-inline",
+            "rich-text#data__reviewstablet--text",
+            "add-to-list-btn",
+            "rich-text#data__wishlisttablet--text",
+            "share"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#data__reviewstablet--text": {
+        "title": "Text Reviews",
+        "props": {
+            "text": "Ver Reseñas",
+            "font": "t-mini"
+      }
+    },
+    "rich-text#data__wishlisttablet--text": {
+        "title": "Text Wishlist",
+      "props": {
+        "text": "Agregar a mi lista de deseos",
+        "font": "t-mini"
+      }
+    }
+}

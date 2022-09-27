@@ -47,8 +47,7 @@
     "product-summary.shelf": {
         "title": "Product summary for department, category screen",
         "children": [
-            "add-to-list-btn",
-            "product-summary-image",
+            "flex-layout.row#search__summary--imgandwish",
             "product-summary-name",
             "product-rating-inline",
             "product-summary-space",
@@ -60,6 +59,40 @@
             "add-to-cart-button",
             "modal-trigger#global__quick-view"
           ]
+    },
+    "flex-layout.row#search__summary--imgandwish": {
+        "title": "Row to image and button wishlist",
+        "children": [
+            "flex-layout.col#search__summary--image",
+            "flex-layout.col#search__summary--wishlist"           
+        ]
+    },
+    "flex-layout.col#search__summary--image": {
+        "title": "Col to summary image",
+        "children": [
+            "product-summary-image#search"
+        ],
+        "props": {
+            "width": "97%",
+            "horizontalAlign": "left"
+        }
+    },
+    "product-summary-image#search": {
+        "props": {
+            "showBadge": true,
+            "height": 110
+          }
+    },
+    "flex-layout.col#search__summary--wishlist": {
+        "title": "Col to button add to wishlist",
+        "children": [
+            "add-to-list-btn"
+        ],
+        "props": {
+            "width": "3%",
+            "horizontalAlign": "right",
+            "verticalAlign": "bottom"
+        }
     },
     "product-summary-name": {
         "title": "Name Product",

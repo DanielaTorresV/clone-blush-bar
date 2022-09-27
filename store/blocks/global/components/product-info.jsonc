@@ -31,7 +31,8 @@
         "title": "Col to info data pdp",
         "children": [
             "flex-layout.row#section1__info--data",
-            "flex-layout.row#section2__info--data",
+            "responsive-layout.desktop#section2__info--data",
+            "responsive-layout.tablet#section2__info--data",
             "flex-layout.row#section3__info--data"                    
         ],
         "props": {
@@ -42,8 +43,7 @@
     },
     "flex-layout.row#section1__info--data": {
       "title": "Row to section 1 data",
-      "children": [
-        "flex-layout.col#section1__info--data"
+      "children": [ "flex-layout.col#section1__info--data"
       ],
       "props": {
         "blockClass": "section1__info--data"
@@ -74,10 +74,15 @@
         "blockClass": "info__data--price"
       }
     },
+    "responsive-layout.desktop#section2__info--data": {
+      "children": [
+        "flex-layout.row#section2__info--data"
+      ]
+    },
     "flex-layout.row#section2__info--data": {
       "title": "Row to section 2 data",
       "children": [
-        "flex-layout.col#section2__info--data"
+        "flex-layout.col#section2__info--data"      
       ],
       "props": {
         "blockClass": "section2__info--data"
