@@ -98,6 +98,12 @@
           "product-separator"
       ]
     },
+    "product-quantity": {
+      "title": "Product Quantity",
+      "props": {
+        "blockClass": "product__quantity"
+      }
+    },
     "flex-layout.row#add-to-cart-button__product": {
       "title": "Row to button",
       "children": [
