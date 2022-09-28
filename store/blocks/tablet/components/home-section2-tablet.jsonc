@@ -1,0 +1,21 @@
+{
+    "responsive-layout.tablet#home__section2--tablet": {
+        "children": [
+            "flex-layout.col#section2__slider"
+        ]
+    },
+    "responsive-layout.tablet#section2__text--favoritesTablet": {
+        "children": [
+            "rich-text#section2__text--favoritesTablet"
+        ]
+    },
+    "rich-text#section2__text--favoritesTablet": {
+        "title": "Text Favorites",
+        "props": {
+            "text": "FAVORITOS",
+            "font": "t-heading-4",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    "search-result-layout.mobile#mobile__department": {
+        "children": [
+            "responsive-layout.tablet#tablet__department",
+            "responsive-layout.phone#phone__department"
+        ]
+    },
+    "responsive-layout.phone#phone__department": {
+        "title": "Responsive layout to Phone department",
+        "children": [
+            "flex-layout.row#construccion__breadcrumb",
+            "flex-layout.row#construccion__header",
+            "flex-layout.row#construccion__results"
+        ]
+    },
+    "flex-layout.row#construccion__breadcrumb": {
+        "title": "Row to BreadCrumb",
+        "children": [
+            "flex-layout.col#construccion__breadcrumb"
+        ]
+    },
+    "flex-layout.col#construccion__breadcrumb": {
+        "title": "Col to BreadCrumb",
+        "children": [
+            "breadcrumb.search"
+        ]
+    },
+    "breadcrumb.search": {
+        "props": {
+            "showOnMobile": true
+          }
+    },
+    "flex-layout.row#construccion__header": {
+        "title": "Row for header department page",
+        "children": [
+            "flex-layout.col#construccion__header--title",
+            "flex-layout.col#construccion__header--number",
+            "flex-layout.col#construccion__header--order"
+        ]
+    },
+    "flex-layout.col#construccion__header--title": {
+        "title": "Title header product",
+        "children": [
+            "search-title.v2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#construccion__header--number": {
+        "title": "Number products",
+        "children": [
+            "total-products.v2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.col#construccion__header--order": {
+        "title": "Order products",
+        "children": [
+            "order-by.v2"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.row#construccion__results": {
+        "title": "Row to Phone department",
+        "children": [
+            "flex-layout.col#construccion__results--filter",
+            "flex-layout.col#construccion__results--content"
+        ]
+    },
+    "flex-layout.col#construccion__results--filter": {
+        "title": "Col to Filter Phone Department",
+        "children": [
+            "filter-navigator.v3"
+        ],
+        "props": {
+            "width": "25%",
+            "paddingLeft": 4
+        }
+    },
+    "flex-layout.col#construccion__results--content": {
+        "title": "Col to Results Phone Department",
+        "children": [
+            "search-content#results__content--products"
+        ],
+        "props": {
+            "width": "75%",
+            "paddingRight": 3
+        }
+    },
+    "search-content#results__content--products": {
+        "title": "Content Products",
+        "blocks": [
+            "gallery#department",
+            "not-found"
+        ]
+    },
+    "gallery#department": {
+        "title": "Gallery Department",
+        "props": {
+            "layouts": [
+                {
+                    "name": "general-grid",
+                    "component": "GeneralGrid",
+                    "itemsPerRow": {
+                        "desktop": 4,
+                        "tablet": 3,
+                        "phone": 2
+                    }
+                }
+            ],
+            "GeneralGrid": "product-summary.shelf"
+        }
+    }
+}

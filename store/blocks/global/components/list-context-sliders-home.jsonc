@@ -1,0 +1,68 @@
+{
+    "list-context.product-list#section2__slider":{
+        "title": "List Context to Section 2 Home",
+        "blocks": [
+            "product-summary.shelf#home__sliders"
+        ],
+        "children": [
+            "slider-layout#section2__slider--content"
+        ]
+    },
+    "list-context.product-list#section3__slider":{
+        "title": "List Context to Section 3 Home",
+        "blocks": [
+            "product-summary.shelf#home__sliders"
+        ],
+        "children": [
+            "slider-layout#section3__slider--content"
+        ]
+    },
+    "product-summary.shelf#home__sliders": {
+        "title": "Product summary for sliders home",
+        "children": [
+            "flex-layout.row#sliders__summary--imgandwish",
+            "modal-trigger#global__quick-view",
+            "product-summary-brand",            
+            "product-summary-name",
+            "product-selling-price",
+            "product-rating-inline"
+          ]
+    },
+    "flex-layout.row#sliders__summary--imgandwish": {
+        "title": "Row to image and button wishlist",
+        "children": [
+            "flex-layout.col#sliders__summary--image",
+            "flex-layout.col#sliders__summary--wishlist"           
+        ],
+        "props": {
+            "marginBottom": 4
+        }
+    },
+    "flex-layout.col#sliders__summary--image": {
+        "title": "Col to summary image",
+        "children": [
+            "product-summary-image"
+        ],
+        "props": {
+            "width": "97%",
+            "horizontalAlign": "left"
+        }
+    },
+    "flex-layout.col#sliders__summary--wishlist": {
+        "title": "Col to button add to wishlist",
+        "children": [
+            "add-to-list-btn"
+        ],
+        "props": {
+            "width": "3%",
+            "horizontalAlign": "right",
+            "verticalAlign": "bottom"
+        }
+    },
+    "product-summary-image": {
+      "props": {
+        "showBadge": true,
+        "height": 150
+      }
+    }
+}

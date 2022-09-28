@@ -1,0 +1,129 @@
+{
+    "flex-layout.col#home__section3--column": {
+        "title": "section3 home column",
+        "children": [
+            "flex-layout.row#home__section3--new",
+            "responsive-layout.desktop#home__section3--desktop",
+            "responsive-layout.tablet#home__section3--tablet",
+            "responsive-layout.phone#home__section3--phone"                        
+        ],
+        "props": {
+            "blockClass": "home__section3--column",
+            "horizontlaAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "flex-layout.row#home__section3--new": {
+        "title": "Row with new text",
+        "children": [
+            "flex-layout.col#section3__leftcolumn",
+            "flex-layout.col#section3__text",
+            "flex-layout.col#section3__rightcolumn"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true
+        }
+    },
+    "flex-layout.col#section3__leftcolumn": {
+        "title": "Column left side",
+        "children": [
+            "image#section3__divider"
+        ],
+        "props": {
+            "horizontlaAlign": "center",
+            "verticalAlign": "middle",
+            "width": "30%"
+        }
+    },
+    "flex-layout.col#section3__text": {
+        "title": "Column center with text",
+        "children": [
+            "responsive-layout.desktop#section3__text--newDesktop",
+            "responsive-layout.tablet#section3__text--newTablet",
+            "responsive-layout.phone#section3__text--newPhone"            
+        ],
+        "props": {
+            "horizontlaAlign": "center",
+            "verticalAlign": "middle" ,
+            "width": "40%"        
+        }
+    },
+    "responsive-layout.desktop#section3__text--newDesktop": {
+        "children": [
+            "rich-text#section3__text--newDesktop"
+        ]
+    },
+    "rich-text#section3__text--newDesktop": {
+        "title": "Text new",
+        "props": {
+            "text": "PRODUCTOS NUEVOS",
+            "font": "t-heading-3",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#section3__rightcolumn": {
+        "title": "Column right side",
+        "children": [
+            "image#section3__divider"
+        ],        
+        "props": {
+            "horizontlaAlign": "center",
+            "verticalAlign": "middle",
+            "width": "30%"
+        }
+    },
+    "image#section3__divider": {
+        "title": "Divider",
+        "props": {
+            "src": "assets/img/divider.jpg"
+        }
+    },
+    "responsive-layout.desktop#home__section3--desktop": {
+        "children": [
+            "flex-layout.row#home__section3--slider"
+        ]
+    },
+    "flex-layout.row#home__section3--slider": {
+        "title": "Row with img and slider",
+        "children": [
+            "flex-layout.col#section3__slider",
+            "flex-layout.col#section3__slider--imgright"
+            
+        ]
+    },
+    "flex-layout.col#section3__slider": {
+        "title": "Column to slider",
+        "children": [
+            "list-context.product-list#section3__slider"
+        ],
+        "props": {
+            "horizontlaAlign": "center",
+            "verticalAlign": "middle",
+            "width": "70%"
+        }
+    },
+    "flex-layout.col#section3__slider--imgright": {
+        "title": "Column to image right",
+        "children": [
+            "image#section3__imgright"
+        ],
+        "props": {
+            "horizontlaAlign": "center",
+            "verticalAlign": "middle",
+            "width": "30%"
+        }
+    },
+    "image#section3__imgright":{
+        "title": "Image right section3",
+        "props": {
+            "src": "assets/img/correctorhuda.jpg",
+            "title": "corrector huda",
+            "link": {                                                 // Objeto que determina las características de la imágen.
+            "url": "https://www.google.com/",
+            "newTab": true,
+            "attributeNofollow": true
+            }
+        }
+    }    
+}

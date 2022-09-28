@@ -1,0 +1,21 @@
+.sliderLayoutContainer--home__section2--slider{
+    padding: 20px;
+}
+
+.slideChildrenContainer--home__section2--slider{
+    margin: 10px;
+    justify-content: center;
+}
+
+.sliderLayoutContainer--home__section3--slider{
+    padding: 20px;
+}
+
+.slideChildrenContainer--home__section3--slider{
+    margin: 10px;
+    justify-content: center;
+}
+
+.sliderLayoutContainer--home__section5--slider{
+    padding: 10px;
+}

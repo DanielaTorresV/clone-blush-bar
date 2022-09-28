@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#footer__poweredby": {
+        "title": "Powered by Footer",
+        "children": [
+            "flex-layout.col#footer__poweredby--text",
+            "flex-layout.col#footer__poweredby--img"            
+        ],
+        "props": {
+            "blockClass": "footer__poweredby"
+        }
+    },
+    "flex-layout.col#footer__poweredby--text": {
+        "title": "Column for Text",
+        "children": [
+            "rich-text#footer__poweredby--text"
+        ],
+        "props": {
+            "blockClass": "footer__poweredby--text",
+            "width": "55%"
+        }
+    },
+    "rich-text#footer__poweredby--text": {
+        "title": "Text to powered by",
+        "props": {
+            "text": "Todos los derechos reservados Blush-Bar 2016 | Empowered by",
+            "font": "t-mini",
+            "textPosition": "CENTER"            
+        }
+    },
+    "flex-layout.col#footer__poweredby--img": {
+        "title": "Column for Image",
+        "children": [
+            "image#footer__poweredby--img"
+        ],
+        "props": {
+            "blockClass": "footer__poweredby--image",
+            "width": "45%"
+        }
+    },
+    "image#footer__poweredby--img": {
+        "title": "Image to powered by",
+        "props": {
+            "src": "assets/img/logoVtex.png",
+            "height": 20            
+        }
+    }
+}

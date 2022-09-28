@@ -1,0 +1,13 @@
+{
+    "logo#header__middle--logo": {
+        "title": "logo",
+        "props": {
+            "url": "assets/img/logo-blushBar.jpg",
+            "width": 230,
+            "height": 60,
+            "mobileWidth": 130,
+            "mobileHeight": 30,
+            "href": "https://blushbardanitorres--itgloberspartnercl.myvtex.com/"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "slider-layout#section3__slider--content": {
+        "title": "Slider products section3",
+        "props": {
+            "itemsPerPage": {
+              "desktop": 3,
+              "tablet": 3,
+              "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "arrowSize": 20,
+            "blockClass": "home__section3--slider",
+            "autoplay": {
+              "timeout": 3000,
+              "stopOnHover": true
+            }
+          }
+    }
+}

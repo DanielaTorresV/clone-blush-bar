@@ -1,0 +1,14 @@
+{
+    "login": {
+        "props": {
+            "title": "MI CUENTA",
+            "emailAndPasswordTitle": "Ingresar",
+            "accessCodeTitle": "Ingresa con código",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "contraseña",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true,
+            "iconLabel": "MI CUENTA"
+          }
+    }
+}

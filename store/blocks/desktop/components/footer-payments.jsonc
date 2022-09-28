@@ -1,0 +1,83 @@
+{
+    "flex-layout.row#footer__paymentSafety": {
+        "title": "Payment Methods Footer",
+        "children": [
+            "flex-layout.col#footer__payment",            
+            "flex-layout.col#divider",
+            "flex-layout.col#footer__safety"
+        ],
+        "props": {
+            "blockClass": "footer__payment"
+        }
+    },
+    "flex-layout.col#footer__payment": {
+        "title": "Column for Payment Methods",
+        "children": [
+            "flex-layout.row#footer__payment"
+        ],
+        "props": {
+            "width": "60%"
+        }
+    },
+    "flex-layout.row#footer__payment": {
+        "title": "Row for Payment Methods",
+        "children": [
+            "rich-text#footer__payment--titlePayment",
+            "image#footer__payment--imgPayment"
+        ]
+    },
+    "rich-text#footer__payment--titlePayment": {
+        "title": "Title Payment Methods",
+        "props": {
+            "text": "MEDIOS DE PAGO",
+            "font": "t-mini",
+            "textPosition": "CENTER",
+            "width": "20%"
+        }
+    },
+    "image#footer__payment--imgPayment": {
+        "title": "Image Payment Methods",
+        "props": {
+            "src": "assets/img/medios_pago.jpg",
+            "height": 42
+        }
+    },
+    "flex-layout.col#divider": {
+        "props": {
+            "width": "20%"
+        }
+    },
+    "flex-layout.col#footer__safety": {
+        "title": "Column for Safety",
+        "children": [   
+            "flex-layout.row#footer__safety"
+        ],
+        "props": {
+            "width": "20%"
+        }
+    },
+    "flex-layout.row#footer__safety": {
+        "title": "Row for Safety",
+        "children": [       
+            "rich-text#footer__payment--titleSafety",
+            "image#footer__payment--imgSafety"
+        ]
+    },
+    "rich-text#footer__payment--titleSafety": {
+        "title": "Title Safety Place",
+        "props": {
+            "text": "SITIO SEGURO",
+            "font": "t-mini",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "image#footer__payment--imgSafety": {
+        "title": "Image Safety Place",
+        "props": {
+            "src": "assets/img/sitio_seguro.jpg",
+            "height": 30,
+            "blockClass": "image-safety"
+        }
+    }
+}

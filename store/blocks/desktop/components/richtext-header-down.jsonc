@@ -1,0 +1,47 @@
+{
+    "rich-text#header__down--makeup": {
+        "title": "Text header down makeup",
+        "props": {
+            "text": "MAQUILLAJE",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#header__down--skin": {
+        "title": "Text header down skin",
+        "props": {
+            "text": "CUIDADO PIEL",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#header__down--perfum": {
+        "title": "Text header down pefums",
+        "props": {
+            "text": "PERFUMES",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#header__down--access": {
+        "title": "Text header down access",
+        "props": {
+            "text": "ACCESORIOS",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "rich-text#header__down--sale": {
+        "title": "Text header down sale",
+        "props": {
+            "text": "DESCUENTOS",
+            "font": "t-small",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.quantitySelectorStepper--product__quantity :global(.vtex-numeric-stepper__input){
+    display: inline-block !important;
+    appearance: none;
+    width: 50px;
+    height: 30px;
+    background-color: #fce7ea;
+    border: none;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: top;
+    position: relative;
+    font-family: 'Lato';
+    font-size: 12px
+}
+
+.quantitySelectorStepper--product__quantity :global(.vtex-numeric-stepper__plus-button){
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #ffd7de;
+    border: #ffd7de;
+    color: #231f20;
+    line-height: 30px;
+    font-size: 13px;
+    font-family: 'Lato';
+    cursor: pointer;
+    z-index: 9;
+    position: relative;
+}
+
+.quantitySelectorStepper--product__quantity :global(.vtex-numeric-stepper__minus-button){
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #ffd7de;
+    border: #ffd7de;
+    color: #231f20;
+    line-height: 30px;
+    font-size: 13px;
+    font-family: 'Lato';
+    cursor: pointer;
+    z-index: 9;
+    position: relative;
+}

@@ -1,0 +1,667 @@
+{
+    "drawer#header__middleMobile--drawer": {
+        "title": "Drawer to header middle Mobile",
+        "children": [
+            "vtex.menu@2.x:menu#menu__drawer"      
+        ]
+    },
+    "vtex.menu@2.x:menu#menu__drawer": {
+        "title": "Menu Drawer",
+        "children": [
+            "vtex.menu@2.x:menu#menu__drawer--categories",
+            "vtex.menu@2.x:menu#menu__drawer--brands",
+            "vtex.menu@2.x:menu#menu__drawer--aboutus",
+            "vtex.menu@2.x:menu#menu__drawer--servicesbb"
+        ],
+        "props": {
+            "orientation": "vertical"
+          }
+    },
+    "vtex.menu@2.x:menu#menu__drawer--categories": {
+        "title": "Menu categories",
+        "children": [
+            "menu-item#department__categories"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__categories": {
+        "title": "Department categories",        
+        "props": {
+            "id": "menu-item-categories",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "categories",
+              "text": "CATEGORÍAS"
+            }
+        },        
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__categories"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__categories": {
+        "title": "Submenu categories",
+        "children": [
+            "vtex.menu@2.x:menu#category__categories"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__categories": {
+        "title": "Categories categories",
+        "children": [
+            "menu-item#category__categories--new",
+            "menu-item#category__categories--makeup",
+            "menu-item#category__categories--skincare",
+            "menu-item#category__categories--perfums",
+            "menu-item#category__categories--access",
+            "menu-item#category__categories--sales",
+            "menu-item#category__categories--gifts",
+            "menu-item#category__categories--skinkits",
+            "menu-item#category__categories--makeupkits"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__categories--new": {
+        "title": "",
+        "props": {
+            "id": "menu-item-new",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "new",
+              "text": "Nuevo"
+            }
+        }
+    },
+    "menu-item#category__categories--makeup": {
+        "title": "",
+        "props": {
+            "id": "menu-item-makeup",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "makeup",
+              "text": "Maquillaje"
+            }
+        }
+    },
+    "menu-item#category__categories--skincare": {
+        "title": "",
+        "props": {
+            "id": "menu-item-skincare",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "skincare",
+              "text": "Cuidado Piel"
+            }
+        }
+    },
+    "menu-item#category__categories--perfums": {
+        "title": "",
+        "props": {
+            "id": "menu-item-perfums",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "perfums",
+              "text": "Perfumes"
+            }
+        }
+    },
+    "menu-item#category__categories--access": {
+        "title": "",
+        "props": {
+            "id": "menu-item-access",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "access",
+              "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#category__categories--sales": {
+        "title": "",
+        "props": {
+            "id": "menu-item-sales",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "sales",
+              "text": "Descuentos"
+            }
+        }
+    },
+    "menu-item#category__categories--gifts": {
+        "title": "",
+        "props": {
+            "id": "menu-item-gifts",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "gifts",
+              "text": "Regalos con Compras"
+            }
+        }
+    },
+    "menu-item#category__categories--skinkits": {
+        "title": "",
+        "props": {
+            "id": "menu-item-skinkits",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "skinkits",
+              "text": "Kits de Piel"
+            }
+        }
+    },
+    "menu-item#category__categories--makeupkits": {
+        "title": "",
+        "props": {
+            "id": "menu-item-makeupkits",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "makeupkits",
+              "text": "Kits de Maquillaje"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#menu__drawer--brands": {
+        "title": "Menu brands",
+        "children": [
+            "menu-item#department__drawerbrands"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__drawerbrands": {
+        "title": "Department brands",        
+        "props": {
+            "id": "menu-item-drawerbrands",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "brands",
+              "text": "MARCAS"
+            }
+        },        
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__drawerbrands"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__drawerbrands": {
+        "title": "Submenu brands",
+        "children": [
+            "vtex.menu@2.x:menu#category__drawerbrands"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__drawerbrands": {
+        "title": "Categories brands",
+        "children": [
+            "menu-item#category__brands--avene",
+            "menu-item#category__brands--anastasia",
+            "menu-item#category__brands--blush",
+            "menu-item#category__brands--bond",
+            "menu-item#category__brands--carolina",
+            "menu-item#category__brands--clinique",
+            "menu-item#category__brands--dermanat",
+            "menu-item#category__brands--dkny",
+            "menu-item#category__brands--dose",
+            "menu-item#category__brands--foreo",
+            "menu-item#category__brands--huda",
+            "menu-item#category__brands--pixi"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__brands--avene": {
+        "title": "",
+        "props": {
+            "id": "menu-item-avene",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "avene",
+              "text": "AVÉNE"
+            }
+        }
+    },
+    "menu-item#category__brands--anastasia": {
+        "title": "",
+        "props": {
+            "id": "menu-item-anastasia",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "anastasia",
+              "text": "ANASTASIA"
+            }
+        }
+    },
+    "menu-item#category__brands--blush": {
+        "title": "",
+        "props": {
+            "id": "menu-item-blush",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "blush",
+              "text": "BLUSH-BAR"
+            }
+        }
+    },
+    "menu-item#category__brands--bond": {
+        "title": "",
+        "props": {
+            "id": "menu-item-bond",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "bond",
+              "text": "BOND No. 9"
+            }
+        }
+    },
+    "menu-item#category__brands--carolina": {
+        "title": "",
+        "props": {
+            "id": "menu-item-carolina",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "carolina",
+              "text": "CAROLINA H"
+            }
+        }
+    },
+    "menu-item#category__brands--clinique": {
+        "title": "",
+        "props": {
+            "id": "menu-item-clinique",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "clinique",
+              "text": "CLINIQUE"
+            }
+        }
+    },
+    "menu-item#category__brands--dermanat": {
+        "title": "",
+        "props": {
+            "id": "menu-item-dermanat",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "dermanat",
+              "text": "DERMANAT"
+            }
+        }
+    },
+    "menu-item#category__brands--dkny": {
+        "title": "",
+        "props": {
+            "id": "menu-item-dkny",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "dkny",
+              "text": "DKNY"
+            }
+        }
+    },
+    "menu-item#category__brands--dose": {
+        "title": "",
+        "props": {
+            "id": "menu-item-dose",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "dose",
+              "text": "DOSE COLORS"
+            }
+        }
+    },
+    "menu-item#category__brands--foreo": {
+        "title": "",
+        "props": {
+            "id": "menu-item-foreo",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "foreo",
+              "text": "FOREO"
+            }
+        }
+    },
+    "menu-item#category__brands--huda": {
+        "title": "",
+        "props": {
+            "id": "menu-item-huda",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "huda",
+              "text": "HUDA BEAUTY"
+            }
+        }
+    },
+    "menu-item#category__brands--pixi": {
+        "title": "",
+        "props": {
+            "id": "menu-item-pixi",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "pixi",
+              "text": "PIXI"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#menu__drawer--aboutus": {
+        "title": "Menu aboutus",
+        "children": [
+            "menu-item#department__aboutus"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__aboutus": {
+        "title": "Department aboutus",        
+        "props": {
+            "id": "menu-item-aboutus",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "aboutus",
+              "text": "CONOCE BLUSH-BAR"
+            }
+        },        
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__aboutus"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__aboutus": {
+        "title": "Submenu aboutus",
+        "children": [
+            "vtex.menu@2.x:menu#category__aboutus"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__aboutus": {
+        "title": "Categories aboutus",
+        "children": [
+            "menu-item#category__aboutus--what",
+            "menu-item#category__aboutus--original",
+            "menu-item#category__aboutus--stores",
+            "menu-item#category__aboutus--contact"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__aboutus--what": {
+        "title": "",
+        "props": {
+            "id": "menu-item-what",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "https://blushbardanitorres--itgloberspartnercl.myvtex.com/que-es-blush-bar",
+              "noFollow": false,
+              "tagTitle": "what",
+              "text": "Qué es Blush-Bar"
+            }
+        }
+    },
+    "menu-item#category__aboutus--original": {
+        "title": "",
+        "props": {
+            "id": "menu-item-original",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "original",
+              "text": "100% Auténtico"
+            }
+        }
+    },
+    "menu-item#category__aboutus--stores": {
+        "title": "",
+        "props": {
+            "id": "menu-item-stores",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "stores",
+              "text": "Nuestras Tiendas"
+            }
+        }
+    },
+    "menu-item#category__aboutus--contact": {
+        "title": "",
+        "props": {
+            "id": "menu-item-contact",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "contact",
+              "text": "Contáctanos"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#menu__drawer--servicesbb": {
+        "title": "Menu servicesbb",
+        "children": [
+            "menu-item#department__servicesbb"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__servicesbb": {
+        "title": "Department servicesbb",        
+        "props": {
+            "id": "menu-item-servicesbb",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "servicesbb",
+              "text": "SERVICIOS BB"
+            }
+        },        
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#department__servicesbb"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#department__servicesbb": {
+        "title": "Submenu servicesbb",
+        "children": [
+            "vtex.menu@2.x:menu#category__servicesbb"
+        ]
+    },
+    "vtex.menu@2.x:menu#category__servicesbb": {
+        "title": "Categories servicesbb",
+        "children": [
+            "menu-item#category__servicesbb--class",
+            "menu-item#category__servicesbb--bono",
+            "menu-item#category__servicesbb--virtual",
+            "menu-item#category__servicesbb--creators",
+            "menu-item#category__servicesbb--storeon",
+            "menu-item#category__servicesbb--express",
+            "menu-item#category__servicesbb--blog",
+            "menu-item#category__servicesbb--tutorials"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#category__servicesbb--class": {
+        "title": "",
+        "props": {
+            "id": "menu-item-class",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "class",
+              "text": "Agenda tu Clase"
+            }
+        }
+    },
+    "menu-item#category__servicesbb--bono": {
+        "title": "",
+        "props": {
+            "id": "menu-item-bono",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "bono",
+              "text": "Bono de Regalo"
+            }
+        }
+    },
+    "menu-item#category__servicesbb--virtual": {
+        "title": "",
+        "props": {
+            "id": "menu-item-virtual",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "virtual",
+              "text": "Clases Virtuales"
+            }
+        }
+    },
+    "menu-item#category__servicesbb--creators": {
+        "title": "",
+        "props": {
+            "id": "menu-item-creators",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "creators",
+              "text": "BB Creators"
+            }
+        }
+    },
+    "menu-item#category__servicesbb--storeon": {
+        "title": "",
+        "props": {
+            "id": "menu-item-storeon",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "storeon",
+              "text": "Recoger en Tienda"
+            }
+        }
+    },
+    "menu-item#category__servicesbb--express": {
+        "title": "",
+        "props": {
+            "id": "menu-item-express",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "express",
+              "text": "Envío Express"
+            }
+        }
+    },
+    "menu-item#category__servicesbb--blog": {
+        "title": "",
+        "props": {
+            "id": "menu-item-blog",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "blog",
+              "text": "Blog Blush-Bar"
+            }
+        }
+    },
+    "menu-item#category__servicesbb--tutorials": {
+        "title": "",
+        "props": {
+            "id": "menu-item-tutorials",
+            "type": "custom",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": false,
+              "tagTitle": "tutorials",
+              "text": "Tutoriales"
+            }
+        }
+    }
+}

@@ -1,0 +1,149 @@
+{
+    "header-row#header__down": {
+        "title": "Header Row Down",
+        "children": [
+            "link#header__down--new",
+            "header-spacer",
+            "rich-text#header__down--makeup",
+            "header-spacer",
+            "rich-text#header__down--skin",
+            "header-spacer",
+            "rich-text#header__down--perfum",
+            "header-spacer",
+            "rich-text#header__down--access",
+            "vtex.menu@2.x:menu#menu__desktop--brands",
+            "rich-text#header__down--sale",
+            "header-spacer",
+            "link#header__down--class",
+            "header-spacer",
+            "link#header__down--creators",
+            "image#img__link--creators",
+            "vtex.menu@2.x:menu#menu__desktop--servicesbb",
+            "link#header__down--gift",
+            "image#img__link--gift",
+            "header-spacer",
+            "link#header__down--points"
+        ],
+        "props": {
+            "blockClass": "header__down"
+        }
+    },
+    "header-row#header__downMobile": {
+        "title": "Header Row Down Mobile",
+        "children": [
+            "slider-layout#header__down--slider"
+        ],
+        "props": {
+            "blockClass": "header__down--mobile"
+        }
+    },
+    "slider-layout#header__down--slider": {
+        "props": {
+            "itemsPerPage": {
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "desktopOnly",
+            "blockClass": "header__down--slider",
+            "autoplay": {
+                "timeout": 5000,
+                "stopOnHover": true
+            }
+          },
+          "children": [
+            "link#item___new--1",
+            "link#item___makeup--2",
+            "link#item___skin--3",
+            "link#item___access--4",
+            "link#item___sales--5",
+            "link#item___class--6",
+            "link#item___points--7"
+          ]
+    },
+    "link#item___new--1": {
+        "title": "Item 1 New",
+        "props": {
+            "blockClass": "header__down--sliderLink",
+            "href": "https://blushbardanitorres--itgloberspartnercl.myvtex.com/construccion",
+            "label": "NUEVO",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___makeup--2": {
+        "title": "Item 2 Make Up",
+        "props": {
+            "blockClass": "header__down--sliderLink",
+            "href": "/",
+            "label": "MAQUILLAJE",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___skin--3": {
+        "title": "Item 3 Skin",
+        "props": {
+            "blockClass": "header__down--sliderLink",
+            "href": "/",
+            "label": "CUIDADO DE PIEL",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___access--4": {
+        "title": "Item 4 access",
+        "props": {
+            "blockClass": "header__down--sliderLink",
+            "href": "/",
+            "label": "ACCESSORIOS",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___sales--5": {
+        "title": "Item 5 sales",
+        "props": {
+            "blockClass": "header__down--sliderLink",
+            "href": "/",
+            "label": "DESCUENTOS",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___class--6": {
+        "title": "Item 6 class",
+        "props": {
+            "blockClass": "header__down--sliderLink",
+            "href": "/",
+            "label": "REGRESO A CLASES",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    },
+    "link#item___points--7": {
+        "title": "Item 7 Points",
+        "props": {
+            "blockClass": "header__down--sliderLink",
+            "href": "/",
+            "label": "PUNTOS GLOW",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "search-bar#header__middle--search":{
+    "title": "Searcher",
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+        "blocksClass": "header__middle--search",
+        "attemptPageTypeSearch": true,
+        "openAutocompleteOnFocus": true,
+        "maxWidth": 250,
+        "containerMode": "container"
+        }
+    }
+}
