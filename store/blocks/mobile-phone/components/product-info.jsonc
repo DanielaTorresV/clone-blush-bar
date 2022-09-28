@@ -1,0 +1,113 @@
+{
+    "responsive-layout.phone#product__info": {
+        "title": "Responsive Desktop Info",
+        "children": [
+          "flex-layout.row#productphone__info"
+        ]
+      },
+      "flex-layout.row#productphone__info": {
+        "title": "Row to general info Phone",
+        "children": [
+          "flex-layout.col#productphone__info"
+        ],
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 4
+        }
+    },
+    "flex-layout.col#productphone__info": {
+        "title": "Col to general info Phone",
+        "children": [
+            "flex-layout.row#productphone__info--image",
+            "flex-layout.row#productphone__info--section1",
+            "product-separator",
+            "flex-layout.row#productphone__info--section2",
+            "product-separator",
+            "flex-layout.row#productphone__infoDescription"
+        ],
+        "props": {
+            "paddingLeft": 2,
+            "paddingRight": 2
+        }
+    },
+    "flex-layout.row#productphone__info--image": {
+        "title": "Row to image phone",
+        "children": [
+            "product-images#product__info--image"
+        ]
+    },
+    "flex-layout.row#productphone__info--section1": {
+        "title": "Row to section 1 phone",
+        "children": [
+            "flex-layout.col#productphone__info--section1"
+        ]
+    },
+    "flex-layout.col#productphone__info--section1": {
+        "title": "Col to section 1 phone",
+        "children": [
+            "vtex.store-components:product-brand",
+            "vtex.store-components:product-name",
+            "product-identifier.product",
+            "flex-layout.row#product-selling-price"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#productphone__info--section2": {
+        "title": "Row to section 2 phone",
+        "children": [
+            "flex-layout.col#productphone__info--section2"
+        ]
+    },
+    "flex-layout.col#productphone__info--section2": {
+        "title": "Col to section 2 phone",
+        "children": [
+            "product-quantity",
+            "flex-layout.row#add-to-cart-button__productphone",
+            "product-rating-inline",
+            "rich-text#data__reviewsphone--text",
+            "add-to-list-btn",
+            "rich-text#data__wishlistphone--text",
+            "share"          
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#add-to-cart-button__productphone": {
+        "title": "Row to button",
+        "children": [
+            "flex-layout.col#add-to-cart-button__productphone"
+        ]
+    },
+    "flex-layout.col#add-to-cart-button__productphone": {
+        "title": "Col to button",
+        "children": [
+            "add-to-cart-button"
+        ],
+        "props": {
+            "width": "60%"
+        }
+    },
+    "rich-text#data__reviewsphone--text": {
+        "title": "Text Reviews",
+        "props": {
+            "text": "Ver Reseñas",
+            "font": "t-mini"
+      }
+    },
+    "rich-text#data__wishlistphone--text": {
+        "title": "Text Wishlist",
+      "props": {
+        "text": "Agregar a mi lista de deseos",
+        "font": "t-mini"
+      }
+    },
+    "flex-layout.row#productphone__infoDescription": {
+        "title": "Description in Phone",
+        "children": [
+            "product-description"
+        ]
+    }
+}

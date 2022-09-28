@@ -3,7 +3,9 @@
     "title": "Product Detail Page",
     "children": [
       "flex-layout.row#product__breadcrumb",
-      "flex-layout.row#product__info",
+      "responsive-layout.desktop#product__info",
+      "responsive-layout.tablet#product__info",
+      "responsive-layout.phone#product__info",
       "flex-layout.row#product__tabs"
     ]
   }  

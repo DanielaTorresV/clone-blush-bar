@@ -47,8 +47,7 @@
     "product-summary.shelf": {
         "title": "Product summary for department, category screen",
         "children": [
-            "add-to-list-btn",
-            "product-summary-image",
+            "flex-layout.row#search__summary--imgandwish",
             "product-summary-name",
             "product-rating-inline",
             "product-summary-space",
@@ -60,6 +59,40 @@
             "add-to-cart-button",
             "modal-trigger#global__quick-view"
           ]
+    },
+    "flex-layout.row#search__summary--imgandwish": {
+        "title": "Row to image and button wishlist",
+        "children": [
+            "flex-layout.col#search__summary--image",
+            "flex-layout.col#search__summary--wishlist"           
+        ]
+    },
+    "flex-layout.col#search__summary--image": {
+        "title": "Col to summary image",
+        "children": [
+            "product-summary-image#search"
+        ],
+        "props": {
+            "width": "97%",
+            "horizontalAlign": "left"
+        }
+    },
+    "product-summary-image#search": {
+        "props": {
+            "showBadge": true,
+            "height": 110
+          }
+    },
+    "flex-layout.col#search__summary--wishlist": {
+        "title": "Col to button add to wishlist",
+        "children": [
+            "add-to-list-btn"
+        ],
+        "props": {
+            "width": "3%",
+            "horizontalAlign": "right",
+            "verticalAlign": "bottom"
+        }
     },
     "product-summary-name": {
         "title": "Name Product",
@@ -97,8 +130,16 @@
     "modal-layout#global__quick-view--modal": {
         "title": "Modal",
         "children": [
+            "modal-header#global__quick-view",
             "flex-layout.row#quick-view__modal"
         ]
+    },
+    "modal-header#global__quick-view": {
+        "title": "Header modal quick view",
+        "props": {
+            "showCloseButton": true,
+            "iconCloseSize": 18
+        }
     },
     "flex-layout.row#quick-view__modal": {
         "title": "Row Modal",
@@ -110,27 +151,27 @@
     "flex-layout.col#quick-view__modal--image": {
         "title": "Col Modal Image",
         "children": [
-            "product-images"
+            "product-images#quick-view"
         ],
         "props": {
             "blockClass": "quick-view__modal--image"
         }
     },
-    "product-images": {
+    "product-images#quick-view": {
         "props": {
-            "maxHeight": 250
+            "maxHeight": 250,
+            "thumbnailVisibility": "hidden"
         }
     },
     "flex-layout.col#quick-view__modal--info": {
         "title": "Col Modal Info",
         "children": [
-            "add-to-list-btn",
-            "vtex.store-components:product-name",
             "vtex.store-components:product-brand",
+            "vtex.store-components:product-name",
             "product-list-price",
             "product-selling-price",
-            "product-description",
-            "share",
+            "product-rating-inline",
+            "product-summary-space",
             "product-quantity",
             "add-to-cart-button"
         ],

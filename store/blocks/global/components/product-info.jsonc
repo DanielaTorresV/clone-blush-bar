@@ -1,5 +1,11 @@
 {
-    "flex-layout.row#product__info": {
+      "responsive-layout.desktop#product__info": {
+        "title": "Responsive Desktop Info",
+        "children": [
+          "flex-layout.row#product__info"
+        ]
+      },
+      "flex-layout.row#product__info": {
         "title": "Row to general info",
         "children": [
           "flex-layout.col#product__info--image",
@@ -24,7 +30,8 @@
     "product-images#product__info--image": {
       "title": "Images to pdp",
       "props": {
-        "zoomMode": "in-place-hover"
+        "zoomMode": "in-place-hover",
+        "thumbnailVisibility": "hidden"
       }
     },
       "flex-layout.col#product__info--data": {
@@ -42,8 +49,7 @@
     },
     "flex-layout.row#section1__info--data": {
       "title": "Row to section 1 data",
-      "children": [
-        "flex-layout.col#section1__info--data"
+      "children": [ "flex-layout.col#section1__info--data"
       ],
       "props": {
         "blockClass": "section1__info--data"
@@ -77,7 +83,7 @@
     "flex-layout.row#section2__info--data": {
       "title": "Row to section 2 data",
       "children": [
-        "flex-layout.col#section2__info--data"
+        "flex-layout.col#section2__info--data"      
       ],
       "props": {
         "blockClass": "section2__info--data"
@@ -91,6 +97,12 @@
           "flex-layout.row#info__data--others",
           "product-separator"
       ]
+    },
+    "product-quantity": {
+      "title": "Product Quantity",
+      "props": {
+        "blockClass": "product__quantity"
+      }
     },
     "flex-layout.row#add-to-cart-button__product": {
       "title": "Row to button",

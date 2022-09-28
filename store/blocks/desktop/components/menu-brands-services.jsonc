@@ -1,0 +1,154 @@
+{
+    "vtex.menu@2.x:menu#menu__desktop--brands": {
+        "title": "Menu brands",
+        "children": [
+            "menu-item#department__desktop--brands"
+        ],
+        "props": {
+            "blockClass": "menu__desktop--brands"
+        }
+    },
+    "menu-item#department__desktop--brands": {
+        "title": "Department brands",        
+        "props": {
+            "blockClass": "department__desktop--brands",
+            "id": "menu-item-desktopbrands",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "brands",
+              "text": "MARCAS"
+            }
+        },        
+        "blocks": [
+            "vtex.menu@2.x:submenu#department__desktop--brands"
+        ]
+    },
+    "vtex.menu@2.x:submenu#department__desktop--brands": {
+        "title": "Submenu brands",
+        "children": [
+            "vtex.menu@2.x:menu#category__desktop--brands"
+        ],
+        "props": {
+            "blockClass": "submenudepartment__desktop--brands"
+        }
+    },
+    "vtex.menu@2.x:menu#category__desktop--brands": {
+        "title": "Categories brands",
+        "children": [
+            "flex-layout.row#category__desktop--brands"
+        ],
+        "props": {
+            "blockClass": "category__desktop--brands",
+            "orientation": "vertical"
+        }
+    },
+    "flex-layout.row#category__desktop--brands": {
+        "title": "Row to brands",
+        "children": [
+            "flex-layout.col#categoryCol1__desktop--brands",
+            "flex-layout.col#categoryCol2__desktop--brands",
+            "flex-layout.col#categoryCol3__desktop--brandsImage"
+        ]
+    },
+    "flex-layout.col#categoryCol1__desktop--brands": {
+        "title": "Column to Brands1",
+        "children": [
+            "menu-item#category__brands--avene",
+            "menu-item#category__brands--anastasia",
+            "menu-item#category__brands--blush",
+            "menu-item#category__brands--bond",
+            "menu-item#category__brands--carolina",
+            "menu-item#category__brands--clinique"
+        ]
+    },
+    "flex-layout.col#categoryCol2__desktop--brands": {
+        "title": "Column to Brands2",
+        "children": [
+            "menu-item#category__brands--dermanat",
+            "menu-item#category__brands--dkny",
+            "menu-item#category__brands--dose",
+            "menu-item#category__brands--foreo",
+            "menu-item#category__brands--huda",
+            "menu-item#category__brands--pixi"
+        ]
+    },
+    "flex-layout.col#categoryCol3__desktop--brandsImage": {
+        "title": "Column to Brands Image",
+        "children": [
+            "rich-text#desktop__brandsImage--text",
+            "image#desktop__brandsImage--image"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "rich-text#desktop__brandsImage--text": {
+        "title": "Text Column 3 Brands",
+        "props": {
+            "text": "CONOCE MÁS",
+            "font": "t-mini",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "image#desktop__brandsImage--image": {
+        "title": "Image Column 3 Brands",
+        "props": {
+            "alt": "Image brands",
+            "link": "/",
+            "src": "assets/img/img-menu-brands.png",
+            "height": 100
+        }
+    },
+    "vtex.menu@2.x:menu#menu__desktop--servicesbb": {
+        "title": "Menu servicesbb",
+        "children": [
+            "menu-item#department__desktop--servicesbb"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#department__desktop--servicesbb": {
+        "title": "Department servicesbb",        
+        "props": {
+            "id": "menu-item-servicesbb",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "servicesbb",
+              "text": "SERVICIOS BB"
+            }
+        },        
+        "blocks": [
+            "vtex.menu@2.x:submenu#department__desktop--servicesbb"
+        ]
+    },
+    "vtex.menu@2.x:submenu#department__desktop--servicesbb": {
+        "title": "Submenu servicesbb",
+        "children": [
+            "vtex.menu@2.x:menu#category__desktop--servicesbb"
+        ],
+        "props": {
+            "blockClass": "submenudepartment__desktop--servicesbb"
+        }
+    },
+    "vtex.menu@2.x:menu#category__desktop--servicesbb": {
+        "title": "Categories servicesbb",
+        "children": [
+            "menu-item#category__servicesbb--class",
+            "menu-item#category__servicesbb--bono",
+            "menu-item#category__servicesbb--virtual",
+            "menu-item#category__servicesbb--creators",
+            "menu-item#category__servicesbb--storeon",
+            "menu-item#category__servicesbb--express",
+            "menu-item#category__servicesbb--blog",
+            "menu-item#category__servicesbb--tutorials"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

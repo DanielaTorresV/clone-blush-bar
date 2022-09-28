@@ -21,6 +21,7 @@
         "title": "Product summary for sliders home",
         "children": [
             "flex-layout.row#sliders__summary--imgandwish",
+            "modal-trigger#global__quick-view",
             "product-summary-brand",            
             "product-summary-name",
             "product-selling-price",
@@ -43,8 +44,8 @@
             "product-summary-image"
         ],
         "props": {
-            "width": "80%",
-            "horizontalAlign": "center"
+            "width": "97%",
+            "horizontalAlign": "left"
         }
     },
     "flex-layout.col#sliders__summary--wishlist": {
@@ -53,8 +54,8 @@
             "add-to-list-btn"
         ],
         "props": {
-            "width": "20%",
-            "horizontalAlign": "center",
+            "width": "3%",
+            "horizontalAlign": "right",
             "verticalAlign": "bottom"
         }
     },
