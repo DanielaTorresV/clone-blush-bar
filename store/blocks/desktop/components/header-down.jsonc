@@ -65,6 +65,7 @@
     "link#item___new--1": {
         "title": "Item 1 New",
         "props": {
+            "blockClass": "header__down--sliderLink",
             "href": "https://blushbardanitorres--itgloberspartnercl.myvtex.com/construccion",
             "label": "NUEVO",
             "displayMode": "button",
@@ -76,6 +77,7 @@
     "link#item___makeup--2": {
         "title": "Item 2 Make Up",
         "props": {
+            "blockClass": "header__down--sliderLink",
             "href": "/",
             "label": "MAQUILLAJE",
             "displayMode": "button",
@@ -87,6 +89,7 @@
     "link#item___skin--3": {
         "title": "Item 3 Skin",
         "props": {
+            "blockClass": "header__down--sliderLink",
             "href": "/",
             "label": "CUIDADO DE PIEL",
             "displayMode": "button",
@@ -98,6 +101,7 @@
     "link#item___access--4": {
         "title": "Item 4 access",
         "props": {
+            "blockClass": "header__down--sliderLink",
             "href": "/",
             "label": "ACCESSORIOS",
             "displayMode": "button",
@@ -109,6 +113,7 @@
     "link#item___sales--5": {
         "title": "Item 5 sales",
         "props": {
+            "blockClass": "header__down--sliderLink",
             "href": "/",
             "label": "DESCUENTOS",
             "displayMode": "button",
@@ -120,6 +125,7 @@
     "link#item___class--6": {
         "title": "Item 6 class",
         "props": {
+            "blockClass": "header__down--sliderLink",
             "href": "/",
             "label": "REGRESO A CLASES",
             "displayMode": "button",
@@ -131,6 +137,7 @@
     "link#item___points--7": {
         "title": "Item 7 Points",
         "props": {
+            "blockClass": "header__down--sliderLink",
             "href": "/",
             "label": "PUNTOS GLOW",
             "displayMode": "button",

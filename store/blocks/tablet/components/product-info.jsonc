@@ -24,7 +24,7 @@
         ],
         "props": {
           "paddingLeft": 4,
-          "width": "40%"
+          "width": "50%"
         }
     },
     "flex-layout.col#producttablet__info--data": {
@@ -34,7 +34,7 @@
             "flex-layout.row#section2tablet__info--data"                   
         ],
         "props": {
-          "width": "60%",
+          "width": "50%",
           "paddingLeft": 5,
           "paddingRight": 3
         }

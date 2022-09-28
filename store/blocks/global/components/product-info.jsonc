@@ -30,7 +30,8 @@
     "product-images#product__info--image": {
       "title": "Images to pdp",
       "props": {
-        "zoomMode": "in-place-hover"
+        "zoomMode": "in-place-hover",
+        "thumbnailVisibility": "hidden"
       }
     },
       "flex-layout.col#product__info--data": {

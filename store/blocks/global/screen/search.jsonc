@@ -130,8 +130,16 @@
     "modal-layout#global__quick-view--modal": {
         "title": "Modal",
         "children": [
+            "modal-header#global__quick-view",
             "flex-layout.row#quick-view__modal"
         ]
+    },
+    "modal-header#global__quick-view": {
+        "title": "Header modal quick view",
+        "props": {
+            "showCloseButton": true,
+            "iconCloseSize": 18
+        }
     },
     "flex-layout.row#quick-view__modal": {
         "title": "Row Modal",
@@ -143,27 +151,27 @@
     "flex-layout.col#quick-view__modal--image": {
         "title": "Col Modal Image",
         "children": [
-            "product-images"
+            "product-images#quick-view"
         ],
         "props": {
             "blockClass": "quick-view__modal--image"
         }
     },
-    "product-images": {
+    "product-images#quick-view": {
         "props": {
-            "maxHeight": 250
+            "maxHeight": 250,
+            "thumbnailVisibility": "hidden"
         }
     },
     "flex-layout.col#quick-view__modal--info": {
         "title": "Col Modal Info",
         "children": [
-            "add-to-list-btn",
-            "vtex.store-components:product-name",
             "vtex.store-components:product-brand",
+            "vtex.store-components:product-name",
             "product-list-price",
             "product-selling-price",
-            "product-description",
-            "share",
+            "product-rating-inline",
+            "product-summary-space",
             "product-quantity",
             "add-to-cart-button"
         ],
