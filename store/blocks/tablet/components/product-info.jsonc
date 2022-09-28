@@ -1,9 +1,43 @@
 {
-    "responsive-layout.tablet#section2__info--data": {
-        "title": "Tablet section 2 info data",
+    "responsive-layout.tablet#product__info": {
+        "title": "Responsive Tablet Info",
         "children": [
-            "flex-layout.row#section2tablet__info--data"
+            "flex-layout.row#producttablet__info",
+            "flex-layout.row#producttablet__infoDescription"
         ]
+    },
+    "flex-layout.row#producttablet__info": {
+        "title": "Row to general info",
+        "children": [
+          "flex-layout.col#producttablet__info--image",
+          "flex-layout.col#producttablet__info--data"
+        ],
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 4
+        }
+    },
+    "flex-layout.col#producttablet__info--image": {
+        "title": "Col to info image pdp tablet",
+        "children": [
+            "product-images#product__info--image"
+        ],
+        "props": {
+          "paddingLeft": 4,
+          "width": "40%"
+        }
+    },
+    "flex-layout.col#producttablet__info--data": {
+        "title": "Col to info data pdp",
+        "children": [
+            "flex-layout.row#section1__info--data",
+            "flex-layout.row#section2tablet__info--data"                   
+        ],
+        "props": {
+          "width": "60%",
+          "paddingLeft": 5,
+          "paddingRight": 3
+        }
     },
     "flex-layout.row#section2tablet__info--data": {
         "title": "Row to section 2 data tablet",
@@ -66,5 +100,11 @@
         "text": "Agregar a mi lista de deseos",
         "font": "t-mini"
       }
+    },
+    "flex-layout.row#producttablet__infoDescription": {
+        "title": "Description in Tablet",
+        "children": [
+            "product-description"
+        ]
     }
 }

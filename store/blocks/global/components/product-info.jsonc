@@ -1,5 +1,11 @@
 {
-    "flex-layout.row#product__info": {
+      "responsive-layout.desktop#product__info": {
+        "title": "Responsive Desktop Info",
+        "children": [
+          "flex-layout.row#product__info"
+        ]
+      },
+      "flex-layout.row#product__info": {
         "title": "Row to general info",
         "children": [
           "flex-layout.col#product__info--image",
@@ -31,8 +37,7 @@
         "title": "Col to info data pdp",
         "children": [
             "flex-layout.row#section1__info--data",
-            "responsive-layout.desktop#section2__info--data",
-            "responsive-layout.tablet#section2__info--data",
+            "flex-layout.row#section2__info--data",
             "flex-layout.row#section3__info--data"                    
         ],
         "props": {
@@ -73,11 +78,6 @@
       "props": {
         "blockClass": "info__data--price"
       }
-    },
-    "responsive-layout.desktop#section2__info--data": {
-      "children": [
-        "flex-layout.row#section2__info--data"
-      ]
     },
     "flex-layout.row#section2__info--data": {
       "title": "Row to section 2 data",
