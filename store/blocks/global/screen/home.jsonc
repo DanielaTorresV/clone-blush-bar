@@ -11,6 +11,13 @@
       /*"search-result-layout.customQuery#home__result" *///Para mostrar productos
     ]
   },
+  "whatsapp-button": {
+    "props": {
+      "logo": "logo-de-la-clase.png",
+      "phone": "777777777777",
+      "message": "Hola desde VTEX"
+    }
+  },
   "flex-layout.row#home__section1": { 
     "title": "Section1 Row",
     "children": [
