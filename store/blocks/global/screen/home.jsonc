@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+      "whatsapp-button",
       "flex-layout.row#home__section1",
       "flex-layout.row#home__section2",
       "flex-layout.row#home__section3",
