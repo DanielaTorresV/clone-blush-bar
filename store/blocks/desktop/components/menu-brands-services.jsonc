@@ -1,4 +1,96 @@
 {
+    "vtex.menu@2.x:menu#menu__desktop--makeup": {
+        "title": "Menu makeup",
+        "children": [
+            "menu-item#department__desktop--makeup"
+        ],
+        "props": {
+            "blockClass": "menu__desktop--makeup"
+        }
+    },
+    "menu-item#department__desktop--makeup": {
+        "title": "Department makeup",        
+        "props": {
+            "blockClass": "department__desktop--makeup",
+            "id": "menu-item-desktopmakeup",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "makeup",
+              "text": "MAQUILLAJE",
+              "href": "/construccion"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#menu__desktop--skin": {
+        "title": "Menu skin",
+        "children": [
+            "menu-item#department__desktop--skin"
+        ],
+        "props": {
+            "blockClass": "menu__desktop--skin"
+        }
+    },
+    "menu-item#department__desktop--skin": {
+        "title": "Department skin",        
+        "props": {
+            "blockClass": "department__desktop--skin",
+            "id": "menu-item-desktopskin",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "skin",
+              "text": "CUIDADO PIEL",
+              "href": "/construccion"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#menu__desktop--perfum": {
+        "title": "Menu perfum",
+        "children": [
+            "menu-item#department__desktop--perfum"
+        ],
+        "props": {
+            "blockClass": "menu__desktop--perfum"
+        }
+    },
+    "menu-item#department__desktop--perfum": {
+        "title": "Department perfum",        
+        "props": {
+            "blockClass": "department__desktop--perfum",
+            "id": "menu-item-desktopperfum",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "perfum",
+              "text": "PERFUMES",
+              "href": "/construccion"
+            }
+        }
+    },
+    "vtex.menu@2.x:menu#menu__desktop--extras": {
+        "title": "Menu extras",
+        "children": [
+            "menu-item#department__desktop--extras"
+        ],
+        "props": {
+            "blockClass": "menu__desktop--extras"
+        }
+    },
+    "menu-item#department__desktop--extras": {
+        "title": "Department extras",        
+        "props": {
+            "blockClass": "department__desktop--extras",
+            "id": "menu-item-desktopextras",
+            "type": "custom",
+            "itemProps": {                
+              "type": "internal",
+              "tagTitle": "extras",
+              "text": "ACCESORIOS",
+              "href": "/madera"
+            }
+        }
+    },
     "vtex.menu@2.x:menu#menu__desktop--brands": {
         "title": "Menu brands",
         "children": [

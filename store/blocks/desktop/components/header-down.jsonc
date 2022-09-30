@@ -3,26 +3,17 @@
         "title": "Header Row Down",
         "children": [
             "link#header__down--new",
-            "header-spacer",
-            "rich-text#header__down--makeup",
-            "header-spacer",
-            "rich-text#header__down--skin",
-            "header-spacer",
-            "rich-text#header__down--perfum",
-            "header-spacer",
-            "rich-text#header__down--access",
-            "vtex.menu@2.x:menu#menu__desktop--brands",
-            "rich-text#header__down--sale",
-            "header-spacer",
+            "vtex.menu@2.x:menu#menu__desktop--makeup",
+            "vtex.menu@2.x:menu#menu__desktop--skin",
+            "vtex.menu@2.x:menu#menu__desktop--perfum",
+            "vtex.menu@2.x:menu#menu__desktop--extras",
             "link#header__down--class",
-            "header-spacer",
+            "vtex.menu@2.x:menu#menu__desktop--brands",
             "link#header__down--creators",
             "image#img__link--creators",
             "vtex.menu@2.x:menu#menu__desktop--servicesbb",
             "link#header__down--gift",
-            "image#img__link--gift",
-            "header-spacer",
-            "link#header__down--points"
+            "image#img__link--gift"
         ],
         "props": {
             "blockClass": "header__down"
