@@ -57,7 +57,7 @@
           "rich-text#container__stores--text"
         ],
         "props": {
-          "href": "/"
+          "href": "/que-es-blush-bar"
         }
       },
       "rich-text#container__stores--text": {
@@ -84,7 +84,7 @@
           "rich-text#container__blog--text"
         ],
         "props": {
-          "href": "/"
+          "href": "/que-es-blush-bar"
         }
       },
       "rich-text#container__blog--text": {
@@ -111,7 +111,7 @@
           "rich-text#container__about--text"
         ],
         "props": {
-          "href": "https://blushbardanitorres--itgloberspartnercl.myvtex.com/que-es-blush-bar"
+          "href": "/que-es-blush-bar"
         }
       },
       "rich-text#container__about--text": {
@@ -138,7 +138,7 @@
           "rich-text#container__original--text"
         ],
         "props": {
-          "href": "/"
+          "href": "/que-es-blush-bar"
         }
       },      
       "rich-text#container__original--text": {

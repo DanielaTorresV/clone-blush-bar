@@ -5,7 +5,7 @@
             "rich-text#text__new"
         ],
         "props": {
-            "href": "https://blushbardanitorres--itgloberspartnercl.myvtex.com/construccion"
+            "href": "/que-es-blush-bar"
         }
     },
     "rich-text#text__new": {
@@ -24,17 +24,17 @@
             "rich-text#text__class"
         ],
         "props": {
-            "href": "/"
+            "href": "/que-es-blush-bar"
         }
     },
     "rich-text#text__class": {
         "title": "Text Class",
         "props": {
-          "text": "REGRESO A CLASES",
+          "text": "AMOR Y AMISTAD",
           "font": "t-small",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "textColor": "c-on-action-secondary"
+          "textColor": "c-emphasis"
         }
     },
     "link#header__down--creators": { 
@@ -43,7 +43,7 @@
             "rich-text#text__creators"            
         ],
         "props": {
-            "href": "/",
+            "href": "/que-es-blush-bar",
             "orientation": "horizontal"
         }
     },
@@ -71,7 +71,7 @@
             "rich-text#text__gift"            
         ],
         "props": {
-            "href": "/"
+            "href": "/que-es-blush-bar"
         }
     },
     "rich-text#text__gift": {
@@ -98,7 +98,7 @@
             "rich-text#text__points"
         ],
         "props": {
-            "href": "/"
+            "href": "/que-es-blush-bar"
         }
     },
     "rich-text#text__points": {
