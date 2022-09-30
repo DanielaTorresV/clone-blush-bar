@@ -1,6 +1,7 @@
 {
   "store.home": { 
     "blocks": [
+      "whatsapp-button",
       "flex-layout.row#home__section1",
       "flex-layout.row#home__section2",
       "flex-layout.row#home__section3",
@@ -9,6 +10,13 @@
       "flex-layout.row#home__section6"
       /*"search-result-layout.customQuery#home__result" *///Para mostrar productos
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/wp-logo.png",
+      "phone": "3004507575",
+      "message": "Estás comunicándote con Blush-Bar, por favor ingresa tu duda."
+    }
   },
   "flex-layout.row#home__section1": { 
     "title": "Section1 Row",
