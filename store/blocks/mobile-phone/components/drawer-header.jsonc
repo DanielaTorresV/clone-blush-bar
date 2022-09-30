@@ -50,7 +50,6 @@
     "vtex.menu@2.x:menu#category__categories": {
         "title": "Categories categories",
         "children": [
-            "menu-item#category__categories--new",
             "menu-item#category__categories--makeup",
             "menu-item#category__categories--skincare",
             "menu-item#category__categories--perfums",
@@ -64,20 +63,6 @@
             "orientation": "vertical"
         }
     },
-    "menu-item#category__categories--new": {
-        "title": "",
-        "props": {
-            "id": "menu-item-new",
-            "type": "custom",
-            "itemProps": {
-              "type": "internal",
-              "href": "#",
-              "noFollow": false,
-              "tagTitle": "new",
-              "text": "Nuevo"
-            }
-        }
-    },
     "menu-item#category__categories--makeup": {
         "title": "",
         "props": {
@@ -85,7 +70,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion",
               "noFollow": false,
               "tagTitle": "makeup",
               "text": "Maquillaje"
@@ -99,7 +84,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion",
               "noFollow": false,
               "tagTitle": "skincare",
               "text": "Cuidado Piel"
@@ -113,7 +98,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion",
               "noFollow": false,
               "tagTitle": "perfums",
               "text": "Perfumes"
@@ -127,7 +112,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/madera",
               "noFollow": false,
               "tagTitle": "access",
               "text": "Accesorios"
@@ -141,7 +126,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion",
               "noFollow": false,
               "tagTitle": "sales",
               "text": "Descuentos"
@@ -155,7 +140,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion",
               "noFollow": false,
               "tagTitle": "gifts",
               "text": "Regalos con Compras"
@@ -169,7 +154,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion",
               "noFollow": false,
               "tagTitle": "skinkits",
               "text": "Kits de Piel"
@@ -183,7 +168,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion",
               "noFollow": false,
               "tagTitle": "makeupkits",
               "text": "Kits de Maquillaje"
@@ -247,7 +232,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/cemento",
               "noFollow": false,
               "tagTitle": "avene",
               "text": "AVÉNE"
@@ -261,7 +246,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/cemento",
               "noFollow": false,
               "tagTitle": "anastasia",
               "text": "ANASTASIA"
@@ -275,7 +260,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/cemento",
               "noFollow": false,
               "tagTitle": "blush",
               "text": "BLUSH-BAR"
@@ -289,7 +274,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/varillas",
               "noFollow": false,
               "tagTitle": "bond",
               "text": "BOND No. 9"
@@ -303,7 +288,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/varillas",
               "noFollow": false,
               "tagTitle": "carolina",
               "text": "CAROLINA H"
@@ -317,7 +302,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/varillas",
               "noFollow": false,
               "tagTitle": "clinique",
               "text": "CLINIQUE"
@@ -331,7 +316,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/varillas",
               "noFollow": false,
               "tagTitle": "dermanat",
               "text": "DERMANAT"
@@ -345,7 +330,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/varillas",
               "noFollow": false,
               "tagTitle": "dkny",
               "text": "DKNY"
@@ -359,7 +344,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/varillas",
               "noFollow": false,
               "tagTitle": "dose",
               "text": "DOSE COLORS"
@@ -373,7 +358,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/varillas",
               "noFollow": false,
               "tagTitle": "foreo",
               "text": "FOREO"
@@ -387,7 +372,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/varillas",
               "noFollow": false,
               "tagTitle": "huda",
               "text": "HUDA BEAUTY"
@@ -401,7 +386,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/varillas",
               "noFollow": false,
               "tagTitle": "pixi",
               "text": "PIXI"
@@ -457,7 +442,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "https://blushbardanitorres--itgloberspartnercl.myvtex.com/que-es-blush-bar",
+              "href": "/que-es-blush-bar",
               "noFollow": false,
               "tagTitle": "what",
               "text": "Qué es Blush-Bar"
@@ -471,7 +456,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/que-es-blush-bar",
               "noFollow": false,
               "tagTitle": "original",
               "text": "100% Auténtico"
@@ -485,7 +470,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/que-es-blush-bar",
               "noFollow": false,
               "tagTitle": "stores",
               "text": "Nuestras Tiendas"
@@ -499,7 +484,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/que-es-blush-bar",
               "noFollow": false,
               "tagTitle": "contact",
               "text": "Contáctanos"
@@ -559,7 +544,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/ladrillos",
               "noFollow": false,
               "tagTitle": "class",
               "text": "Agenda tu Clase"
@@ -573,7 +558,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/ladrillos",
               "noFollow": false,
               "tagTitle": "bono",
               "text": "Bono de Regalo"
@@ -587,7 +572,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/ladrillos",
               "noFollow": false,
               "tagTitle": "virtual",
               "text": "Clases Virtuales"
@@ -601,7 +586,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/ladrillos",
               "noFollow": false,
               "tagTitle": "creators",
               "text": "BB Creators"
@@ -615,7 +600,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/hierro",
               "noFollow": false,
               "tagTitle": "storeon",
               "text": "Recoger en Tienda"
@@ -629,7 +614,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/hierro",
               "noFollow": false,
               "tagTitle": "express",
               "text": "Envío Express"
@@ -643,7 +628,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/hierro",
               "noFollow": false,
               "tagTitle": "blog",
               "text": "Blog Blush-Bar"
@@ -657,7 +642,7 @@
             "type": "custom",
             "itemProps": {
               "type": "internal",
-              "href": "#",
+              "href": "/construccion/hierro",
               "noFollow": false,
               "tagTitle": "tutorials",
               "text": "Tutoriales"

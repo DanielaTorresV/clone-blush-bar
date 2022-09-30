@@ -19,3 +19,11 @@
 .sliderLayoutContainer--home__section5--slider{
     padding: 10px;
 }
+
+.sliderTrackContainer--shelf__wishlist--slider{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.slideChildrenContainer--shelf__wishlist--slider{
+    padding: 15px;
+}

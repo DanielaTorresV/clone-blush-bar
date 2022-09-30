@@ -15,7 +15,9 @@
     "props": {
       "logo": "assets/img/wp-logo.png",
       "phone": "3004507575",
-      "message": "Estás comunicándote con Blush-Bar, por favor ingresa tu duda."
+      "message": "Estás comunicándote con Blush-Bar, por favor ingresa tu duda.",
+      "width": 40,
+      "height": 40
     }
   },
   "flex-layout.row#home__section1": { 
