@@ -13,9 +13,9 @@
   },
   "whatsapp-button": {
     "props": {
-      "logo": "logo-de-la-clase.png",
-      "phone": "777777777777",
-      "message": "Hola desde VTEX"
+      "logo": "assets/img/wp-logo.png",
+      "phone": "3004507575",
+      "message": "Estás comunicándote con Blush-Bar, por favor ingresa tu duda."
     }
   },
   "flex-layout.row#home__section1": { 
