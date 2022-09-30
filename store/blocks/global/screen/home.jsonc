@@ -3,7 +3,7 @@
     "blocks": [
       "whatsapp-button",
       "flex-layout.row#home__section1",
-      "bullets-diagramation",
+      "list-context.bullet-group",
       "flex-layout.row#home__section2",
       "flex-layout.row#home__section3",
       "flex-layout.row#home__section4",
@@ -19,6 +19,17 @@
       "message": "Estás comunicándote con Blush-Bar, por favor ingresa tu duda.",
       "width": 40,
       "height": 40
+    }
+  },
+  "list-context.bullet-group": {
+    "props": {
+      "bullets": {
+        "image": "MiImagen.png",
+        "titleBullet": "Computadores",
+        "link": {
+          "url": "/"
+        }
+      }
     }
   },
   "flex-layout.row#home__section1": {
