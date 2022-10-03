@@ -3,11 +3,11 @@
     "blocks": [
       "whatsapp-button",
       "flex-layout.row#home__section1",
-      "flex-layout.row#home__bullet-group",
       "flex-layout.row#home__section2",
       "flex-layout.row#home__section3",
       "flex-layout.row#home__section4",
       "flex-layout.row#home__section5",
+      "flex-layout.row#home__bullet-group",
       "flex-layout.row#home__section6"
       /*"search-result-layout.customQuery#home__result" */ //Para mostrar productos
     ]
@@ -26,39 +26,6 @@
     "children": ["slider-layout#home__section1--slider"],
     "props": {
       "blockClass": "home__section1"
-    }
-  },
-  "flex-layout.row#home__bullet-group": {
-    "title": "Row to Bullet Group Custom Component",
-    "children": ["flex-layout.col#home__bullet-group"]
-  },
-  "flex-layout.col#home__bullet-group": {
-    "title": "Col to Bullet Group Custom component",
-    "children": ["list-context.bullet-group"],
-    "props": {
-      "paddingLeft": 3,
-      "paddingRight": 3
-    }
-  },
-  "list-context.bullet-group": {
-    "title": "My List Context Custom",
-    "props": {
-      "bullets": [
-        {
-          "image": "assets/img/bullet-group/palette.jpg",
-          "titleBullet": "Paletas de Sombras",
-          "link": {
-            "url": "/construccion"
-          }
-        },
-        {
-          "image": "assets/img/bullet-group/lipstick.jpg",
-          "titleBullet": "Labiales",
-          "link": {
-            "url": "/madera"
-          }
-        }
-      ]
     }
   },
   "flex-layout.row#home__section2": {
@@ -98,6 +65,10 @@
       "blockClass": "home__section5",
       "preserveLayoutOnMobile": true
     }
+  },
+  "flex-layout.row#home__bullet-group": {
+    "title": "Row to Bullet Group Custom Component",
+    "children": ["list-context.bullet-group"]
   },
   "flex-layout.row#home__section6": {
     "title": "Section6 Row",
