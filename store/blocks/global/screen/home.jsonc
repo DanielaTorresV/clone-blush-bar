@@ -22,14 +22,24 @@
     }
   },
   "list-context.bullet-group": {
+    "title": "My List Context Custom",
     "props": {
-      "bullets": {
-        "image": "MiImagen.png",
-        "titleBullet": "Computadores",
-        "link": {
-          "url": "/"
+      "bullets": [
+        {
+          "image": "MiImagen.png",
+          "titleBullet": "Computadores",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "MiImagen.png",
+          "titleBullet": "Ropa",
+          "link": {
+            "url": "/"
+          }
         }
-      }
+      ]
     }
   },
   "flex-layout.row#home__section1": {
