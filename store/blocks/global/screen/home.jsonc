@@ -68,7 +68,7 @@
   },
   "flex-layout.row#home__bullet-group": {
     "title": "Row to Bullet Group Custom Component",
-    "children": ["list-context.bullet-group"]
+    "children": ["flex-layout.col#home__bullet-group"]
   },
   "flex-layout.row#home__section6": {
     "title": "Section6 Row",

@@ -1,4 +1,8 @@
 {
+  "flex-layout.col#home__bullet-group": {
+    "title": "Col to Bullet Group Custom Component",
+    "children": ["list-context.bullet-group"]
+  },
   "list-context.bullet-group": {
     "title": "My List Context Custom",
     "children": ["slider-layout#home__bullet-group"],
@@ -42,6 +46,20 @@
         {
           "image": "assets/img/bullet-group/tonic.jpg",
           "titleBullet": "Cuidado Piel",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/accesories.jpg",
+          "titleBullet": "Accesorios",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/new.jpg",
+          "titleBullet": "Nuevo",
           "link": {
             "url": "/madera"
           }
