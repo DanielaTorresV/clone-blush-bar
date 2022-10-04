@@ -27,3 +27,18 @@
 .slideChildrenContainer--shelf__wishlist--slider{
     padding: 15px;
 }
+
+.bullet__item--link {
+    text-decoration: none;
+}
+
+.bullet__item--title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #DF576F;
+    text-align: center;
+}
+
+.bullet__item--image {
+    width: 150px;
+}

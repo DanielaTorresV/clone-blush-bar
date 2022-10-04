@@ -3,11 +3,11 @@
     "blocks": [
       "whatsapp-button",
       "flex-layout.row#home__section1",
-      "list-context.bullet-group",
       "flex-layout.row#home__section2",
       "flex-layout.row#home__section3",
       "flex-layout.row#home__section4",
       "flex-layout.row#home__section5",
+      "flex-layout.row#home__bullet-group",
       "flex-layout.row#home__section6"
       /*"search-result-layout.customQuery#home__result" */ //Para mostrar productos
     ]
@@ -19,17 +19,6 @@
       "message": "Estás comunicándote con Blush-Bar, por favor ingresa tu duda.",
       "width": 40,
       "height": 40
-    }
-  },
-  "list-context.bullet-group": {
-    "props": {
-      "bullets": {
-        "image": "MiImagen.png",
-        "titleBullet": "Computadores",
-        "link": {
-          "url": "/"
-        }
-      }
     }
   },
   "flex-layout.row#home__section1": {
@@ -76,6 +65,10 @@
       "blockClass": "home__section5",
       "preserveLayoutOnMobile": true
     }
+  },
+  "flex-layout.row#home__bullet-group": {
+    "title": "Row to Bullet Group Custom Component",
+    "children": ["flex-layout.col#home__bullet-group"]
   },
   "flex-layout.row#home__section6": {
     "title": "Section6 Row",

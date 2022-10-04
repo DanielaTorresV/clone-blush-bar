@@ -1,0 +1,81 @@
+{
+  "flex-layout.col#home__bullet-group": {
+    "title": "Col to Bullet Group Custom Component",
+    "children": ["list-context.bullet-group"]
+  },
+  "list-context.bullet-group": {
+    "title": "My List Context Custom",
+    "children": ["slider-layout#home__bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/bullet-group/palette.jpg",
+          "titleBullet": "Paletas de Sombras",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/lipstick.jpg",
+          "titleBullet": "Labiales",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/base.jpg",
+          "titleBullet": "Bases",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/eyeliner.jpg",
+          "titleBullet": "Delineadores",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/perfum.jpg",
+          "titleBullet": "Perfumes",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/tonic.jpg",
+          "titleBullet": "Cuidado Piel",
+          "link": {
+            "url": "/madera"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/accesories.jpg",
+          "titleBullet": "Accesorios",
+          "link": {
+            "url": "/construccion"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/new.jpg",
+          "titleBullet": "Nuevo",
+          "link": {
+            "url": "/madera"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#home__bullet-group": {
+    "title": "Slider Bullet Group component custom",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}
