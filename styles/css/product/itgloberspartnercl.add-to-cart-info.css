@@ -7,6 +7,14 @@
     color: #DF576F;
 }
 
+.buttons__ancor {
+    color: #DF576F;
+    text-align: center;
+}
+
+.buttons__ancor:hover {
+    font-weight: 700;
+}
 
 .button {
     font-family: "Lato";
