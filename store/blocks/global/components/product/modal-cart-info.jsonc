@@ -1,12 +1,4 @@
 {
-  "flex-layout.row#custom__add-to-cart-info": {
-    "title": "Row to custom add to cart info",
-    "children": ["modal-trigger#product__cart-info"],
-    "props": {
-      "paddingBottom": 2,
-      "paddingTop": 2
-    }
-  },
   "modal-trigger#product__cart-info": {
     "title": "Modal to show cart info",
     "children": ["modal-layout#product__cart-info"],
