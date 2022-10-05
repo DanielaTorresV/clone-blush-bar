@@ -86,7 +86,7 @@
       "product-quantity",
       "flex-layout.row#add-to-cart-button__product",
       "flex-layout.row#info__data--others",
-      "flex-layout.row#custom__add-to-cart-info",
+      "modal-trigger#product__cart-info",
       "product-separator"
     ]
   },
@@ -174,10 +174,6 @@
   "flex-layout.col#info__data--share": {
     "title": "Col to share",
     "children": ["share"]
-  },
-  "flex-layout.row#custom__add-to-cart-info": {
-    "title": "Row to custom add to cart info",
-    "children": ["add-to-cart-info"]
   },
   "flex-layout.row#section3__info--data": {
     "title": "Row to section 3 data",

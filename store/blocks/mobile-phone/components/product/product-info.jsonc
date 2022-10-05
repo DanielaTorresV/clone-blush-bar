@@ -60,7 +60,7 @@
       "add-to-list-btn",
       "rich-text#data__wishlistphone--text",
       "share",
-      "add-to-cart-info"
+      "modal-trigger#product__cart-info"
     ],
     "props": {
       "horizontalAlign": "center"

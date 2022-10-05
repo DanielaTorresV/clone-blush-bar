@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#custom__add-to-cart-info": {
+    "title": "Row to custom add to cart info",
+    "children": ["modal-trigger#product__cart-info"],
+    "props": {
+      "paddingBottom": 2,
+      "paddingTop": 2
+    }
+  },
+  "modal-trigger#product__cart-info": {
+    "title": "Modal to show cart info",
+    "children": ["modal-layout#product__cart-info"],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#product__cart-info": {
+    "title": "Modal to show cart info",
+    "children": ["modal-header#product__cart-info", "add-to-cart-info"]
+  },
+  "modal-header#product__cart-info": {
+    "title": "Header modal cart info",
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 18
+    }
+  }
+}
