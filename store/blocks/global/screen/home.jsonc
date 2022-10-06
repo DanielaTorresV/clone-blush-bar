@@ -47,7 +47,6 @@
     "title": "Row to show custom department search",
     "children": ["flex-layout.col#home__department-search"],
     "props": {
-      "paddingBottom": 3,
       "paddingTop": 3
     }
   },
