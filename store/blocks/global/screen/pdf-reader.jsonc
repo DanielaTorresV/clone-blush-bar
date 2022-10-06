@@ -1,0 +1,40 @@
+{
+  "store.custom#pdf-reader": {
+    "blocks": ["flex-layout.row#pdf-reader"]
+  },
+  "flex-layout.row#pdf-reader": {
+    "title": "Row to show pdf",
+    "children": ["flex-layout.col#pdf-reader"],
+    "props": {
+      "paddingTop": 3,
+      "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#pdf-reader": {
+    "title": "Col to show pdf",
+    "children": ["rich-text#pdf-reader", "pdf-reader"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingLeft": 3,
+      "paddingRight": 3
+    }
+  },
+  "rich-text#pdf-reader": {
+    "title": "PDF Reader",
+    "props": {
+      "text": "Lector de PDF, información importante!",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-emphasis"
+    }
+  },
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/docs/info-tiendas.pdf",
+      "width": 500,
+      "height": 800
+    }
+  }
+}
