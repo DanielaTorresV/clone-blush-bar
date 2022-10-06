@@ -1,0 +1,15 @@
+.container__select {
+    font-family: "Lato";
+    color: #3f3f40;
+}
+
+.container__select:focus {
+    outline-color: #DF576F;
+}
+
+.resultsList {
+    width: 90%;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 25px;
+}

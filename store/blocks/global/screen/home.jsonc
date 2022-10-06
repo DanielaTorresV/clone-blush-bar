@@ -5,6 +5,7 @@
       "flex-layout.row#home__section1",
       "flex-layout.row#home__section2",
       "flex-layout.row#home__section3",
+      "flex-layout.row#home__department-search",
       "flex-layout.row#home__section4",
       "flex-layout.row#home__section5",
       "flex-layout.row#home__bullet-group",
@@ -40,6 +41,13 @@
     "children": ["flex-layout.col#home__section3--column"],
     "props": {
       "blockClass": "home__section3"
+    }
+  },
+  "flex-layout.row#home__department-search": {
+    "title": "Row to show custom department search",
+    "children": ["flex-layout.col#home__department-search"],
+    "props": {
+      "paddingTop": 3
     }
   },
   "flex-layout.row#home__section4": {
