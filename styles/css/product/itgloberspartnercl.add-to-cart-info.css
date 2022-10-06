@@ -7,16 +7,7 @@
     color: #DF576F;
 }
 
-.buttons__ancor {
-    color: #DF576F;
-    text-align: center;
-}
-
-.buttons__ancor:hover {
-    font-weight: 700;
-}
-
-.button {
+.button__redirect {
     font-family: "Lato";
     color: #3d3d40;
     background-color: #fa5f7b;
@@ -24,7 +15,7 @@
     border-radius: 0.25rem;
 }
 
-.button:hover {
+.button__redirect:hover {
     color: white;
     background-color: #f79aa0;
 }
