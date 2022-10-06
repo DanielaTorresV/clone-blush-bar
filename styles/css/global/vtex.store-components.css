@@ -1,0 +1,8 @@
+.autoCompleteOuterContainer--header__middle--search :global(.vtex-input-prefix__group) {
+    border-radius: 0px;
+    border-style: none;
+}
+
+.autoCompleteOuterContainer--header__middle--search :global(.vtex-input) {
+    border-bottom: 1px solid black;
+}
