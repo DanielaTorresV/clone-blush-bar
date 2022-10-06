@@ -1,0 +1,23 @@
+{
+  "flex-layout.col#home__department-search": {
+    "title": "Col to show custom department search",
+    "children": [
+      "rich-text#home__department-search--text",
+      "department-search"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#home__department-search--text": {
+    "title": "text to show department search",
+    "props": {
+      "text": "Realiza tu Búsqueda por Departamento!!",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-emphasis"
+    }
+  }
+}
