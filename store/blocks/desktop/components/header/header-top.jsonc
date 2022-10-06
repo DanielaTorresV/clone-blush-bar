@@ -1,172 +1,152 @@
 {
-    "header-row#header__top": {
-        "title": "Header Row Top",
-        "children": [          
-          "rich-text#header__top--left",
-          "header-spacer",
-          "flex-layout.row#header__top--right"
-        ],
-        "props":{
-          "blockClass": "header__top"
-        }
-      },
-      "rich-text#header__top--left":{
-        "title": "Text Left",
-        "props": {
-          "text": "Envíos gratuitos con amor a todo Colombia a partir de $150.000!!",
-          "font": "t-mini"
-        }
-      },
-      "flex-layout.row#header__top--right": {
-        "title": "Header Right Top Flex",
-        "children": [
-          "flex-layout.col#right__container--account",
-          "flex-layout.col#right__container--stores",      
-          "flex-layout.col#right__container--blog",
-          "flex-layout.col#right__container--about",
-          "flex-layout.col#right__container--original"
-        ],
-        "props": {
-          "blockClass": "header__top--right",
-          "colGap": 4
-        }
-      },
-      
-      "flex-layout.col#right__container--account": {
-        "title": "Column my account",
-        "children": [
-          "login"
-        ],
-        "props": {
-          "width": "grow",
-          "verticalAlign": "middle"
-        }
-      },
-      "flex-layout.col#right__container--stores": {
-        "title": "Column stores",
-        "children": [
-          "link#container__stores--link"
-        ],
-        "props": {
-          "width": "grow",
-          "verticalAlign": "middle"
-        }
-      },
-      "link#container__stores--link": {
-        "children": [
-          "rich-text#container__stores--text"
-        ],
-        "props": {
-          "href": "/que-es-blush-bar"
-        }
-      },
-      "rich-text#container__stores--text": {
-        "props": {
-          "text": "Nuestras Tiendas",
-          "font": "t-small",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER"
-        }
-      },
+  "header-row#header__top": {
+    "title": "Header Row Top",
+    "children": [
+      "rich-text#header__top--left",
+      "header-spacer",
+      "flex-layout.row#header__top--right"
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "rich-text#header__top--left": {
+    "title": "Text Left",
+    "props": {
+      "text": "Envíos gratuitos con amor a todo Colombia a partir de $150.000!!",
+      "font": "t-mini"
+    }
+  },
+  "flex-layout.row#header__top--right": {
+    "title": "Header Right Top Flex",
+    "children": [
+      "flex-layout.col#right__container--account",
+      "flex-layout.col#right__container--stores",
+      "flex-layout.col#right__container--blog",
+      "flex-layout.col#right__container--about",
+      "flex-layout.col#right__container--original"
+    ],
+    "props": {
+      "blockClass": "header__top--right",
+      "colGap": 4
+    }
+  },
 
-      "flex-layout.col#right__container--blog": {
-        "title": "Column Blog",
-        "children": [
-          "link#container__blog--link"
-        ],
-        "props": {
-          "width": "grow",
-          "verticalAlign": "middle"
-        }
-      },
-      "link#container__blog--link": {
-        "children": [
-          "rich-text#container__blog--text"
-        ],
-        "props": {
-          "href": "/que-es-blush-bar"
-        }
-      },
-      "rich-text#container__blog--text": {
-        "props": {
-          "text": "BB Blog",
-          "font": "t-small",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER"
-        }
-      },
+  "flex-layout.col#right__container--account": {
+    "title": "Column my account",
+    "children": ["login"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#right__container--stores": {
+    "title": "Column stores",
+    "children": ["link#container__stores--link"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "middle"
+    }
+  },
+  "link#container__stores--link": {
+    "children": ["rich-text#container__stores--text"],
+    "props": {
+      "href": "/tiendas"
+    }
+  },
+  "rich-text#container__stores--text": {
+    "props": {
+      "text": "Nuestras Tiendas",
+      "font": "t-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
 
-      "flex-layout.col#right__container--about": {
-        "title": "Column About us",
-        "children": [
-          "link#container__about--link"
-        ],
-        "props": {
-          "width": "grow",
-          "verticalAlign": "middle"
-        }
-      },
-      "link#container__about--link": {
-        "children": [
-          "rich-text#container__about--text"
-        ],
-        "props": {
-          "href": "/que-es-blush-bar"
-        }
-      },
-      "rich-text#container__about--text": {
-        "props": {
-          "text": "¿Qués es Blush-Bar?",
-          "font": "t-small",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER"
-        }
-      },
+  "flex-layout.col#right__container--blog": {
+    "title": "Column Blog",
+    "children": ["link#container__blog--link"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "middle"
+    }
+  },
+  "link#container__blog--link": {
+    "children": ["rich-text#container__blog--text"],
+    "props": {
+      "href": "/que-es-blush-bar"
+    }
+  },
+  "rich-text#container__blog--text": {
+    "props": {
+      "text": "BB Blog",
+      "font": "t-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
 
-      "flex-layout.col#right__container--original": {
-        "title": "Column Original",
-        "children": [
-          "link#container__original--link"
-        ],
-        "props": {
-          "width": "grow",
-          "verticalAlign": "middle"
-        }
-      },
-      "link#container__original--link": {
-        "children": [
-          "rich-text#container__original--text"
-        ],
-        "props": {
-          "href": "/que-es-blush-bar"
-        }
-      },      
-      "rich-text#container__original--text": {
-        "props": {
-          "text": "100% Original",
-          "font": "t-small",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER"
-        }
-      },
-      "header-row#header__topMobile": {
-        "title": "Header Row Top Mobile",
-        "children": [          
-          "rich-text#header__top--left",
-          "header-spacer",
-          "flex-layout.row#headerMobile__top--right"
-        ],
-        "props":{
-          "blockClass": "header__top"
-        }
-      },
-      "flex-layout.row#headerMobile__top--right": {
-        "title": "Header Right Top Flex Mobile",
-        "children": [
-          "flex-layout.col#right__container--account"
-        ],
-        "props": {
-          "blockClass": "header__top--right"
-        }
-      }
+  "flex-layout.col#right__container--about": {
+    "title": "Column About us",
+    "children": ["link#container__about--link"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "middle"
+    }
+  },
+  "link#container__about--link": {
+    "children": ["rich-text#container__about--text"],
+    "props": {
+      "href": "/que-es-blush-bar"
+    }
+  },
+  "rich-text#container__about--text": {
+    "props": {
+      "text": "¿Qués es Blush-Bar?",
+      "font": "t-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.col#right__container--original": {
+    "title": "Column Original",
+    "children": ["link#container__original--link"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "middle"
+    }
+  },
+  "link#container__original--link": {
+    "children": ["rich-text#container__original--text"],
+    "props": {
+      "href": "/tiendas"
+    }
+  },
+  "rich-text#container__original--text": {
+    "props": {
+      "text": "100% Original",
+      "font": "t-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "header-row#header__topMobile": {
+    "title": "Header Row Top Mobile",
+    "children": [
+      "rich-text#header__top--left",
+      "header-spacer",
+      "flex-layout.row#headerMobile__top--right"
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "flex-layout.row#headerMobile__top--right": {
+    "title": "Header Right Top Flex Mobile",
+    "children": ["flex-layout.col#right__container--account"],
+    "props": {
+      "blockClass": "header__top--right"
+    }
+  }
 }
