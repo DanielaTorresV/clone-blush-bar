@@ -77,9 +77,11 @@
   },
   "flex-layout.row#home__quick-order": {
     "title": "Row To Quick Order",
-    "children": [
-      "flex-layout.col#home__quick-order"
-    ]
+    "children": ["flex-layout.col#home__quick-order"],
+    "props": {
+      "paddingTop": 3,
+      "paddingBottom": 3
+    }
   },
   "flex-layout.row#home__bullet-group": {
     "title": "Row to Bullet Group Custom Component",
