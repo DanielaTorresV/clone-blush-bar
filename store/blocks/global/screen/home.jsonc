@@ -8,6 +8,7 @@
       "flex-layout.row#home__department-search",
       "flex-layout.row#home__section4",
       "flex-layout.row#home__section5",
+      "flex-layout.row#home__quick-order",
       "flex-layout.row#home__bullet-group",
       "flex-layout.row#home__section6"
       /*"search-result-layout.customQuery#home__result" */ //Para mostrar productos
@@ -73,6 +74,12 @@
       "blockClass": "home__section5",
       "preserveLayoutOnMobile": true
     }
+  },
+  "flex-layout.row#home__quick-order": {
+    "title": "Row To Quick Order",
+    "children": [
+      "flex-layout.col#home__quick-order"
+    ]
   },
   "flex-layout.row#home__bullet-group": {
     "title": "Row to Bullet Group Custom Component",

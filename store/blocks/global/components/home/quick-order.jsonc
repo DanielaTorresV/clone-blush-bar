@@ -1,0 +1,22 @@
+{
+  "flex-layout.col#home__quick-order": {
+    "title": "Col to show custom quick order",
+    "children": ["rich-text#home__quick-order--text", "quick-order"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "paddingLeft": 3,
+      "paddingRight": 3
+    }
+  },
+  "rich-text#home__quick-order--text": {
+    "title": "text to show quick Order",
+    "props": {
+      "text": "¿Quieres agilizar tu Compra?",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-emphasis"
+    }
+  }
+}
