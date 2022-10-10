@@ -6,6 +6,7 @@
       "flex-layout.row#home__section2",
       "flex-layout.row#home__section3",
       "flex-layout.row#home__department-search",
+      "custom-grid",
       "flex-layout.row#home__section4",
       "flex-layout.row#home__section5",
       "flex-layout.row#home__quick-order",
