@@ -16,7 +16,8 @@
       "image#img__link--gift"
     ],
     "props": {
-      "blockClass": "header__down"
+      "blockClass": "header__down",
+      "horizontalAlign": "center"
     }
   },
   "header-row#header__downMobile": {
