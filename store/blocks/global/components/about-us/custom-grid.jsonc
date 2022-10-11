@@ -1,0 +1,61 @@
+{
+  "flex-layout.col#home__custom-grid": {
+    "title": "Col to custom grid",
+    "children": ["rich-text#custom-grid__title", "custom-grid"],
+    "props": {
+      "rowGap": 2
+    }
+  },
+  "rich-text#custom-grid__title": {
+    "title": "Tilte custom grid",
+    "props": {
+      "text": "BB CREATORS",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "c-emphasis"
+    }
+  },
+  "custom-grid": {
+    "children": [
+      "image#custom-grid-1",
+      "image#custom-grid-2",
+      "image#custom-grid-3",
+      "image#custom-grid-4",
+      "image#custom-grid-5"
+    ]
+  },
+  "image#custom-grid-1": {
+    "title": "Image 1 grid 1",
+    "props": {
+      "src": "assets/img/grids/img-meme.png",
+      "width": 400,
+      "height": 395
+    }
+  },
+  "image#custom-grid-2": {
+    "props": {
+      "src": "assets/img/grids/img-dog.png",
+      "height": 195
+    }
+  },
+  "image#custom-grid-3": {
+    "props": {
+      "src": "assets/img/grids/img-sea.png",
+      "height": 195
+    }
+  },
+  "image#custom-grid-4": {
+    "props": {
+      "src": "assets/img/grids/img-serum.png",
+      "width": 195,
+      "height": 195
+    }
+  },
+  "image#custom-grid-5": {
+    "props": {
+      "src": "assets/img/grids/img-dog1.png",
+      "height": 195
+    }
+  }
+}

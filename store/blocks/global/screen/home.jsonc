@@ -4,7 +4,6 @@
       "whatsapp-button",
       "flex-layout.row#home__section1",
       "flex-layout.row#home__section2",
-      "flex-layout.row#home__custom-grid",
       "flex-layout.row#home__section3",
       "flex-layout.row#home__department-search",
       "flex-layout.row#home__section4",
@@ -36,14 +35,6 @@
     "children": ["flex-layout.col#home__section2--column"],
     "props": {
       "blockClass": "home__section2"
-    }
-  },
-  "flex-layout.row#home__custom-grid": {
-    "title": "Row to custom grid",
-    "children": ["flex-layout.col#home__custom-grid"],
-    "props": {
-      "paddingTop": 3,
-      "paddingBottom": 3
     }
   },
   "flex-layout.row#home__section3": {
