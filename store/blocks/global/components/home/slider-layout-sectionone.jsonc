@@ -1,94 +1,100 @@
 {
-    "slider-layout#home__section1--slider": {
-        "title": "Slider section1",
-        "props": {
-          "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
-          },
-          "infinite": true,
-          "showNavigationArrows": "desktopOnly",
-          "arrowSize": 30,
-          "blockClass": "home__section1--slider",
-          "autoplay": {
-            "timeout": 3000,
-            "stopOnHover": true
-          }
-        },
-        "children": [
-          "image#section1__slider--one", 
-          "image#section1__slider--two", 
-          "image#section1__slider--three",
-          "image#section1__slider--four",
-          "image#section1__slider--five",
-          "image#section1__slider--six"
-        ]
+  "slider-layout#home__section1--slider": {
+    "title": "Slider section1",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "arrowSize": 30,
+      "blockClass": "home__section1--slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
     },
-    "image#section1__slider--one": {
-        "title": "Image ",
-        "props": {
-            "src": "assets/img/main-slider/DeskTheOrdinary.png",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
-    }, 
-    "image#section1__slider--two": {
-        "title": "Image ",
-        "props": {
-            "src": "assets/img/main-slider/DeskPixi.jpg",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
-    },
-    "image#section1__slider--three": {
-        "title": "Image ",
-        "props": {
-            "src": "assets/img/main-slider/ABHBrowSerum.png",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
-    },
-    "image#section1__slider--four": {
-        "title": "Image ",
-        "props": {
-            "src": "assets/img/main-slider/SDJBanner.jpg",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
-    },
-    "image#section1__slider--five": {
-        "title": "Image ",
-        "props": {
-            "src": "assets/img/main-slider/correchudaCol.jpg",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
-    },
-    "image#section1__slider--six": {
-        "title": "Image ",
-        "props": {
-            "src": "assets/img/main-slider/Banner-Fitskin.gif",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
+    "children": [
+      "image#section1__slider--one",
+      "image#section1__slider--two",
+      "image#section1__slider--three",
+      "image#section1__slider--four",
+      "image#section1__slider--five",
+      "image#section1__slider--six"
+    ]
+  },
+  "image#section1__slider--one": {
+    "title": "Image ",
+    "props": {
+      "src": "assets/img/main-slider/DeskTheOrdinary.png",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
     }
+  },
+  "image#section1__slider--two": {
+    "title": "Image ",
+    "props": {
+      "src": "assets/img/main-slider/roseMetals.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section1__slider--three": {
+    "title": "Image ",
+    "props": {
+      "src": "assets/img/main-slider/GWPoctubreCOL.gif",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section1__slider--four": {
+    "title": "Image ",
+    "props": {
+      "src": "assets/img/main-slider/DeskPixi.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section1__slider--five": {
+    "title": "Image ",
+    "props": {
+      "src": "assets/img/main-slider/chocolate.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section1__slider--six": {
+    "title": "Image ",
+    "props": {
+      "src": "assets/img/main-slider/deskANR.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  }
 }
