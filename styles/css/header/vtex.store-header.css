@@ -11,8 +11,13 @@
     padding: 0px 8px;
 }
 
+.headerRowContainer--header__down {
+    justify-content: center;
+}
+
 .headerRowBackground--header__down {
-    padding: 2px 40px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     background-color: #FFD7DE;
 }
 

@@ -6,3 +6,32 @@
     margin-top: 10px;
     width: max-content;
 }
+
+.styledLinkContainer {
+    margin: 0 12px;
+}
+
+.styledLinkContent--department__desktop--makeup:hover {
+    color: #DF576F;
+}
+.styledLinkContent--department__desktop--skin:hover {
+    color: #DF576F;
+}
+.styledLinkContent--department__desktop--perfum:hover {
+    color: #DF576F;
+}
+.styledLinkContent--department__desktop--extras:hover {
+    color: #DF576F;
+}
+.styledLinkContent--department__desktop--brands:hover {
+    color: #DF576F;
+}
+.styledLinkContent--department__desktop--servicesbb:hover {
+    color: #DF576F;
+}
+
+.styledLinkContent--department__desktop--makeup, .styledLinkContent--department__desktop--skin ,
+.styledLinkContent--department__desktop--perfum, .styledLinkContent--department__desktop--extras,
+.styledLinkContent--department__desktop--brands, .styledLinkContent--department__desktop--servicesbb {
+    font-size: 0.85rem;
+}

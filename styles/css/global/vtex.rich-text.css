@@ -1,0 +1,36 @@
+.paragraph{
+    margin: 0px;
+}
+
+.paragraph--rich-text__option{
+    padding-left: 2px;
+}
+
+.paragraph--rich-text__menuDesktop--emphasis{
+    font-weight: bold;
+}
+
+.paragraph--rich-text__menuDesktop--emphasis:hover {
+    color: #3f3f40;
+}
+
+.paragraph--rich-text__menuDesktop--emphasisDcto{
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.paragraph--rich-text__menuDesktop--emphasisDcto:hover {
+    color: #3f3f40;
+}
+
+.paragraph--rich-text__menuDesktop:hover {
+    color: #DF576F;
+}
+
+.wrapper--rich-text__menuDesktop--points {
+    margin-left: 12px;
+}
+
+.wrapper--rich-text__menuDesktop--points:hover {
+    color: #DF576F;
+}
