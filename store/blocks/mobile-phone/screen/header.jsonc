@@ -1,0 +1,17 @@
+{
+  "header-layout.mobile": {
+    "title": "Mobile Header",
+    "children": ["header-row#header__topMobile", "sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "title": "Sticky Mobile Header",
+    "children": [
+      "header-row#header__middleMobile--sectionone",
+      "header-row#header__middleMobile--sectiontwo",
+      "header-row#header__downMobile"
+    ],
+    "props": {
+      "blockClass": "sticky-headerMobile"
+    }
+  }
+}

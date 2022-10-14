@@ -1,0 +1,38 @@
+{
+  "header-row#header__middleMobile--sectionone": {
+    "title": "Header Middle Section one",
+    "children": [
+      "drawer#header__middleMobile--drawer",
+      "header-spacer",
+      "logo#header__middle--logo",
+      "header-spacer",
+      "image#middle__cart--flat",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__middle--sectiononemobile"
+    }
+  },
+  "header-row#header__middleMobile--sectiontwo": {
+    "title": "Header Middle Section two",
+    "children": [
+      "flex-layout.row#searchbar__mobile",
+      "header-spacer",
+      "rich-text#middle__stores--text",
+      "image#middle__stores--icon"
+    ],
+    "props": {
+      "blockClass": "header__middle--sectiontwomobile"
+    }
+  },
+  "flex-layout.row#searchbar__mobile": {
+    "title": "Row to Search",
+    "children": ["search-bar#header__middle--search"],
+    "props": {
+      /*"marginRight": 3,
+            "borderWidth": 0,
+            "borderColor": "c-black-40",
+            "border": "right"*/
+    }
+  }
+}
