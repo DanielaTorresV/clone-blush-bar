@@ -1,0 +1,14 @@
+.minicartWrapperContainer--minicart__container--main {
+    float: left;
+    width: 100%;
+}
+
+.minicartContainer--minicart__container--main {
+    width: 100%;
+    margin: 15px;
+    padding-bottom: 15px;
+}
+
+.minicartTitle {
+    display: none;
+}
