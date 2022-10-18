@@ -1,6 +1,6 @@
 {
   "store.custom#about-us": {
-    "blocks": ["flex-layout.row#about-us", "flex-layout.row#home__custom-grid"]
+    "blocks": ["flex-layout.row#about-us"]
   },
   "flex-layout.row#about-us": {
     "children": [
@@ -112,14 +112,6 @@
     "props": {
       "text": "Blush-Bar es un retailer de cosméticos en Colombia que ofrece un portafolio de las mejores marcas del mundo. Por primera vez, hemos traído al país marcas como Too Faced, Anastasia Beverly Hills, Dose of Colors, Supergoop!, Bobbi Brown, La Mer, Farmaesthetics, Dr. Jart , Saturday Skin y Farmacy . También te ofrecemos marcas líderes tales como Estée Lauder, Clinique, MAC, Foreo y Carolina Herrera entre muchas otras. En nuestras tiendas en Bogotá, Medellín, Barranquilla y Cali te ofrecemos más de 50 servicios y clases de Maquillaje, Cejas y Piel.\nBlush-Bar es creado por mujeres, para mujeres en Colombia. Somos un emprendimiento femenino fundado en 2015. Nuestra filosofía se basa en las siguientes 5 premisas:\n1. El secreto de la belleza es ser tú misma. Blush-Bar nunca trata de cambiar a nadie, creemos que cada mujer es linda y que su aspiración es ser la mejor versión de ella misma.\n2. La calidad de los productos es clave para tener los mejores resultados. Por eso, en nuestro portafolio jamás verás una marca que no sea excelente desde todo punto de vista.\n3. El servicio es un componente vital de tu experiencia. Reclutamos y entrenamos a las mejores Makeup Artists, para que entiendan lo que es importante para ti y te den el mejor servicio. Sabemos que tú te conoces mejor a ti misma y nuestro trabajo es escucharte. Te consentimos con nuestro Menú de Servicios.\n4. La compra de cosméticos debe ser un absoluto placer. Debe ser un momento de consentirte a ti misma (o a alguien que quieres mucho). Por eso hemos creado una tienda linda, femenina, llena de sorpresas y servicios especiales para ti.\n5. Los precios deben estar muy cercanos a EEUU. Los precios de las marcas que manejamos de manera exclusiva están a precio de EEUU más el IVA de Colombia (o precio Internacional de la marca) utilizando tasas promedio de conversión.\nVen a visitarnos, tómate un momento para descubrir nuestras marcas y explorar nuestras tiendas.\n**Claudia Lloreda**\n**Fundadora & Directora General**",
       "font": "t-small"
-    }
-  },
-  "flex-layout.row#home__custom-grid": {
-    "title": "Row to custom grid",
-    "children": ["flex-layout.col#home__custom-grid"],
-    "props": {
-      "paddingTop": 3,
-      "paddingBottom": 3
     }
   }
 }
