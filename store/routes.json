@@ -4,5 +4,8 @@
     },
     "store.custom#pdf-reader": {
         "path": "/tiendas"
+    },
+    "store.custom#minicart": {
+        "path": "/tu-carrito"
     }
 }
