@@ -19,8 +19,23 @@ FOOTER DESKTOP
 ![image](https://user-images.githubusercontent.com/101153916/195952889-119104a2-0aad-4944-be5d-d435e3f01680.png)
 
 HOME PHONE
+
+![image](https://user-images.githubusercontent.com/101153916/196557327-6ca4222c-0e2c-41fb-8705-54008c809ced.png)
+![image](https://user-images.githubusercontent.com/101153916/196557383-1fef1f4b-c906-4069-ac70-5d2f0799658e.png)
+![image](https://user-images.githubusercontent.com/101153916/196557422-aea547c0-870f-479c-9506-4182cd1bb096.png)
+![image](https://user-images.githubusercontent.com/101153916/196557476-ea5a1363-c6e6-4792-bb1d-828632c3ebce.png)
+![image](https://user-images.githubusercontent.com/101153916/196557518-61709418-cf92-43a4-8ae0-0b4bae20e27b.png)
+![image](https://user-images.githubusercontent.com/101153916/196557551-b9bb7e3b-97f1-4145-bb46-5560a204b64f.png)
+
 HOME TABLET
+
+![image](https://user-images.githubusercontent.com/101153916/196557004-05a10160-ef9c-4cc3-9c22-9366099ddde2.png)
+![image](https://user-images.githubusercontent.com/101153916/196557054-931c31a0-66bc-4090-801e-05dc156d3102.png)
+
 HOME DESKTOP
+
+![image](https://user-images.githubusercontent.com/101153916/196556707-96fa5dc2-f7fd-423c-bef4-adab6c265199.png)
+
 
 ## Configuration
 
