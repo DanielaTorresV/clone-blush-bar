@@ -34,3 +34,18 @@
 .wrapper--rich-text__menuDesktop--points:hover {
     color: #DF576F;
 }
+
+.paragraph--minicart__title{
+    font-size: 1.5rem;
+    color: #f79aa0;
+}
+
+.container--minicart__name--text, 
+.container--minicart__shipping--text,
+.container--minicart__price--text,
+.container--minicart__quantity--text {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dbd8d8;
+}

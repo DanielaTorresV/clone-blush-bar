@@ -7,7 +7,7 @@
       "logo#header__middle--logo",
       "header-spacer",
       "image#middle__cart--flat",
-      "minicart.v2"
+      "minicart.v2#header__logo"
     ],
     "props": {
       "blockClass": "header__middle--sectiononemobile"
