@@ -1,4 +1,11 @@
 {
+  "flex-layout.row#home__section1": {
+    "title": "Section1 Row",
+    "children": ["slider-layout#home__section1--slider"],
+    "props": {
+      "blockClass": "home__section1"
+    }
+  },
   "slider-layout#home__section1--slider": {
     "title": "Slider section1",
     "props": {
@@ -28,10 +35,11 @@
   "image#section1__slider--one": {
     "title": "Image ",
     "props": {
+      "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/DeskTheOrdinary.png",
       "link": {
         // Objeto que determina las características de la imágen.
-        "url": "https://www.google.com/",
+        "url": "/que-es-blush-bar",
         "newTab": true,
         "attributeNofollow": true
       }
@@ -40,10 +48,11 @@
   "image#section1__slider--two": {
     "title": "Image ",
     "props": {
+      "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/roseMetals.jpg",
       "link": {
         // Objeto que determina las características de la imágen.
-        "url": "https://www.google.com/",
+        "url": "/que-es-blush-bar",
         "newTab": true,
         "attributeNofollow": true
       }
@@ -52,10 +61,11 @@
   "image#section1__slider--three": {
     "title": "Image ",
     "props": {
+      "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/GWPoctubreCOL.gif",
       "link": {
         // Objeto que determina las características de la imágen.
-        "url": "https://www.google.com/",
+        "url": "/que-es-blush-bar",
         "newTab": true,
         "attributeNofollow": true
       }
@@ -64,10 +74,11 @@
   "image#section1__slider--four": {
     "title": "Image ",
     "props": {
+      "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/DeskPixi.jpg",
       "link": {
         // Objeto que determina las características de la imágen.
-        "url": "https://www.google.com/",
+        "url": "/que-es-blush-bar",
         "newTab": true,
         "attributeNofollow": true
       }
@@ -76,10 +87,11 @@
   "image#section1__slider--five": {
     "title": "Image ",
     "props": {
+      "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/chocolate.jpg",
       "link": {
         // Objeto que determina las características de la imágen.
-        "url": "https://www.google.com/",
+        "url": "/que-es-blush-bar",
         "newTab": true,
         "attributeNofollow": true
       }
@@ -88,10 +100,11 @@
   "image#section1__slider--six": {
     "title": "Image ",
     "props": {
+      "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/deskANR.jpg",
       "link": {
         // Objeto que determina las características de la imágen.
-        "url": "https://www.google.com/",
+        "url": "/que-es-blush-bar",
         "newTab": true,
         "attributeNofollow": true
       }
