@@ -2,40 +2,37 @@
 
 This store is a makeup and beauty store based on a minimum boilerplate theme of VTEX
 
-HEADER MOBILE
+**HEADER MOBILE**
 
 ![image](https://user-images.githubusercontent.com/101153916/195952948-250c84c5-a068-48ae-b30f-aef838842f63.png)
 
-HEADER DESKTOP
-
-![image](https://user-images.githubusercontent.com/101153916/195952854-5a505086-1e43-418b-b6da-258807edcc13.png)
-
-FOOTER MOBILE
-
-![image](https://user-images.githubusercontent.com/101153916/195953013-649a5a4e-16ae-4674-907c-479c9c95ee75.png)
-
-FOOTER DESKTOP
-
-![image](https://user-images.githubusercontent.com/101153916/195952889-119104a2-0aad-4944-be5d-d435e3f01680.png)
-
-HOME PHONE
+**HOME PHONE**
 
 ![image](https://user-images.githubusercontent.com/101153916/196557327-6ca4222c-0e2c-41fb-8705-54008c809ced.png)
 ![image](https://user-images.githubusercontent.com/101153916/196557383-1fef1f4b-c906-4069-ac70-5d2f0799658e.png)
-![image](https://user-images.githubusercontent.com/101153916/196557422-aea547c0-870f-479c-9506-4182cd1bb096.png)
-![image](https://user-images.githubusercontent.com/101153916/196557476-ea5a1363-c6e6-4792-bb1d-828632c3ebce.png)
-![image](https://user-images.githubusercontent.com/101153916/196557518-61709418-cf92-43a4-8ae0-0b4bae20e27b.png)
-![image](https://user-images.githubusercontent.com/101153916/196557551-b9bb7e3b-97f1-4145-bb46-5560a204b64f.png)
+![image](https://user-images.githubusercontent.com/101153916/196738710-2d1e3ab1-09e9-4d89-9988-3cdcc9215680.png)
+![image](https://user-images.githubusercontent.com/101153916/196738592-d00e78ad-448f-4b0f-bc02-919d23ce7dd2.png)
 
-HOME TABLET
+**HOME TABLET**
 
 ![image](https://user-images.githubusercontent.com/101153916/196557004-05a10160-ef9c-4cc3-9c22-9366099ddde2.png)
 ![image](https://user-images.githubusercontent.com/101153916/196557054-931c31a0-66bc-4090-801e-05dc156d3102.png)
 
-HOME DESKTOP
+**FOOTER MOBILE**
+
+![image](https://user-images.githubusercontent.com/101153916/195953013-649a5a4e-16ae-4674-907c-479c9c95ee75.png)
+
+**HEADER DESKTOP**
+
+![image](https://user-images.githubusercontent.com/101153916/195952854-5a505086-1e43-418b-b6da-258807edcc13.png)
+
+**HOME DESKTOP**
 
 ![image](https://user-images.githubusercontent.com/101153916/196556707-96fa5dc2-f7fd-423c-bef4-adab6c265199.png)
 
+**FOOTER DESKTOP**
+
+![image](https://user-images.githubusercontent.com/101153916/195952889-119104a2-0aad-4944-be5d-d435e3f01680.png)
 
 ## Configuration
 
