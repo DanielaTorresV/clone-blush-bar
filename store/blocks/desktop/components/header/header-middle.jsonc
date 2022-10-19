@@ -21,28 +21,5 @@
       "maxWidth": 30,
       "maxHeight": 25
     }
-  },
-  "rich-text#middle__stores--text": {
-    "title": "Stores",
-    "props": {
-      "text": "Tiendas",
-      "font": "t-small",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  },
-  "image#middle__stores--icon": {
-    "title": "Icon Stores",
-    "props": {
-      "src": "assets/img/icoBoutiques.png",
-      "title": "Creators",
-      "maxWidth": 30,
-      "maxHeight": 30,
-      "link": {
-        "url": "https://www.google.com/",
-        "newTab": true,
-        "attributeNofollow": true
-      }
-    }
   }
 }
