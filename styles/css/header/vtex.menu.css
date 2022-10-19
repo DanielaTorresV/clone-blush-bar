@@ -35,3 +35,13 @@
 .styledLinkContent--department__desktop--brands, .styledLinkContent--department__desktop--servicesbb {
     font-size: 0.85rem;
 }
+
+.styledLinkContent--menu-item__mobile {
+    padding: 10px;
+}
+
+.accordionIcon--menu-item__mobile {
+    color: #DF576F;
+    font-size: 15px;
+    margin-left: 90px;
+}

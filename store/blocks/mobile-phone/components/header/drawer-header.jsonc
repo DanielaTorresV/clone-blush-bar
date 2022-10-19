@@ -25,6 +25,7 @@
   "menu-item#department__categories": {
     "title": "Department categories",
     "props": {
+      "blockClass": "menu-item__mobile",
       "id": "menu-item-categories",
       "type": "custom",
       "itemProps": {
@@ -177,6 +178,7 @@
   "menu-item#department__drawerbrands": {
     "title": "Department brands",
     "props": {
+      "blockClass": "menu-item__mobile",
       "id": "menu-item-drawerbrands",
       "type": "custom",
       "itemProps": {
@@ -389,6 +391,7 @@
   "menu-item#department__aboutus": {
     "title": "Department aboutus",
     "props": {
+      "blockClass": "menu-item__mobile",
       "id": "menu-item-aboutus",
       "type": "custom",
       "itemProps": {
@@ -436,7 +439,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/que-es-blush-bar",
+        "href": "/tiendas",
         "noFollow": false,
         "tagTitle": "original",
         "text": "100% Auténtico"
@@ -450,7 +453,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/que-es-blush-bar",
+        "href": "/tiendas",
         "noFollow": false,
         "tagTitle": "stores",
         "text": "Nuestras Tiendas"
@@ -481,6 +484,7 @@
   "menu-item#department__servicesbb": {
     "title": "Department servicesbb",
     "props": {
+      "blockClass": "menu-item__mobile",
       "id": "menu-item-servicesbb",
       "type": "custom",
       "itemProps": {

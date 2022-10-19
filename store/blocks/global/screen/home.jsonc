@@ -2,7 +2,9 @@
   "store.home": {
     "blocks": [
       "whatsapp-button",
-      "flex-layout.row#home__section1",
+      "responsive-layout.desktop#home__section1",
+      "responsive-layout.tablet#home__section1",
+      "responsive-layout.phone#home__section1",
       "flex-layout.row#home__section2",
       "flex-layout.row#home__section3",
       "flex-layout.row#home__department-search",
@@ -24,12 +26,14 @@
       "height": 40
     }
   },
-  "flex-layout.row#home__section1": {
-    "title": "Section1 Row",
-    "children": ["slider-layout#home__section1--slider"],
-    "props": {
-      "blockClass": "home__section1"
-    }
+  "responsive-layout.desktop#home__section1": {
+    "children": ["flex-layout.row#home__section1"]
+  },
+  "responsive-layout.tablet#home__section1": {
+    "children": ["flex-layout.row#home__section1"]
+  },
+  "responsive-layout.phone#home__section1": {
+    "children": ["flex-layout.row#home__section1--phone"]
   },
   "flex-layout.row#home__section2": {
     "title": "Section2 Row",
