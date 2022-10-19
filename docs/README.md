@@ -8,7 +8,7 @@ This store is a makeup and beauty store based on a minimum boilerplate theme of 
 
 **HOME PHONE**
 
-![image](https://user-images.githubusercontent.com/101153916/196557327-6ca4222c-0e2c-41fb-8705-54008c809ced.png)
+![image](https://user-images.githubusercontent.com/101153916/196769598-2e141b6b-0821-470c-bf7e-dc0b97849763.png)
 ![image](https://user-images.githubusercontent.com/101153916/196557383-1fef1f4b-c906-4069-ac70-5d2f0799658e.png)
 ![image](https://user-images.githubusercontent.com/101153916/196738710-2d1e3ab1-09e9-4d89-9988-3cdcc9215680.png)
 ![image](https://user-images.githubusercontent.com/101153916/196738592-d00e78ad-448f-4b0f-bc02-919d23ce7dd2.png)

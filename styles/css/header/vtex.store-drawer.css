@@ -1,0 +1,11 @@
+.drawer {
+    width: 40% !important;
+}
+
+.closeIconButton {
+    display: none;
+}
+
+.childrenContainer {
+    padding-top: 20px;
+}
