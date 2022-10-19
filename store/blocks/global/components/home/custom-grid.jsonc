@@ -1,10 +1,20 @@
 {
   "flex-layout.col#home__custom-grid": {
     "title": "Col to custom grid",
-    "children": ["rich-text#custom-grid__title", "custom-grid"],
+    "children": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "custom-grid"
+    ],
     "props": {
       "rowGap": 2
     }
+  },
+  "responsive-layout.desktop": {
+    "children": ["rich-text#custom-grid__title"]
+  },
+  "responsive-layout.tablet": {
+    "children": ["rich-text#custom-grid__title"]
   },
   "rich-text#custom-grid__title": {
     "title": "Tilte custom grid",
