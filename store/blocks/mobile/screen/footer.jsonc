@@ -1,0 +1,9 @@
+{
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer__mobile--main",
+      "flex-layout.row#footer__mobile--paymentandsafety",
+      "flex-layout.row#footer__mobile--poweredby"
+    ]
+  }
+}

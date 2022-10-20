@@ -1,0 +1,5 @@
+{
+  "responsive-layout.tablet#home__section1": {
+    "children": ["flex-layout.row#home__section1"]
+  }
+}

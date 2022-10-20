@@ -1,4 +1,12 @@
 {
+  "flex-layout.row#home__quick-order": {
+    "title": "Row To Quick Order",
+    "children": ["flex-layout.col#home__quick-order"],
+    "props": {
+      "paddingTop": 3,
+      "paddingBottom": 3
+    }
+  },
   "flex-layout.col#home__quick-order": {
     "title": "Col to show custom quick order",
     "children": ["rich-text#home__quick-order--text", "quick-order"],

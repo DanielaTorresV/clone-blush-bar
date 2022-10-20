@@ -1,19 +1,9 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
+  "footer-layout.desktop": {
     "children": [
       "flex-layout.row#footer__main",
       "flex-layout.row#footer__paymentSafety",
       "flex-layout.row#footer__poweredby"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer__mobile--main",
-      "flex-layout.row#footer__mobile--paymentandsafety",
-      "flex-layout.row#footer__mobile--poweredby"
     ]
   }
 }

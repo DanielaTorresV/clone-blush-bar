@@ -1,51 +1,4 @@
 {
-  "flex-layout.col#home__section2--column": {
-    "title": "Section2 home column",
-    "children": [
-      "flex-layout.row#home__section2--favorite",
-      "responsive-layout.desktop#home__section2--desktop",
-      "responsive-layout.tablet#home__section2--tablet",
-      "responsive-layout.phone#home__section2--phone"
-    ],
-    "props": {
-      "blockClass": "home__section2--column",
-      "horizontlaAlign": "center",
-      "verticalAlign": "middle"
-    }
-  },
-  "flex-layout.row#home__section2--favorite": {
-    "title": "Row with favorite text",
-    "children": [
-      "flex-layout.col#section2__leftcolumn",
-      "flex-layout.col#section2__text",
-      "flex-layout.col#section2__rightcolumn"
-    ],
-    "props": {
-      "preserveLayoutOnMobile": true
-    }
-  },
-  "flex-layout.col#section2__leftcolumn": {
-    "title": "Column left side",
-    "children": ["image#section2__divider"],
-    "props": {
-      "horizontlaAlign": "center",
-      "verticalAlign": "middle",
-      "width": "35%"
-    }
-  },
-  "flex-layout.col#section2__text": {
-    "title": "Column center with text",
-    "children": [
-      "responsive-layout.desktop#section2__text--favoritesDesktop",
-      "responsive-layout.tablet#section2__text--favoritesTablet",
-      "responsive-layout.phone#section2__text--favoritesPhone"
-    ],
-    "props": {
-      "horizontlaAlign": "center",
-      "verticalAlign": "middle",
-      "width": "30%"
-    }
-  },
   "responsive-layout.desktop#section2__text--favoritesDesktop": {
     "children": ["rich-text#section2__text--favoritesDesktop"]
   },
@@ -56,21 +9,6 @@
       "font": "t-heading-3",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
-    }
-  },
-  "flex-layout.col#section2__rightcolumn": {
-    "title": "Column right side",
-    "children": ["image#section2__divider"],
-    "props": {
-      "horizontlaAlign": "center",
-      "verticalAlign": "middle",
-      "width": "35%"
-    }
-  },
-  "image#section2__divider": {
-    "title": "Divider",
-    "props": {
-      "src": "assets/img/divider.jpg"
     }
   },
   "responsive-layout.desktop#home__section2--desktop": {

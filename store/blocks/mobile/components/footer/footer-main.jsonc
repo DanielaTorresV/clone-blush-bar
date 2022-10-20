@@ -1,0 +1,109 @@
+{
+  "flex-layout.row#footer__mobile--main": {
+    "children": ["flex-layout.col#footer__mobile--main"]
+  },
+  "flex-layout.col#footer__mobile--main": {
+    "title": "Column to footer mobile main",
+    "children": [
+      "flex-layout.row#footer__mobile--section1",
+      "flex-layout.row#footer__mobile--section2",
+      "flex-layout.row#footer__mobile--section3",
+      "flex-layout.row#footer__mobile--section4"
+    ],
+    "props": {
+      "blockClass": "footer__mobileMain--column"
+    }
+  },
+  "flex-layout.row#footer__mobile--section1": {
+    "title": "Section1 footer mobile",
+    "children": ["newsletter-form#footer__main--newsletter"],
+    "props": {
+      "blockClass": "footer__mobile--section1"
+    }
+  },
+  "flex-layout.row#footer__mobile--section2": {
+    "title": "Section2 footer mobile",
+    "children": [
+      "rich-text#main__socialmedia--text",
+      "social-networks#main__socialmedia--logos"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--section2"
+    }
+  },
+  "flex-layout.row#footer__mobile--section3": {
+    "title": "Section3 footer mobile",
+    "children": ["flex-layout.col#footer__mobile--section3"],
+    "props": {
+      "blockClass": "footer__mobile--section3",
+      "props": {
+        "preserveLayoutOnMobile": true
+      }
+    }
+  },
+  "flex-layout.col#footer__mobile--section3": {
+    "title": "Column for Section 3",
+    "children": [
+      "rich-text#main__column5--title1",
+      "rich-text#main__column5--text1",
+      "rich-text#main__column5--text2",
+      "rich-text#main__column5--text3",
+      "flex-layout.row#divider",
+      "rich-text#main__column5--title2",
+      "flex-layout.row#footer__main--column5Row"
+    ]
+  },
+  "flex-layout.row#footer__mobile--section4": {
+    "title": "Section4 footer mobile",
+    "children": [
+      "flex-layout.col#footer__mobile--section4col1",
+      "flex-layout.col#footer__mobile--section4col2",
+      "flex-layout.col#col__space"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--section4",
+      "props": {
+        "preserveLayoutOnMobile": true
+      }
+    }
+  },
+  "flex-layout.col#footer__mobile--section4col1": {
+    "title": "Column1 for Section 4",
+    "children": [
+      "rich-text#main__column2--title",
+      "link#main__column2--link1",
+      "link#main__column2--link2",
+      "link#main__column2--link3",
+      "link#main__column2--link4",
+      "link#main__column2--link5",
+      "link#main__column2--link6",
+      "link#main__column2--link7",
+      "link#main__column3--link1",
+      "link#main__column3--link2",
+      "link#main__column3--link3",
+      "link#main__column3--link4",
+      "link#main__column3--link5",
+      "link#main__column3--link6"
+    ]
+  },
+  "flex-layout.col#footer__mobile--section4col2": {
+    "title": "Column1 for Section 4",
+    "children": [
+      "flex-layout.row",
+      "link#main__column4--link1",
+      "link#main__column4--link2",
+      "link#main__column4--link3",
+      "link#main__column4--link4",
+      "link#main__column4--link5",
+      "link#main__column4--link6"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--section4col2"
+    }
+  },
+  "flex-layout.col#col__space": {
+    "props": {
+      "width": "35%"
+    }
+  }
+}

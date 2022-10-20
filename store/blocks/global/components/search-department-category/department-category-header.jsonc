@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#construccion__header": {
+    "title": "Row for header department page",
+    "children": [
+      "flex-layout.col#construccion__header--title",
+      "flex-layout.col#construccion__header--number",
+      "flex-layout.col#construccion__header--order",
+      "flex-layout.col#construccion__header--switcher"
+    ]
+  },
+  "flex-layout.col#construccion__header--title": {
+    "title": "Title header product",
+    "children": ["search-title.v2"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#construccion__header--number": {
+    "title": "Number products",
+    "children": ["total-products.v2"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#construccion__header--order": {
+    "title": "Order products",
+    "children": ["order-by.v2"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#construccion__header--switcher": {
+    "title": "Switcher",
+    "children": ["gallery-layout-switcher"],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  }
+}

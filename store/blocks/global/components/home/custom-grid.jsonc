@@ -1,4 +1,12 @@
 {
+  "flex-layout.row#home__custom-grid": {
+    "title": "Row to custom grid",
+    "children": ["flex-layout.col#home__custom-grid"],
+    "props": {
+      "paddingTop": 5,
+      "paddingBottom": 3
+    }
+  },
   "flex-layout.col#home__custom-grid": {
     "title": "Col to custom grid",
     "children": [

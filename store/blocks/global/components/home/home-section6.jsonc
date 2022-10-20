@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#home__section6": {
+    "title": "Section6 Row",
+    "children": ["image#home__section6--img"],
+    "props": {
+      "blockClass": "home__section6"
+    }
+  },
+  "image#home__section6--img": {
+    "title": "Final Image",
+    "props": {
+      "src": "assets/img/img-final.jpg"
+    }
+  }
+}

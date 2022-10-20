@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#footer__mobile--poweredby": {
+    "title": "Footer mobile powered by",
+    "children": [
+      "flex-layout.col#footerMobile__poweredby--text",
+      "flex-layout.col#footerMobile__poweredby--img"
+    ],
+    "props": {
+      "blockClass": "footer__mobile--poweredby"
+    }
+  },
+  "flex-layout.col#footerMobile__poweredby--text": {
+    "children": ["rich-text#footer__poweredby--text"],
+    "props": {
+      "width": "60%",
+      "horizontalAlign": "right",
+      "paddingRight": 2
+    }
+  },
+  "flex-layout.col#footerMobile__poweredby--img": {
+    "children": ["image#footer__poweredby--img"]
+  }
+}

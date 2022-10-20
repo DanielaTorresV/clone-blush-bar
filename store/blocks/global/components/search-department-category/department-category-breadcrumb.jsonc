@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#construccion__breadcrumb": {
+    "title": "Row to BreadCrumb",
+    "children": ["flex-layout.col#construccion__breadcrumb"]
+  },
+  "flex-layout.col#construccion__breadcrumb": {
+    "title": "Col to BreadCrumb",
+    "children": ["breadcrumb.search"]
+  },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  }
+}
