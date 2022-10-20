@@ -1,0 +1,11 @@
+{
+  "rich-text#section3__text--newMobile": {
+    "title": "Text new",
+    "props": {
+      "text": "PRODUCTOS NUEVOS",
+      "font": "t-body",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

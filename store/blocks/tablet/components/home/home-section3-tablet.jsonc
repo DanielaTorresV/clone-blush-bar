@@ -1,21 +1,11 @@
 {
-    "responsive-layout.tablet#home__section3--tablet": {
-        "children": [
-            "flex-layout.col#section3__slider"
-        ]
-    },
-    "responsive-layout.tablet#section3__text--newTablet": {
-        "children": [
-            "rich-text#section3__text--newTablet"
-        ]
-    },
-    "rich-text#section3__text--newTablet": {
-        "title": "Text new",
-        "props": {
-            "text": "PRODUCTOS NUEVOS",
-            "font": "t-heading-4",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
-        }
+  "rich-text#section3__text--newTablet": {
+    "title": "Text new",
+    "props": {
+      "text": "PRODUCTOS NUEVOS",
+      "font": "t-heading-4",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
+  }
 }

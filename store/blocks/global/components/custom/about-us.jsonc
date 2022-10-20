@@ -1,0 +1,119 @@
+{
+  "flex-layout.row#about-us": {
+    "title": "Row About us",
+    "children": [
+      "flex-layout.col#about-us__slider",
+      "flex-layout.col#about-us__text"
+    ],
+    "props": {
+      "blockClass": "about-us"
+    }
+  },
+  "flex-layout.col#about-us__slider": {
+    "title": "Col About Us",
+    "children": ["slider-layout#about-us__slider"],
+    "props": {
+      "blockClass": "about-us__slider",
+      "width": "40%",
+      "paddingLeft": 4,
+      "paddingRight": 4
+    }
+  },
+  "slider-layout#about-us__slider": {
+    "title": "Slider about us",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "arrowSize": 30,
+      "blockClass": "page__about-us--slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#about-us__slider--one",
+      "image#about-us__slider--two",
+      "image#about-us__slider--three",
+      "image#about-us__slider--four",
+      "image#about-us__slider--five",
+      "image#about-us__slider--six",
+      "image#about-us__slider--seven"
+    ]
+  },
+  "image#about-us__slider--one": {
+    "title": "Image 1",
+    "props": {
+      "src": "assets/img/about-us/img-1.png"
+    }
+  },
+  "image#about-us__slider--two": {
+    "title": "Image 2",
+    "props": {
+      "src": "assets/img/about-us/img-2.png"
+    }
+  },
+  "image#about-us__slider--three": {
+    "title": "Image 3",
+    "props": {
+      "src": "assets/img/about-us/img-3.png"
+    }
+  },
+  "image#about-us__slider--four": {
+    "title": "Image 4",
+    "props": {
+      "src": "assets/img/about-us/img-4.png"
+    }
+  },
+  "image#about-us__slider--five": {
+    "title": "Image 5",
+    "props": {
+      "src": "assets/img/about-us/img-5.png"
+    }
+  },
+  "image#about-us__slider--six": {
+    "title": "Image 6",
+    "props": {
+      "src": "assets/img/about-us/img-6.png"
+    }
+  },
+  "image#about-us__slider--seven": {
+    "title": "Image 7",
+    "props": {
+      "src": "assets/img/about-us/img-7.png"
+    }
+  },
+  "flex-layout.col#about-us__text": {
+    "title": "Col text About us",
+    "children": [
+      "rich-text#about-us__text--title",
+      "rich-text#about-us__text--content"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "width": "60%",
+      "paddingLeft": 4,
+      "paddingRight": 4
+    }
+  },
+  "rich-text#about-us__text--title": {
+    "title": "Text About us",
+    "props": {
+      "text": "¡Bienvenida a Blush-Bar!",
+      "textColor": "c-emphasis",
+      "font": "t-heading-4"
+    }
+  },
+  "rich-text#about-us__text--content": {
+    "title": "Text About us",
+    "props": {
+      "text": "Blush-Bar es un retailer de cosméticos en Colombia que ofrece un portafolio de las mejores marcas del mundo. Por primera vez, hemos traído al país marcas como Too Faced, Anastasia Beverly Hills, Dose of Colors, Supergoop!, Bobbi Brown, La Mer, Farmaesthetics, Dr. Jart , Saturday Skin y Farmacy . También te ofrecemos marcas líderes tales como Estée Lauder, Clinique, MAC, Foreo y Carolina Herrera entre muchas otras. En nuestras tiendas en Bogotá, Medellín, Barranquilla y Cali te ofrecemos más de 50 servicios y clases de Maquillaje, Cejas y Piel.\nBlush-Bar es creado por mujeres, para mujeres en Colombia. Somos un emprendimiento femenino fundado en 2015. Nuestra filosofía se basa en las siguientes 5 premisas:\n1. El secreto de la belleza es ser tú misma. Blush-Bar nunca trata de cambiar a nadie, creemos que cada mujer es linda y que su aspiración es ser la mejor versión de ella misma.\n2. La calidad de los productos es clave para tener los mejores resultados. Por eso, en nuestro portafolio jamás verás una marca que no sea excelente desde todo punto de vista.\n3. El servicio es un componente vital de tu experiencia. Reclutamos y entrenamos a las mejores Makeup Artists, para que entiendan lo que es importante para ti y te den el mejor servicio. Sabemos que tú te conoces mejor a ti misma y nuestro trabajo es escucharte. Te consentimos con nuestro Menú de Servicios.\n4. La compra de cosméticos debe ser un absoluto placer. Debe ser un momento de consentirte a ti misma (o a alguien que quieres mucho). Por eso hemos creado una tienda linda, femenina, llena de sorpresas y servicios especiales para ti.\n5. Los precios deben estar muy cercanos a EEUU. Los precios de las marcas que manejamos de manera exclusiva están a precio de EEUU más el IVA de Colombia (o precio Internacional de la marca) utilizando tasas promedio de conversión.\nVen a visitarnos, tómate un momento para descubrir nuestras marcas y explorar nuestras tiendas.\n**Claudia Lloreda**\n**Fundadora & Directora General**",
+      "font": "t-small"
+    }
+  }
+}
