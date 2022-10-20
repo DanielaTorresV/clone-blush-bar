@@ -1,5 +1,6 @@
 {
   "store.custom#pdf-reader": {
+    "title": "PDF",
     "blocks": ["flex-layout.row#pdf-reader"]
   }
 }

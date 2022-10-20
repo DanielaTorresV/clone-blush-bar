@@ -8,6 +8,7 @@
     "children": ["breadcrumb.search"]
   },
   "breadcrumb.search": {
+    "title": "BreadCrumb",
     "props": {
       "showOnMobile": true
     }

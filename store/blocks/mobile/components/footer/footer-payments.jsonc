@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__mobile--paymentandsafety": {
+    "title": "Payments",
     "children": ["flex-layout.col#footer__mobile--paymentandsafety"]
   },
   "flex-layout.col#footer__mobile--paymentandsafety": {
@@ -16,9 +17,11 @@
     }
   },
   "flex-layout.row#footerMobile__payment--imgPayment": {
+    "title": "Image Payments",
     "children": ["image#footer__payment--imgPayment"]
   },
   "flex-layout.row#footerMobile__payment--imgSafety": {
+    "title": "Image Safety",
     "children": ["image#footer__payment--imgSafety"]
   }
 }

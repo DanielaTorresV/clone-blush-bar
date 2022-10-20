@@ -28,6 +28,7 @@
     }
   },
   "pdf-reader": {
+    "title": "PDF",
     "props": {
       "pdfUrl": "assets/docs/info-tiendas.pdf",
       "width": 500,

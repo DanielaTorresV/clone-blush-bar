@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop#section2__text--favoritesDesktop": {
+    "title": "Desktop layout section 2 Home",
     "children": ["rich-text#section2__text--favoritesDesktop"]
   },
   "rich-text#section2__text--favoritesDesktop": {
@@ -12,6 +13,7 @@
     }
   },
   "responsive-layout.desktop#home__section2--desktop": {
+    "title": "Desktop layout section 2 Home",
     "children": ["flex-layout.row#home__section2--slider"]
   },
   "flex-layout.row#home__section2--slider": {

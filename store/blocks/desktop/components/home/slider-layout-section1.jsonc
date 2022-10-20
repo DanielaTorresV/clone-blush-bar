@@ -33,7 +33,7 @@
     ]
   },
   "image#section1__slider--one": {
-    "title": "Image ",
+    "title": "Image 1",
     "props": {
       "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/DeskTheOrdinary.png",
@@ -46,7 +46,7 @@
     }
   },
   "image#section1__slider--two": {
-    "title": "Image ",
+    "title": "Image 2",
     "props": {
       "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/roseMetals.jpg",
@@ -59,7 +59,7 @@
     }
   },
   "image#section1__slider--three": {
-    "title": "Image ",
+    "title": "Image 3",
     "props": {
       "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/GWPoctubreCOL.gif",
@@ -72,7 +72,7 @@
     }
   },
   "image#section1__slider--four": {
-    "title": "Image ",
+    "title": "Image 4",
     "props": {
       "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/DeskPixi.jpg",
@@ -85,7 +85,7 @@
     }
   },
   "image#section1__slider--five": {
-    "title": "Image ",
+    "title": "Image 5",
     "props": {
       "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/chocolate.jpg",
@@ -98,7 +98,7 @@
     }
   },
   "image#section1__slider--six": {
-    "title": "Image ",
+    "title": "Image 6",
     "props": {
       "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/deskANR.jpg",

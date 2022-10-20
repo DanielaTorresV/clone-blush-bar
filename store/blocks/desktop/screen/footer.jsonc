@@ -1,5 +1,6 @@
 {
   "footer-layout.desktop": {
+    "title": "Footer",
     "children": [
       "flex-layout.row#footer__main",
       "flex-layout.row#footer__paymentSafety",

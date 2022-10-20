@@ -31,6 +31,7 @@
     }
   },
   "product-summary-image#search": {
+    "title": "Summary Search",
     "props": {
       "showBadge": true,
       "height": 110
@@ -52,11 +53,13 @@
     }
   },
   "product-summary-sku-selector": {
+    "title": "Sku",
     "props": {
       "hideImpossibleCombinations": false
     }
   },
   "add-to-cart-button": {
+    "title": "Add to Cart",
     "props": {
       "text": "COMPRAR"
     }

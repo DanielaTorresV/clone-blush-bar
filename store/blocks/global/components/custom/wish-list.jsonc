@@ -1,11 +1,13 @@
 {
   "flex-layout.row#top": {
+    "title": "Row to title WishList",
     "children": ["flex-layout.col#title"],
     "props": {
       "marginTop": 2
     }
   },
   "flex-layout.col#title": {
+    "title": "Col to title WishList",
     "children": ["rich-text#title"],
     "props": {
       "blockClass": "titleWishlist",
@@ -14,6 +16,7 @@
     }
   },
   "rich-text#title": {
+    "title": "Title WishList",
     "props": {
       "text": "Lista de Deseos",
       "font": "t-heading-3",
@@ -33,10 +36,12 @@
     "children": ["list-context.wishlist"]
   },
   "list-context.wishlist": {
+    "title": "Lis Context Wish List",
     "blocks": ["product-summary.shelf#wishlist"],
     "children": ["slider-layout#wishlist"]
   },
   "product-summary.shelf#wishlist": {
+    "title": "Product Summary wish List",
     "props": {
       "blockClass": "shelf__wishlist"
     },
@@ -50,6 +55,7 @@
     ]
   },
   "slider-layout#wishlist": {
+    "title": "Slider WishList",
     "props": {
       "itemsPerPage": {
         "desktop": 4,

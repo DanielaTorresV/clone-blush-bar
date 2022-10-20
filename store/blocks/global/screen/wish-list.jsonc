@@ -1,16 +1,19 @@
 {
   "my-account-link.wishlist-link": {
+    "title": "Wishlist Link",
     "props": {
       "label": "Mi Lista de Deseos"
     }
   },
   "my-account-page.wishlist-page": {
+    "title": "Wishlist Page",
     "props": {
       "title": "Lista de Deseos"
     },
     "children": ["list-context.wishlist"]
   },
   "store.wishlist": {
+    "title": "Wishlist",
     "blocks": ["flex-layout.row#top", "flex-layout.row#content__wishlist"]
   }
 }

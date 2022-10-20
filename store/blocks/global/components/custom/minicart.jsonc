@@ -271,6 +271,7 @@
     }
   },
   "flex-layout.col#space": {
+    "title": "Space",
     "props": {
       "width": "70%"
     }
@@ -284,15 +285,18 @@
     }
   },
   "minicart-summary": {
+    "title": "Minicart Summary",
     "blocks": ["checkout-summary.compact#minicart"]
   },
   "checkout-summary.compact#minicart": {
+    "title": "Checkout Summary Minicart",
     "children": ["summary-totalizers#minicart"],
     "props": {
       "totalizersToShow": ["Items", "Discounts"]
     }
   },
   "summary-totalizers#minicart": {
+    "title": "Totalizers",
     "props": {
       "showTotal": true,
       "showDeliveryTotal": false

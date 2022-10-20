@@ -10,6 +10,7 @@
     }
   },
   "flex-layout.col#footerMobile__poweredby--text": {
+    "title": "Footer mobile powered by Text",
     "children": ["rich-text#footer__poweredby--text"],
     "props": {
       "width": "60%",
@@ -18,6 +19,7 @@
     }
   },
   "flex-layout.col#footerMobile__poweredby--img": {
+    "title": "Footer mobile powered by Image",
     "children": ["image#footer__poweredby--img"]
   }
 }

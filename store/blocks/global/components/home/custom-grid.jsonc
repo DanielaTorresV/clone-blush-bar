@@ -10,19 +10,13 @@
   "flex-layout.col#home__custom-grid": {
     "title": "Col to custom grid",
     "children": [
-      "responsive-layout.desktop",
-      "responsive-layout.tablet",
+      "responsive-layout.desktop#grid__title",
+      "responsive-layout.tablet#grid__title",
       "custom-grid"
     ],
     "props": {
       "rowGap": 2
     }
-  },
-  "responsive-layout.desktop": {
-    "children": ["rich-text#custom-grid__title"]
-  },
-  "responsive-layout.tablet": {
-    "children": ["rich-text#custom-grid__title"]
   },
   "rich-text#custom-grid__title": {
     "title": "Tilte custom grid",
@@ -52,18 +46,21 @@
     }
   },
   "image#custom-grid-2": {
+    "title": "Image 2 grid 2",
     "props": {
       "src": "assets/img/grids/img-dog.png",
       "height": 195
     }
   },
   "image#custom-grid-3": {
+    "title": "Image 3 grid 2",
     "props": {
       "src": "assets/img/grids/img-sea.png",
       "height": 195
     }
   },
   "image#custom-grid-4": {
+    "title": "Image 4 grid 3",
     "props": {
       "src": "assets/img/grids/img-serum.png",
       "width": 195,
@@ -71,6 +68,7 @@
     }
   },
   "image#custom-grid-5": {
+    "title": "Image 5 grid 3",
     "props": {
       "src": "assets/img/grids/img-dog1.png",
       "height": 195

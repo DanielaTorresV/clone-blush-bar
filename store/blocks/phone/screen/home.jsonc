@@ -1,5 +1,22 @@
 {
   "responsive-layout.phone#home__section1": {
+    "title": "Section 1 Phone Home",
     "children": ["flex-layout.row#home__section1--phone"]
+  },
+  "responsive-layout.phone#home__section2--phone": {
+    "title": "Section 2 Phone Home",
+    "children": ["flex-layout.col#section2__slider"]
+  },
+  "responsive-layout.phone#section2__text--favoritesPhone": {
+    "title": "Section 2 Phone Home Text",
+    "children": ["rich-text#section2__text--favoritesMobile"]
+  },
+  "responsive-layout.phone#home__section3--phone": {
+    "title": "Section 3 Phone Home",
+    "children": ["flex-layout.col#section3__slider"]
+  },
+  "responsive-layout.phone#section3__text--newPhone": {
+    "title": "Section 3 Phone Home Text",
+    "children": ["rich-text#section3__text--newMobile"]
   }
 }

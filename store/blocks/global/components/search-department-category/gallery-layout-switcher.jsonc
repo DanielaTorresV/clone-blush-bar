@@ -1,26 +1,32 @@
 {
   "gallery-layout-switcher": {
+    "title": "Gallery Switcher",
     "children": ["gallery-layout-option#grid", "gallery-layout-option#list"]
   },
   "gallery-layout-option#grid": {
+    "title": "Gallery Grid",
     "props": {
       "name": "grid"
     },
     "children": ["icon-grid", "responsive-layout.desktop#textOptionGrid"]
   },
   "gallery-layout-option#list": {
+    "title": "Gallery List",
     "props": {
       "name": "list"
     },
     "children": ["icon-inline-grid", "responsive-layout.desktop#textOptionList"]
   },
   "responsive-layout.desktop#textOptionGrid": {
+    "title": "Text Grid",
     "children": ["rich-text#option-grid"]
   },
   "responsive-layout.desktop#textOptionList": {
+    "title": "Text Grid",
     "children": ["rich-text#option-list"]
   },
   "rich-text#option-grid": {
+    "title": "Text Grid",
     "props": {
       "text": "Grid",
       "font": "t-small",
@@ -30,6 +36,7 @@
     }
   },
   "rich-text#option-list": {
+    "title": "Text Grid",
     "props": {
       "text": "List",
       "font": "t-small",

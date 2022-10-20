@@ -47,7 +47,7 @@
         }
     },
     "image#section5__slider--image1": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 1",
         "props": {
             "src": "assets/img/logos/logo_anastasia.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -58,7 +58,7 @@
         }
     },
     "image#section5__slider--image2": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 2",
         "props": {
             "src": "assets/img/logos/logo_avene.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -69,7 +69,7 @@
         }
     },
     "image#section5__slider--image3": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 3",
         "props": {
             "src": "assets/img/logos/logo_blush.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -80,7 +80,7 @@
         }
     },
     "image#section5__slider--image4": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 4",
         "props": {
             "src": "assets/img/logos/logo_bond.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -91,7 +91,7 @@
         }
     },
     "image#section5__slider--image5": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 5",
         "props": {
             "src": "assets/img/logos/logo_carolina.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -102,7 +102,7 @@
         }
     },
     "image#section5__slider--image6": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 6",
         "props": {
             "src": "assets/img/logos/logo_clinique.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -113,7 +113,7 @@
         }
     },
     "image#section5__slider--image7": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 7",
         "props": {
             "src": "assets/img/logos/logo_dkny.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -124,7 +124,7 @@
         }
     },
     "image#section5__slider--image8": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 8",
         "props": {
             "src": "assets/img/logos/logo_dose.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -135,7 +135,7 @@
         }
     },
     "image#section5__slider--image9": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 9",
         "props": {
             "src": "assets/img/logos/logo_drjart.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -146,7 +146,7 @@
         }
     },
     "image#section5__slider--image10": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 10",
         "props": {
             "src": "assets/img/logos/logo_estee.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -157,7 +157,7 @@
         }
     },
     "image#section5__slider--image11": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 11",
         "props": {
             "src": "assets/img/logos/logo_farmacy.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -168,7 +168,7 @@
         }
     },
     "image#section5__slider--image12": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 12",
         "props": {
             "src": "assets/img/logos/logo_farmaesthetics.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -179,7 +179,7 @@
         }
     },
     "image#section5__slider--image13": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 13",
         "props": {
             "src": "assets/img/logos/logo_foreo.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -190,7 +190,7 @@
         }
     },
     "image#section5__slider--image14": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 14",
         "props": {
             "src": "assets/img/logos/logo_good.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -201,7 +201,7 @@
         }
     },
     "image#section5__slider--image15": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 15",
         "props": {
             "src": "assets/img/logos/logo_huda.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -212,7 +212,7 @@
         }
     },
     "image#section5__slider--image16": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 16",
         "props": {
             "src": "assets/img/logos/logo_juicy.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -223,7 +223,7 @@
         }
     },
     "image#section5__slider--image17": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 17",
         "props": {
             "src": "assets/img/logos/logo_lamer.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -234,7 +234,7 @@
         }
     },
     "image#section5__slider--image18": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 18",
         "props": {
             "src": "assets/img/logos/logo_mac.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -245,7 +245,7 @@
         }
     },
     "image#section5__slider--image19": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 19",
         "props": {
             "src": "assets/img/logos/logo_nina.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -256,7 +256,7 @@
         }
     },
     "image#section5__slider--image20": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 20",
         "props": {
             "src": "assets/img/logos/logo_paco.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -267,7 +267,7 @@
         }
     },
     "image#section5__slider--image21": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 21",
         "props": {
             "src": "assets/img/logos/logo_saturday.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -278,7 +278,7 @@
         }
     },
     "image#section5__slider--image22": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 22",
         "props": {
             "src": "assets/img/logos/logo_sol.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -289,7 +289,7 @@
         }
     },
     "image#section5__slider--image23": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 23",
         "props": {
             "src": "assets/img/logos/logo_supergoop.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -300,7 +300,7 @@
         }
     },
     "image#section5__slider--image24": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 24",
         "props": {
             "src": "assets/img/logos/logo_too.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -311,7 +311,7 @@
         }
     },
     "image#section5__slider--image25": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 25",
         "props": {
             "src": "assets/img/logos/logo_tweezerman.png",
             "link": {                                                 // Objeto que determina las características de la imágen.
@@ -322,7 +322,7 @@
         }
     },
     "image#section5__slider--image26": {
-        "title": "Image Logo Brand",
+        "title": "Image Logo Brand 26",
         "props": {
             "src": "assets/img/logos/logo_wishful.png",
             "link": {                                                 // Objeto que determina las características de la imágen.

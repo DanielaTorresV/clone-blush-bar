@@ -1,5 +1,6 @@
 {
   "flex-layout.row#footer__mobile--main": {
+    "title": "Footer Main",
     "children": ["flex-layout.col#footer__mobile--main"]
   },
   "flex-layout.col#footer__mobile--main": {
@@ -102,6 +103,7 @@
     }
   },
   "flex-layout.col#col__space": {
+    "title": "Space",
     "props": {
       "width": "35%"
     }

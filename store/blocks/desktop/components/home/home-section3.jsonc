@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop#section3__text--newDesktop": {
+    "title": "Desktop layout section 3 Home",
     "children": ["rich-text#section3__text--newDesktop"]
   },
   "rich-text#section3__text--newDesktop": {
@@ -12,6 +13,7 @@
     }
   },
   "responsive-layout.desktop#home__section3--desktop": {
+    "title": "Desktop layout section 3 Home",
     "children": ["flex-layout.row#home__section3--slider"]
   },
   "flex-layout.row#home__section3--slider": {

@@ -1,22 +1,19 @@
 {
-    "flex-layout.row#product__breadcrumb": {
-        "title": "Row to breadcrumb",
-        "props": {
-          "marginTop": 4
-        },
-        "children": [
-          "flex-layout.col#product__breadcrumb"
-        ]
+  "flex-layout.row#product__breadcrumb": {
+    "title": "Row to breadcrumb",
+    "props": {
+      "marginTop": 4
     },
-      "flex-layout.col#product__breadcrumb": {
-        "title": "Col to breadcrumb",
-        "children": [
-          "breadcrumb#product"
-        ]
-    },
-      "breadcrumb#product": {
-        "props": {
-            "showOnMobile": true
-        }
+    "children": ["flex-layout.col#product__breadcrumb"]
+  },
+  "flex-layout.col#product__breadcrumb": {
+    "title": "Col to breadcrumb",
+    "children": ["breadcrumb#product"]
+  },
+  "breadcrumb#product": {
+    "title": "Product BreadCrumb",
+    "props": {
+      "showOnMobile": true
     }
+  }
 }

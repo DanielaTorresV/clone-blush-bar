@@ -1,5 +1,6 @@
 {
   "whatsapp-button": {
+    "title": "WhatsApp Button",
     "props": {
       "logo": "assets/img/wp-logo.png",
       "phone": "3004507575",

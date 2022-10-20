@@ -1,8 +1,10 @@
 {
   "store.custom#minicart": {
+    "title": "Minicart",
     "blocks": ["minicart.v2"]
   },
   "minicart.v2": {
+    "title": "Minicart V2",
     "children": ["minicart-base-content"],
     "props": {
       "variation": "block",
