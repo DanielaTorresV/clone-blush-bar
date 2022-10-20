@@ -9,14 +9,15 @@ This store is a makeup and beauty store based on a minimum boilerplate theme of 
 **HOME PHONE**
 
 ![image](https://user-images.githubusercontent.com/101153916/196769598-2e141b6b-0821-470c-bf7e-dc0b97849763.png)
-![image](https://user-images.githubusercontent.com/101153916/196557383-1fef1f4b-c906-4069-ac70-5d2f0799658e.png)
+![image](https://user-images.githubusercontent.com/101153916/197078445-22119261-dcf2-4f5c-8756-8090306ee3df.png)
 ![image](https://user-images.githubusercontent.com/101153916/196738710-2d1e3ab1-09e9-4d89-9988-3cdcc9215680.png)
-![image](https://user-images.githubusercontent.com/101153916/196738592-d00e78ad-448f-4b0f-bc02-919d23ce7dd2.png)
+![image](https://user-images.githubusercontent.com/101153916/197078552-fa9309b1-82e2-4f23-b812-7cfe436dccea.png)
+
 
 **HOME TABLET**
 
-![image](https://user-images.githubusercontent.com/101153916/196557004-05a10160-ef9c-4cc3-9c22-9366099ddde2.png)
-![image](https://user-images.githubusercontent.com/101153916/196557054-931c31a0-66bc-4090-801e-05dc156d3102.png)
+![image](https://user-images.githubusercontent.com/101153916/197078927-55aa4255-e2f2-4e02-950a-f793b55dd991.png)
+![image](https://user-images.githubusercontent.com/101153916/197078738-21428f48-356c-4849-930e-1d2a2bc3c509.png)
 
 **FOOTER MOBILE**
 
@@ -28,7 +29,7 @@ This store is a makeup and beauty store based on a minimum boilerplate theme of 
 
 **HOME DESKTOP**
 
-![image](https://user-images.githubusercontent.com/101153916/196556707-96fa5dc2-f7fd-423c-bef4-adab6c265199.png)
+![image](https://user-images.githubusercontent.com/101153916/197079076-dc3f1322-5b62-4035-8566-2a100f88ddea.png)
 
 **FOOTER DESKTOP**
 
