@@ -1,3 +1,5 @@
+ /* DESKTOP */ 
+
 .submenuWrapper--submenudepartment__desktop--brands {
     width: max-content;
 }
@@ -35,6 +37,9 @@
 .styledLinkContent--department__desktop--brands, .styledLinkContent--department__desktop--servicesbb {
     font-size: 0.85rem;
 }
+
+
+/* MOBILE */ 
 
 .styledLinkContent--menu-item__mobile {
     padding: 10px;
