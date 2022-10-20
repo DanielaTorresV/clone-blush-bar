@@ -3,16 +3,13 @@
     "title": "Product summary for department, category screen",
     "children": [
       "flex-layout.row#search__summary--imgandwish",
+      "modal-trigger#global__quick-view",
+      "product-summary-brand",
       "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-sku-selector",
       "product-list-price",
       "product-selling-price",
-      "product-summary-space",
       "product-identifier.summary",
-      "add-to-cart-button",
-      "modal-trigger#global__quick-view"
+      "product-rating-inline"
     ]
   },
   "flex-layout.row#search__summary--imgandwish": {
