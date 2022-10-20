@@ -1,0 +1,11 @@
+.flexRow--minicart__row {
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #dbd8d8;
+}
+
+.flexCol--minicart__footer--contentCol {
+    margin-top: 15px;
+    margin-right: 20px;
+    border: 1px solid #dbd8d8;
+}

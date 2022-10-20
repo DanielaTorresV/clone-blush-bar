@@ -49,12 +49,14 @@
     }
   },
   "link#container__stores--link": {
+    "title": "Link to stores",
     "children": ["rich-text#container__stores--text"],
     "props": {
       "href": "/tiendas"
     }
   },
   "rich-text#container__stores--text": {
+    "title": "Text stores",
     "props": {
       "text": "Nuestras Tiendas",
       "font": "t-small",
@@ -72,12 +74,14 @@
     }
   },
   "link#container__blog--link": {
+    "title": "Link Blog",
     "children": ["rich-text#container__blog--text"],
     "props": {
       "href": "/que-es-blush-bar"
     }
   },
   "rich-text#container__blog--text": {
+    "title": "Text Blog",
     "props": {
       "text": "BB Blog",
       "font": "t-small",
@@ -95,12 +99,14 @@
     }
   },
   "link#container__about--link": {
+    "title": "Link About us",
     "children": ["rich-text#container__about--text"],
     "props": {
       "href": "/que-es-blush-bar"
     }
   },
   "rich-text#container__about--text": {
+    "title": "Text About us",
     "props": {
       "text": "¿Qués es Blush-Bar?",
       "font": "t-small",
@@ -118,12 +124,14 @@
     }
   },
   "link#container__original--link": {
+    "title": "Link Original",
     "children": ["rich-text#container__original--text"],
     "props": {
       "href": "/tiendas"
     }
   },
   "rich-text#container__original--text": {
+    "title": "Text Original",
     "props": {
       "text": "100% Original",
       "font": "t-small",

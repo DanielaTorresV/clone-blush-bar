@@ -1,35 +1,43 @@
 {
-    "flex-layout.col#home__section5--columnOne": { 
-        "title": "Column 1 sect 5 for image",
-        "children": [
-            "image#section5__columnOne--image"
-        ],
-        "props": {
-            "horizontlaAlign": "center",
-            "verticalAlign": "middle",
-            "width": "13%"
-        }
-    },
-    "image#section5__columnOne--image": {
-        "title": "Image section5 brands",
-        "props": {
-            "src": "assets/img/logos/img_marcas_bb.png",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
-    },
-    "flex-layout.col#home__section5--columnTwo": {
-        "title": "Column 2 sect 5 for slider",
-        "children": [
-            "slider-layout#section5__columnTwo--slider"
-        ],
-        "props": {
-            "horizontlaAlign": "center",
-            "verticalAlign": "middle",
-            "width": "87%"
-        }
+  "flex-layout.row#home__section5": {
+    "title": "Section5 Row",
+    "children": [
+      "flex-layout.col#home__section5--columnOne",
+      "flex-layout.col#home__section5--columnTwo"
+    ],
+    "props": {
+      "blockClass": "home__section5",
+      "preserveLayoutOnMobile": true
     }
+  },
+  "flex-layout.col#home__section5--columnOne": {
+    "title": "Column 1 sect 5 for image",
+    "children": ["image#section5__columnOne--image"],
+    "props": {
+      "horizontlaAlign": "center",
+      "verticalAlign": "middle",
+      "width": "13%"
+    }
+  },
+  "image#section5__columnOne--image": {
+    "title": "Image section5 brands",
+    "props": {
+      "src": "assets/img/logos/img_marcas_bb.png",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "flex-layout.col#home__section5--columnTwo": {
+    "title": "Column 2 sect 5 for slider",
+    "children": ["slider-layout#section5__columnTwo--slider"],
+    "props": {
+      "horizontlaAlign": "center",
+      "verticalAlign": "middle",
+      "width": "87%"
+    }
+  }
 }

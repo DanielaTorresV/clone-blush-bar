@@ -1,0 +1,9 @@
+{
+  "search-result-layout.mobile#mobile__category": {
+    "title": "Search Result Mobile Category",
+    "children": [
+      "responsive-layout.tablet#tablet__category",
+      "responsive-layout.phone#phone__category"
+    ]
+  }
+}

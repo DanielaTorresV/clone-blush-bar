@@ -1,0 +1,27 @@
+.paragraph--quick-view--trigger {
+    font-size: 0.9rem;
+    bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    color: #ffff;
+    padding: 3px 15px 3px 0;
+}
+
+.paragraph--quick-view--trigger:hover {
+    color: #f79aa0;
+}
+.paragraph--quick-view--trigger::after {
+    content: '+';
+    border-radius: 20px;
+    height: 20px;
+    width: 20px;
+    font-size: 1rem;
+    padding: 0px 4px 2px 4px;
+    margin-left: 5px;
+    background-color: #fff;
+    color: #fff;
+}
+
+.paragraph--quick-view--trigger:hover::after {
+    background-color: #f79aa0;
+}

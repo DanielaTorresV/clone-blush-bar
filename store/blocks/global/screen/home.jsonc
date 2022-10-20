@@ -1,5 +1,6 @@
 {
   "store.home": {
+    "title": "Home",
     "blocks": [
       "whatsapp-button",
       "responsive-layout.desktop#home__section1",
@@ -16,101 +17,5 @@
       "flex-layout.row#home__section6"
       /*"search-result-layout.customQuery#home__result" */ //Para mostrar productos
     ]
-  },
-  "whatsapp-button": {
-    "props": {
-      "logo": "assets/img/wp-logo.png",
-      "phone": "3004507575",
-      "message": "Estás comunicándote con Blush-Bar, por favor ingresa tu duda.",
-      "width": 40,
-      "height": 40
-    }
-  },
-  "responsive-layout.desktop#home__section1": {
-    "children": ["flex-layout.row#home__section1"]
-  },
-  "responsive-layout.tablet#home__section1": {
-    "children": ["flex-layout.row#home__section1"]
-  },
-  "responsive-layout.phone#home__section1": {
-    "children": ["flex-layout.row#home__section1--phone"]
-  },
-  "flex-layout.row#home__section2": {
-    "title": "Section2 Row",
-    "children": ["flex-layout.col#home__section2--column"],
-    "props": {
-      "blockClass": "home__section2"
-    }
-  },
-  "flex-layout.row#home__section3": {
-    "title": "Section3 Row",
-    "children": ["flex-layout.col#home__section3--column"],
-    "props": {
-      "blockClass": "home__section3"
-    }
-  },
-  "flex-layout.row#home__department-search": {
-    "title": "Row to show custom department search",
-    "children": ["flex-layout.col#home__department-search"],
-    "props": {
-      "paddingTop": 3
-    }
-  },
-  "flex-layout.row#home__section4": {
-    "title": "Section4 Row",
-    "children": [
-      "flex-layout.col#home__section4--columnOne",
-      "flex-layout.col#home__section4--columnTwo",
-      "flex-layout.col#home__section4--columnThree",
-      "flex-layout.col#home__section4--columnFour"
-    ],
-    "props": {
-      "blockClass": "home__section4",
-      "colGap": 3
-    }
-  },
-  "flex-layout.row#home__section5": {
-    "title": "Section5 Row",
-    "children": [
-      "flex-layout.col#home__section5--columnOne",
-      "flex-layout.col#home__section5--columnTwo"
-    ],
-    "props": {
-      "blockClass": "home__section5",
-      "preserveLayoutOnMobile": true
-    }
-  },
-  "flex-layout.row#home__quick-order": {
-    "title": "Row To Quick Order",
-    "children": ["flex-layout.col#home__quick-order"],
-    "props": {
-      "paddingTop": 3,
-      "paddingBottom": 3
-    }
-  },
-  "flex-layout.row#home__bullet-group": {
-    "title": "Row to Bullet Group Custom Component",
-    "children": ["flex-layout.col#home__bullet-group"]
-  },
-  "flex-layout.row#home__custom-grid": {
-    "title": "Row to custom grid",
-    "children": ["flex-layout.col#home__custom-grid"],
-    "props": {
-      "paddingTop": 5,
-      "paddingBottom": 3
-    }
-  },
-  "flex-layout.row#home__section6": {
-    "title": "Section6 Row",
-    "children": ["image#home__section6--img"],
-    "props": {
-      "blockClass": "home__section6"
-    }
-  },
-  "image#home__section6--img": {
-    "title": "Final Image",
-    "props": {
-      "src": "assets/img/img-final.jpg"
-    }
   }
 }

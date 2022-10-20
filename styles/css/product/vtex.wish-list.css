@@ -1,0 +1,13 @@
+.outline {
+    background: url(https://blushbar.vteximg.com.br/arquivos/icoHeart-line.png?v=636155189787830000);
+    width: 20px;
+}
+
+.fill {
+    background: url(https://blushbar.vteximg.com.br/arquivos/icoLoves.png);
+    width: 24px;
+}
+
+.iconSize {
+    height: 20px;
+}

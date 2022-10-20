@@ -1,114 +1,129 @@
 {
-    "flex-layout.col#home__section4--columnOne": {
-        "title": "Column 1",
-        "children": [
-            "image#section4__column1--image"
-        ],
-        "props": {
-            "horizontlaAlign": "center",
-            "verticalAlign": "middle",
-            "width": "21%"
-        }
-    },
-    "image#section4__column1--image": {
-        "title": "Image 1 Banner",
-        "props": {
-            "src": "assets/img/banner/1-Banner.jpg",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
-    },
-    "flex-layout.col#home__section4--columnTwo": {
-        "title": "Column 2",
-        "children": [
-            "image#section4__column2--imageOne",
-            "image#section4__column2--imageTwo"
-        ],
-        "props": {
-            "horizontlaAlign": "center",
-            "verticalAlign": "middle",
-            "width": "29%"
-        }
-    },
-    "image#section4__column2--imageOne": {
-        "title": "Image 2 Banner",
-        "props": {
-            "src": "assets/img/banner/2-Banner.jpg",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
-    },
-    "image#section4__column2--imageTwo": {
-        "title": "Image 3 Banner",
-        "props": {
-            "src": "assets/img/banner/3-Banner.jpg",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
-    },
-    "flex-layout.col#home__section4--columnThree": {
-        "title": "Column 3",
-        "children": [
-            "image#section4__column3--imageOne",
-            "image#section4__column3--imageTwo"
-        ],
-        "props": {
-            "horizontlaAlign": "center",
-            "verticalAlign": "middle",
-            "width": "29%"
-        }
-    },
-    "image#section4__column3--imageOne": {
-        "title": "Image 4 Banner",
-        "props": {
-            "src": "assets/img/banner/4-Banner.jpg",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
-    },
-    "image#section4__column3--imageTwo": {
-        "title": "Image 5 Banner",
-        "props": {
-            "src": "assets/img/banner/5-Banner.jpg",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
-    },
-    "flex-layout.col#home__section4--columnFour": {
-        "title": "Column 4",
-        "children": [
-            "image#section4__column4--image"
-        ],
-        "props": {
-            "horizontlaAlign": "center",
-            "verticalAlign": "middle",
-            "width": "21%"
-        }
-    },
-    "image#section4__column4--image": {
-        "title": "Image 6 Banner",
-        "props": {
-            "src": "assets/img/banner/6-Banner.jpg",
-            "link": {                                                 // Objeto que determina las características de la imágen.
-            "url": "https://www.google.com/",
-            "newTab": true,
-            "attributeNofollow": true
-            }
-        }
+  "flex-layout.row#home__section4": {
+    "title": "Section4 Row",
+    "children": [
+      "flex-layout.col#home__section4--columnOne",
+      "flex-layout.col#home__section4--columnTwo",
+      "flex-layout.col#home__section4--columnThree",
+      "flex-layout.col#home__section4--columnFour"
+    ],
+    "props": {
+      "blockClass": "home__section4",
+      "colGap": 3
     }
+  },
+  "flex-layout.col#home__section4--columnOne": {
+    "title": "Column 1",
+    "children": ["image#section4__column1--image"],
+    "props": {
+      "horizontlaAlign": "center",
+      "verticalAlign": "middle",
+      "width": "21%"
+    }
+  },
+  "image#section4__column1--image": {
+    "title": "Image 1 Banner",
+    "props": {
+      "src": "assets/img/banner/1-Banner.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "flex-layout.col#home__section4--columnTwo": {
+    "title": "Column 2",
+    "children": [
+      "image#section4__column2--imageOne",
+      "image#section4__column2--imageTwo"
+    ],
+    "props": {
+      "horizontlaAlign": "center",
+      "verticalAlign": "middle",
+      "width": "29%"
+    }
+  },
+  "image#section4__column2--imageOne": {
+    "title": "Image 2 Banner",
+    "props": {
+      "src": "assets/img/banner/2-Banner.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section4__column2--imageTwo": {
+    "title": "Image 3 Banner",
+    "props": {
+      "src": "assets/img/banner/3-Banner.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "flex-layout.col#home__section4--columnThree": {
+    "title": "Column 3",
+    "children": [
+      "image#section4__column3--imageOne",
+      "image#section4__column3--imageTwo"
+    ],
+    "props": {
+      "horizontlaAlign": "center",
+      "verticalAlign": "middle",
+      "width": "29%"
+    }
+  },
+  "image#section4__column3--imageOne": {
+    "title": "Image 4 Banner",
+    "props": {
+      "src": "assets/img/banner/4-Banner.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section4__column3--imageTwo": {
+    "title": "Image 5 Banner",
+    "props": {
+      "src": "assets/img/banner/5-Banner.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "flex-layout.col#home__section4--columnFour": {
+    "title": "Column 4",
+    "children": ["image#section4__column4--image"],
+    "props": {
+      "horizontlaAlign": "center",
+      "verticalAlign": "middle",
+      "width": "21%"
+    }
+  },
+  "image#section4__column4--image": {
+    "title": "Image 6 Banner",
+    "props": {
+      "src": "assets/img/banner/6-Banner.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "https://www.google.com/",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  }
 }

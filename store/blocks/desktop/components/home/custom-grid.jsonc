@@ -1,0 +1,6 @@
+{
+  "responsive-layout.desktop#grid__title": {
+    "title": "Layout to grid title Desktop",
+    "children": ["rich-text#custom-grid__title"]
+  }
+}

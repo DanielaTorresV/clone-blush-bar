@@ -1,0 +1,11 @@
+{
+  "rich-text#section2__text--favoritesMobile": {
+    "title": "Text Favorites",
+    "props": {
+      "text": "FAVORITOS",
+      "font": "t-body",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

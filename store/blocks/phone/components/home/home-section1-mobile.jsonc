@@ -1,0 +1,113 @@
+{
+  "flex-layout.row#home__section1--phone": {
+    "title": "Section1 phone Row",
+    "children": ["slider-layout#home__section1phone--slider"],
+    "props": {
+      "blockClass": "home__section1"
+    }
+  },
+  "slider-layout#home__section1phone--slider": {
+    "title": "Slider section1 phone",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "arrowSize": 30,
+      "blockClass": "home__section1--slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#section1phone__slider--one",
+      "image#section1phone__slider--two",
+      "image#section1phone__slider--three",
+      "image#section1phone__slider--four",
+      "image#section1phone__slider--five",
+      "image#section1phone__slider--six"
+    ]
+  },
+  "image#section1phone__slider--one": {
+    "title": "Image 1",
+    "props": {
+      "blockClass": "image__section1--slider",
+      "src": "assets/img/main-slider-phone/DeskTheOrdinary.png",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "/que-es-blush-bar",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section1phone__slider--two": {
+    "title": "Image 2",
+    "props": {
+      "blockClass": "image__section1--slider",
+      "src": "assets/img/main-slider-phone/roseMetals.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "/que-es-blush-bar",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section1phone__slider--three": {
+    "title": "Image 3",
+    "props": {
+      "blockClass": "image__section1--slider",
+      "src": "assets/img/main-slider-phone/GWPoctubreCOL.gif",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "/que-es-blush-bar",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section1phone__slider--four": {
+    "title": "Image 4",
+    "props": {
+      "blockClass": "image__section1--slider",
+      "src": "assets/img/main-slider-phone/DeskPixi.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "/que-es-blush-bar",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section1phone__slider--five": {
+    "title": "Image 5",
+    "props": {
+      "blockClass": "image__section1--slider",
+      "src": "assets/img/main-slider-phone/chocolate.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "/que-es-blush-bar",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section1phone__slider--six": {
+    "title": "Image 6",
+    "props": {
+      "blockClass": "image__section1--slider",
+      "src": "assets/img/main-slider-phone/deskANR.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "/que-es-blush-bar",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  }
+}

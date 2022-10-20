@@ -1,0 +1,64 @@
+{
+  "product-summary.shelf": {
+    "title": "Product summary for department, category screen",
+    "children": [
+      "flex-layout.row#search__summary--imgandwish",
+      "modal-trigger#global__quick-view",
+      "product-summary-brand",
+      "product-summary-name",
+      "product-list-price",
+      "product-selling-price",
+      "product-identifier.summary",
+      "product-rating-inline"
+    ]
+  },
+  "flex-layout.row#search__summary--imgandwish": {
+    "title": "Row to image and button wishlist",
+    "children": [
+      "flex-layout.col#search__summary--image",
+      "flex-layout.col#search__summary--wishlist"
+    ]
+  },
+  "flex-layout.col#search__summary--image": {
+    "title": "Col to summary image",
+    "children": ["product-summary-image#search"],
+    "props": {
+      "width": "97%",
+      "horizontalAlign": "left"
+    }
+  },
+  "product-summary-image#search": {
+    "title": "Summary Search",
+    "props": {
+      "showBadge": true,
+      "height": 110
+    }
+  },
+  "flex-layout.col#search__summary--wishlist": {
+    "title": "Col to button add to wishlist",
+    "children": ["add-to-list-btn"],
+    "props": {
+      "width": "3%",
+      "horizontalAlign": "right",
+      "verticalAlign": "bottom"
+    }
+  },
+  "product-summary-name": {
+    "title": "Name Product",
+    "props": {
+      "tag": "h3"
+    }
+  },
+  "product-summary-sku-selector": {
+    "title": "Sku",
+    "props": {
+      "hideImpossibleCombinations": false
+    }
+  },
+  "add-to-cart-button": {
+    "title": "Add to Cart",
+    "props": {
+      "text": "COMPRAR"
+    }
+  }
+}
