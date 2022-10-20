@@ -1,10 +1,12 @@
 {
-    "search-result-layout.customQuery#home__result": {
+  //Componente no se está usando
+  "search-result-layout.customQuery#home__result": {
+    "title": "Search Result Custom",
     "blocks": [
-        "search-result-layout.desktop#home__result--desktop",
-        "search-not-found-layout"
-      ],
-    "props": {      
+      "search-result-layout.desktop#home__result--desktop",
+      "search-not-found-layout"
+    ],
+    "props": {
       "querySchema": {
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
@@ -12,29 +14,23 @@
     }
   },
   "search-result-layout.desktop#home__result--desktop": {
-    "children": [
-      "flex-layout.row#home__results"
-    ]
+    "title": "Search Result Custom Desktop",
+    "children": ["flex-layout.row#home__results"]
   },
   "flex-layout.row#home__results": {
-    "children": [
-      "flex-layout.col#home__results--search"
-    ]
+    "title": "Search Result Custom Results",
+    "children": ["flex-layout.col#home__results--search"]
   },
   "flex-layout.col#home__results--search": {
-    "children": [
-      "search-content#home__result--search"
-    ]
+    "title": "Search Result Custom Col Content",
+    "children": ["search-content#home__result--search"]
   },
   "search-content#home__result--search": {
-    "blocks": [
-      "gallery",
-      "not-found"
-    ]
+    "title": "Search Result Custom Content",
+    "blocks": ["gallery", "not-found"]
   },
   "gallery": {
-    "blocks": [
-      "product-summary.shelf"
-    ]
+    "title": "Search Result Custom Gallery",
+    "blocks": ["product-summary.shelf"]
   }
 }

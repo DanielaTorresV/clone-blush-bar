@@ -1,0 +1,22 @@
+{
+  "responsive-layout.tablet#home__section1": {
+    "title": "Section 1 Tablet Home",
+    "children": ["flex-layout.row#home__section1"]
+  },
+  "responsive-layout.tablet#home__section2--tablet": {
+    "title": "Section 2 Tablet Home",
+    "children": ["flex-layout.col#section2__slider"]
+  },
+  "responsive-layout.tablet#section2__text--favoritesTablet": {
+    "title": "Section 2 Tablet Home Text",
+    "children": ["rich-text#section2__text--favoritesTablet"]
+  },
+  "responsive-layout.tablet#home__section3--tablet": {
+    "title": "Section 3 Tablet Home",
+    "children": ["flex-layout.col#section3__slider"]
+  },
+  "responsive-layout.tablet#section3__text--newTablet": {
+    "title": "Section 3 Tablet Home Text",
+    "children": ["rich-text#section3__text--newTablet"]
+  }
+}

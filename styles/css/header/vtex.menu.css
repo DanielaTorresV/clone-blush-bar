@@ -1,3 +1,5 @@
+ /* DESKTOP */ 
+
 .submenuWrapper--submenudepartment__desktop--brands {
     width: max-content;
 }
@@ -36,12 +38,24 @@
     font-size: 0.85rem;
 }
 
+
+/* MOBILE */ 
+
 .styledLinkContent--menu-item__mobile {
     padding: 10px;
 }
 
 .accordionIcon--menu-item__mobile {
-    color: #DF576F;
-    font-size: 15px;
+    color: transparent;
     margin-left: 90px;
+}
+
+.accordionIcon--menu-item__mobile--isOpen {
+    background: url(https://blushbar.vteximg.com.br/arquivos/flechaTop-menu.png) no-repeat 95% center;
+    width: 20px;
+}
+
+.accordionIcon--menu-item__mobile--isClosed {
+    background: url(https://blushbar.vteximg.com.br/arquivos/flechaBottom-menu.png) no-repeat 95% center;
+    width: 20px;
 }
