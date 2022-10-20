@@ -12,3 +12,8 @@
 .minicartTitle {
     display: none;
 }
+
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+    color: #fff;
+}

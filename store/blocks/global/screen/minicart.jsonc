@@ -69,6 +69,7 @@
   "link#minicart_empty--button": {
     "title": "Link to choose products",
     "props": {
+      "blockClass": "minicart__empty--buttton",
       "label": "ELEGIR PRODUCTOS",
       "href": "/",
       "displayMode": "button"
