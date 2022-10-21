@@ -1,21 +1,21 @@
 {
-    "slider-layout#section2__slider--content": {
-        "title": "Slider products section2",
-        "props": {
-            "itemsPerPage": {
-              "desktop": 3,
-              "tablet": 3,
-              "phone": 2
-            },
-            "infinite": true,
-            "showNavigationArrows": "desktopOnly",
-            "showPaginationDots": "never",
-            "arrowSize": 20,
-            "blockClass": "home__section2--slider",
-            "autoplay": {
-              "timeout": 3000,
-              "stopOnHover": true
-            }
-          }
+  "slider-layout#section2__slider--content": {
+    "title": "Slider products section2",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "arrowSize": 20,
+      "blockClass": "home__section2--slider",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
     }
+  }
 }

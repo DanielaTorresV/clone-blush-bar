@@ -31,8 +31,8 @@
     "title": "PDF",
     "props": {
       "pdfUrl": "assets/docs/info-tiendas.pdf",
-      "width": 500,
-      "height": 800
+      "width": "100%",
+      "height": 700
     }
   }
 }
