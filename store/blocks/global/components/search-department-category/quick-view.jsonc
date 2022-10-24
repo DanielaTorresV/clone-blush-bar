@@ -20,7 +20,10 @@
     "children": [
       "modal-header#global__quick-view",
       "flex-layout.row#quick-view__modal"
-    ]
+    ],
+    "props": {
+      "blockClass": "quick-view__modal"
+    }
   },
   "modal-header#global__quick-view": {
     "title": "Header modal quick view",
