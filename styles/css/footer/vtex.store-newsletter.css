@@ -1,0 +1,28 @@
+.emailInputContainer :global(.vtex-input-prefix__group) {
+    border-radius: 0px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    height: 30px;
+}
+
+.emailInputContainer :global(.vtex-styleguide-9-x-input) { 
+    background-color: #fce7ea ;
+    border-radius: 0px;
+}
+
+.formSubmitContainer :global(.vtex-button) {
+    font-size: 14px;
+    background-color: #f79aa0;
+    border-radius: 0px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    min-height: 0px;
+    height: 30px;
+}
+
+.formSubmitContainer :global(.vtex-button__label) {
+    margin: 0px;
+    padding: 0px 10px;
+}
