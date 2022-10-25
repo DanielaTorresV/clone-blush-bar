@@ -28,7 +28,8 @@
       "image#section1phone__slider--two",
       "image#section1phone__slider--three",
       "image#section1phone__slider--four",
-      "image#section1phone__slider--five"
+      "image#section1phone__slider--five",
+      "image#section1phone__slider--six"
     ]
   },
   "image#section1phone__slider--one": {
@@ -61,7 +62,7 @@
     "title": "Image 3",
     "props": {
       "blockClass": "image__section1--slider",
-      "src": "assets/img/main-slider-phone/DeskPixi.jpg",
+      "src": "assets/img/main-slider-phone/BannerHalloweenMob.gif",
       "link": {
         // Objeto que determina las características de la imágen.
         "url": "/que-es-blush-bar",
@@ -74,7 +75,7 @@
     "title": "Image 4",
     "props": {
       "blockClass": "image__section1--slider",
-      "src": "assets/img/main-slider-phone/chocolate.jpg",
+      "src": "assets/img/main-slider-phone/DeskPixi.jpg",
       "link": {
         // Objeto que determina las características de la imágen.
         "url": "/que-es-blush-bar",
@@ -85,6 +86,19 @@
   },
   "image#section1phone__slider--five": {
     "title": "Image 5",
+    "props": {
+      "blockClass": "image__section1--slider",
+      "src": "assets/img/main-slider-phone/chocolate.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "/que-es-blush-bar",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section1phone__slider--six": {
+    "title": "Image 6",
     "props": {
       "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider-phone/deskANR.jpg",
