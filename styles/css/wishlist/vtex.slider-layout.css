@@ -1,0 +1,9 @@
+.sliderLayoutContainer--shelf__wishlist--slider {
+    padding-left: 70px ;
+}
+
+@media (max-width: 720px) {
+    .sliderLayoutContainer--shelf__wishlist--slider {
+        padding: 5px ;
+    }
+}
