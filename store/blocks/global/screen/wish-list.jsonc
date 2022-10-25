@@ -8,12 +8,16 @@
   "my-account-page.wishlist-page": {
     "title": "Wishlist Page",
     "props": {
-      "title": "Lista de Deseos"
+      "title": "Lista de Deseos",
+      "blockClass": "wishlist__page"
     },
     "children": ["list-context.wishlist"]
   },
   "store.wishlist": {
     "title": "Wishlist",
-    "blocks": ["flex-layout.row#top", "flex-layout.row#content__wishlist"]
+    "blocks": ["flex-layout.row#top", "flex-layout.row#content__wishlist"],
+    "props": {
+      "blockClass": "wishlist"
+    }
   }
 }

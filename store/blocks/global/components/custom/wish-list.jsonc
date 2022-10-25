@@ -3,6 +3,7 @@
     "title": "Row to title WishList",
     "children": ["flex-layout.col#title"],
     "props": {
+      "blockClass": "titleWishlist__row",
       "marginTop": 2
     }
   },
@@ -10,7 +11,7 @@
     "title": "Col to title WishList",
     "children": ["rich-text#title"],
     "props": {
-      "blockClass": "titleWishlist",
+      "blockClass": "titleWishlist_col",
       "preventVerticalStretch": true,
       "marginLeft": 2
     }
@@ -28,12 +29,16 @@
     "title": "Row to content wish list",
     "children": ["flex-layout.col#content__wishlist"],
     "props": {
+      "blockClass": "content__wishlist--row",
       "marginBottom": 2
     }
   },
   "flex-layout.col#content__wishlist": {
     "title": "Col to content wish list",
-    "children": ["list-context.wishlist"]
+    "children": ["list-context.wishlist"],
+    "props": {
+      "blockClass": "content__wishlist--col"
+    }
   },
   "list-context.wishlist": {
     "title": "Lis Context Wish List",
