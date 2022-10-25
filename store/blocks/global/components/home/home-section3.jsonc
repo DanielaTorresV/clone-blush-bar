@@ -28,16 +28,17 @@
       "flex-layout.col#section3__rightcolumn"
     ],
     "props": {
+      "blockClass": "home__section3--newRow",
       "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#section3__leftcolumn": {
     "title": "Column left side",
-    "children": ["image#section3__divider"],
     "props": {
+      "blockClass": "section3__divider--col",
       "horizontlaAlign": "center",
       "verticalAlign": "middle",
-      "width": "30%"
+      "width": "35%"
     }
   },
   "flex-layout.col#section3__text": {
@@ -50,22 +51,16 @@
     "props": {
       "horizontlaAlign": "center",
       "verticalAlign": "middle",
-      "width": "40%"
+      "width": "30%"
     }
   },
   "flex-layout.col#section3__rightcolumn": {
     "title": "Column right side",
-    "children": ["image#section3__divider"],
     "props": {
+      "blockClass": "section3__divider--col",
       "horizontlaAlign": "center",
       "verticalAlign": "middle",
-      "width": "30%"
-    }
-  },
-  "image#section3__divider": {
-    "title": "Divider",
-    "props": {
-      "src": "assets/img/divider.jpg"
+      "width": "35%"
     }
   }
 }

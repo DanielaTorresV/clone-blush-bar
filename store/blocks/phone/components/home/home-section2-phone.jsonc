@@ -1,7 +1,8 @@
 {
-  "rich-text#section2__text--favoritesMobile": {
+  "rich-text#section2__text--favoritesPhone": {
     "title": "Text Favorites",
     "props": {
+      "blockClass": "section2__text--favoritesPhone",
       "text": "FAVORITOS",
       "font": "t-body",
       "textAlignment": "CENTER",

@@ -2,10 +2,27 @@
     padding: 0px 4px;
 }
 
-.flexCol--home__section2--column{
-    padding: 10px 50px;
+.flexCol--section2__divider--col,
+.flexCol--section3__divider--col{
+    border-bottom: 6px double #f6ced6;
+    height: 60%;
 }
 
+@media (max-width: 375px) {
+    .flexCol--section2__divider--col,
+    .flexCol--section3__divider--col {
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .flexCol--section2__divider--col,
+    .flexCol--section3__divider--col {
+        width: 60% !important;
+    }
+}
+
+.flexCol--home__section2--column, 
 .flexCol--home__section3--column{
     padding: 10px 50px;
 }

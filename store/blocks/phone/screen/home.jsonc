@@ -9,7 +9,7 @@
   },
   "responsive-layout.phone#section2__text--favoritesPhone": {
     "title": "Section 2 Phone Home Text",
-    "children": ["rich-text#section2__text--favoritesMobile"]
+    "children": ["rich-text#section2__text--favoritesPhone"]
   },
   "responsive-layout.phone#home__section3--phone": {
     "title": "Section 3 Phone Home",
@@ -17,6 +17,6 @@
   },
   "responsive-layout.phone#section3__text--newPhone": {
     "title": "Section 3 Phone Home Text",
-    "children": ["rich-text#section3__text--newMobile"]
+    "children": ["rich-text#section3__text--newPhone"]
   }
 }

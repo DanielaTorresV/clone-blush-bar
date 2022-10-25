@@ -28,13 +28,14 @@
       "flex-layout.col#section2__rightcolumn"
     ],
     "props": {
+      "blockClass": "home__section2--favoriteRow",
       "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#section2__leftcolumn": {
     "title": "Column left side",
-    "children": ["image#section2__divider"],
     "props": {
+      "blockClass": "section2__divider--col",
       "horizontlaAlign": "center",
       "verticalAlign": "middle",
       "width": "35%"
@@ -55,17 +56,11 @@
   },
   "flex-layout.col#section2__rightcolumn": {
     "title": "Column right side",
-    "children": ["image#section2__divider"],
     "props": {
+      "blockClass": "section2__divider--col",
       "horizontlaAlign": "center",
       "verticalAlign": "middle",
       "width": "35%"
-    }
-  },
-  "image#section2__divider": {
-    "title": "Divider",
-    "props": {
-      "src": "assets/img/divider.jpg"
     }
   }
 }
