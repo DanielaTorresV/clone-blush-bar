@@ -4,11 +4,11 @@ This store is a makeup and beauty store based on a minimum boilerplate theme of 
 
 **PHONE**
 
-
+![PagePhone](https://user-images.githubusercontent.com/101153916/198072109-bbdadf24-2118-4f38-8634-1e98a71dfd75.gif)
 
 **TABLET**
 
-
+![PageTablet](https://user-images.githubusercontent.com/101153916/198072060-6e6c17e2-6d79-4dd5-8822-50f59dbbdd19.gif)
 
 **DESKTOP**
 
