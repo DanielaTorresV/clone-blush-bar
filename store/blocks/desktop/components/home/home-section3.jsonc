@@ -6,6 +6,7 @@
   "rich-text#section3__text--newDesktop": {
     "title": "Text new",
     "props": {
+      "blockClass": "section3__text--newDesktop",
       "text": "PRODUCTOS NUEVOS",
       "font": "t-heading-3",
       "textAlignment": "CENTER",

@@ -6,6 +6,7 @@
   "rich-text#section2__text--favoritesDesktop": {
     "title": "Text Favorites",
     "props": {
+      "blockClass": "section2__text--favoritesDesktop",
       "text": "FAVORITOS",
       "font": "t-heading-3",
       "textAlignment": "CENTER",
