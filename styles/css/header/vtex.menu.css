@@ -9,6 +9,10 @@
     width: max-content;
 }
 
+.submenu--submenudepartment__desktop--servicesbb :global(.vtex-menu-2-x-menuItem) {
+    padding: 3px 0px;
+}
+
 .styledLinkContainer {
     margin: 0 12px;
 }
