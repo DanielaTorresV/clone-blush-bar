@@ -38,7 +38,7 @@
       "blockClass": "section2__divider--col",
       "horizontlaAlign": "center",
       "verticalAlign": "middle",
-      "width": "35%"
+      "width": "38%"
     }
   },
   "flex-layout.col#section2__text": {
@@ -51,7 +51,7 @@
     "props": {
       "horizontlaAlign": "center",
       "verticalAlign": "middle",
-      "width": "30%"
+      "width": "24%"
     }
   },
   "flex-layout.col#section2__rightcolumn": {
@@ -60,7 +60,7 @@
       "blockClass": "section2__divider--col",
       "horizontlaAlign": "center",
       "verticalAlign": "middle",
-      "width": "35%"
+      "width": "38%"
     }
   }
 }
