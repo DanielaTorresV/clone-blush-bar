@@ -2,7 +2,8 @@
 
 .flexRow--footer__main{
     margin: 0px 8px;
-    background-color: rgb(39, 37, 37);
+    background: #231f20 url(https://blushbar.vteximg.com.br/arquivos/fondoFooter.png) center center;
+    color: #cccccc;
     padding-top: 15px;
 }
 
@@ -43,7 +44,8 @@
 /* MOBILE */
 
 .flexCol--footer__mobileMain--column{
-    background-color: rgb(39, 37, 37);
+    background: #231f20 url(https://blushbar.vteximg.com.br/arquivos/fondoFooter.png) center center;
+    color: #cccccc;
     padding-top: 15px;    
 }
 

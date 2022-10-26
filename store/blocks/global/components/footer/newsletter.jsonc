@@ -24,7 +24,7 @@
     "props": {
       "text": "Registra tu E-mail y conoce nuestros productos nuevos, exclusivos lanzamientos y Blush-Bar tips",
       "font": "t-mini",
-      "textColor": "c-on-base--inverted"
+      "textColor": "c-on-muted-1"
     }
   },
   "flex-layout.row#main__newsletter--emailandsubmit": {
@@ -84,7 +84,7 @@
     "props": {
       "text": "Al dar click en OK aceptas nuestras ",
       "font": "t-mini",
-      "textColor": "c-on-base--inverted"
+      "textColor": "c-on-muted-1"
     }
   },
   "link#newsletter__policies--link": {
