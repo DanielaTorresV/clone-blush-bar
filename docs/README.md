@@ -2,40 +2,20 @@
 
 This store is a makeup and beauty store based on a minimum boilerplate theme of VTEX
 
-**HEADER MOBILE**
+**PHONE**
 
-![image](https://user-images.githubusercontent.com/101153916/195952948-250c84c5-a068-48ae-b30f-aef838842f63.png)
+![PagePhone](https://user-images.githubusercontent.com/101153916/198072109-bbdadf24-2118-4f38-8634-1e98a71dfd75.gif)
 
-**HOME PHONE**
+**TABLET**
 
-![image](https://user-images.githubusercontent.com/101153916/196769598-2e141b6b-0821-470c-bf7e-dc0b97849763.png)
-![image](https://user-images.githubusercontent.com/101153916/197534514-6d90bac7-2d67-4af5-b3b5-b9050ba413a1.png)
-![image](https://user-images.githubusercontent.com/101153916/196738710-2d1e3ab1-09e9-4d89-9988-3cdcc9215680.png)
-![image](https://user-images.githubusercontent.com/101153916/197078552-fa9309b1-82e2-4f23-b812-7cfe436dccea.png)
+![PageTablet](https://user-images.githubusercontent.com/101153916/198072060-6e6c17e2-6d79-4dd5-8822-50f59dbbdd19.gif)
+
+**DESKTOP**
+
+![PageDesk](https://user-images.githubusercontent.com/101153916/198065020-ef4d4006-4269-4b92-a143-aad46aa4ff2e.gif)
 
 
-**HOME TABLET**
-
-![image](https://user-images.githubusercontent.com/101153916/197078927-55aa4255-e2f2-4e02-950a-f793b55dd991.png)
-![image](https://user-images.githubusercontent.com/101153916/197078738-21428f48-356c-4849-930e-1d2a2bc3c509.png)
-
-**FOOTER MOBILE**
-
-![image](https://user-images.githubusercontent.com/101153916/195953013-649a5a4e-16ae-4674-907c-479c9c95ee75.png)
-
-**HEADER DESKTOP**
-
-![image](https://user-images.githubusercontent.com/101153916/195952854-5a505086-1e43-418b-b6da-258807edcc13.png)
-
-**HOME DESKTOP**
-
-![image](https://user-images.githubusercontent.com/101153916/197079076-dc3f1322-5b62-4035-8566-2a100f88ddea.png)
-
-**FOOTER DESKTOP**
-
-![image](https://user-images.githubusercontent.com/101153916/195952889-119104a2-0aad-4944-be5d-d435e3f01680.png)
-
-## Configuration
+## 🔨 Configuration
 
 ### Step 1 - Basic setup
 
@@ -74,6 +54,8 @@ Run `vtex list` and check whether those apps are already installed.
 
 If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
 
+Besides, You need to link `Custom Apss`before link the store.
+
 ### Step 5 - Uninstalling any existing theme
 
 By running `vtex list`, you can verify if any theme is installed.
@@ -95,68 +77,80 @@ window having your linked store in it.
 
 This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
 
-## Dependencies
+## 🔑 Dependencies
 
 1. Store minumun boilerplate theme
 2. Store GraphQl
 
-## Peer Dependencies
+## 🔑 Peer Dependencies
 
-1.  "vtex.wish-list": "1.x"
-2.  "vtex.reviews-and-ratings": "3.x"
-3.  "vtex.questions-and-answers": "0.x"
+```json
+{
+"vtex.wish-list": "1.x"
+"vtex.reviews-and-ratings": "3.x"
+"vtex.questions-and-answers": "0.x"
+}
+```
 
-## Store Component Apps
+## 🔑 Store Component Apps
 
-1. "vtex.store": "2.x"
-2. "vtex.store-header": "2.x"
-3. "vtex.product-summary": "2.x"
-4. "vtex.store-footer": "2.x"
-5. "vtex.store-components": "3.x"
-6. "vtex.styleguide": "9.x"
-7. "vtex.slider": "0.x"
-8. "vtex.shelf": "1.x"
-9. "vtex.menu": "2.x"
-10. "vtex.minicart": "2.x"
-11. "vtex.product-details": "1.x"
-12. "vtex.search-result": "3.x"
-13. "vtex.login": "2.x"
-14. "vtex.my-account": "1.x"
-15. "vtex.flex-layout": "0.x"
-16. "vtex.rich-text": "0.x"
-17. "vtex.store-drawer": "0.x"
-18. "vtex.locale-switcher": "0.x"
-19. "vtex.product-quantity": "1.x"
-20. "vtex.product-identifier": "0.x"
-21. "vtex.product-specification-badges": "0.x"
-22. "vtex.product-review-interfaces": "1.x"
-23. "vtex.order-placed": "2.x"
-24. "vtex.tab-layout": "0.x"
-25. "vtex.responsive-layout": "0.x"
-26. "vtex.slider-layout": "0.x"
-27. "vtex.iframe": "0.x"
-28. "vtex.breadcrumb": "1.x"
-29. "vtex.sticky-layout": "0.x"
-30. "vtex.add-to-cart-button": "0.x"
-31. "vtex.store-link": "0.x"
-32. "vtex.search": "2.x"
-33. "vtex.store-icons": "0.x"
-34. "vtex.store-newsletter": "1.x"
-35. "vtex.checkout-summary": "0.x"
-36. "vtex.product-list": "0.x"
-37. "vtex.product-price": "1.x"
-38. "vtex.modal-layout": "0.x"
+```json
+{
+"vtex.store": "2.x"
+"vtex.store-header": "2.x"
+"vtex.product-summary": "2.x"
+"vtex.store-footer": "2.x"
+"vtex.store-components": "3.x"
+"vtex.styleguide": "9.x"
+"vtex.slider": "0.x"
+"vtex.shelf": "1.x"
+"vtex.menu": "2.x"
+"vtex.minicart": "2.x"
+"vtex.product-details": "1.x"
+"vtex.search-result": "3.x"
+"vtex.login": "2.x"
+"vtex.my-account": "1.x"
+"vtex.flex-layout": "0.x"
+"vtex.rich-text": "0.x"
+"vtex.store-drawer": "0.x"
+"vtex.locale-switcher": "0.x"
+"vtex.product-quantity": "1.x"
+"vtex.product-identifier": "0.x"
+"vtex.product-specification-badges": "0.x"
+"vtex.product-review-interfaces": "1.x"
+"vtex.order-placed": "2.x"
+"vtex.tab-layout": "0.x"
+"vtex.responsive-layout": "0.x"
+"vtex.slider-layout": "0.x"
+"vtex.iframe": "0.x"
+"vtex.breadcrumb": "1.x"
+"vtex.sticky-layout": "0.x"
+"vtex.add-to-cart-button": "0.x"
+"vtex.store-link": "0.x"
+"vtex.search": "2.x"
+"vtex.store-icons": "0.x"
+"vtex.store-newsletter": "1.x"
+"vtex.checkout-summary": "0.x"
+"vtex.product-list": "0.x"
+"vtex.product-price": "1.x"
+"vtex.modal-layout": "0.x"
+}
+```
 
-## Custom Apps
+## 🔑 Custom Apps
 
-1. "itgloberspartnercl.whatsapp-button": "0.x"
-2. "itgloberspartnercl.bullets-diagramation": "0.x"
-3. "itgloberspartnercl.add-to-cart-info": "0.x"
-4. "itgloberspartnercl.custom-department-search": "0.x"
-5. "itgloberspartnercl.pdf-reader": "0.x"
-6. "itgloberspartnercl.quick-order": "0.x"
-7. "itgloberspartnercl.special-diagramation": "0.x"
+```json
+{
+"itgloberspartnercl.whatsapp-button": "0.x"
+"itgloberspartnercl.bullets-diagramation": "0.x"
+"itgloberspartnercl.add-to-cart-info": "0.x"
+"itgloberspartnercl.custom-department-search": "0.x"
+"itgloberspartnercl.pdf-reader": "0.x"
+"itgloberspartnercl.quick-order": "0.x"
+"itgloberspartnercl.special-diagramation": "0.x"
+}
+```
 
-## Contributors
+## ✒️ Contributors
 
 1. Daniela María Torres Vélez
