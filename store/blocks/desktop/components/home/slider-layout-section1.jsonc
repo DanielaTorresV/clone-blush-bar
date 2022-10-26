@@ -28,7 +28,8 @@
       "image#section1__slider--two",
       "image#section1__slider--three",
       "image#section1__slider--four",
-      "image#section1__slider--five"
+      "image#section1__slider--five",
+      "image#section1__slider--six"
     ]
   },
   "image#section1__slider--one": {
@@ -61,7 +62,7 @@
     "title": "Image 3",
     "props": {
       "blockClass": "image__section1--slider",
-      "src": "assets/img/main-slider/DeskPixi.jpg",
+      "src": "assets/img/main-slider/halloween-general.gif",
       "link": {
         // Objeto que determina las características de la imágen.
         "url": "/que-es-blush-bar",
@@ -74,7 +75,7 @@
     "title": "Image 4",
     "props": {
       "blockClass": "image__section1--slider",
-      "src": "assets/img/main-slider/chocolate.jpg",
+      "src": "assets/img/main-slider/DeskPixi.jpg",
       "link": {
         // Objeto que determina las características de la imágen.
         "url": "/que-es-blush-bar",
@@ -85,6 +86,19 @@
   },
   "image#section1__slider--five": {
     "title": "Image 5",
+    "props": {
+      "blockClass": "image__section1--slider",
+      "src": "assets/img/main-slider/chocolate.jpg",
+      "link": {
+        // Objeto que determina las características de la imágen.
+        "url": "/que-es-blush-bar",
+        "newTab": true,
+        "attributeNofollow": true
+      }
+    }
+  },
+  "image#section1__slider--six": {
+    "title": "Image 6",
     "props": {
       "blockClass": "image__section1--slider",
       "src": "assets/img/main-slider/deskANR.jpg",
