@@ -28,9 +28,17 @@
   "flex-layout.row#footer__main--socialmedia": {
     "title": "Row to Social Media",
     "children": [
-      "rich-text#main__socialmedia--text",
-      "social-networks#main__socialmedia--logos"
+      "flex-layout.col#main__socialmedia--text",
+      "flex-layout.col#main__socialmedia--logos"
     ]
+  },
+  "flex-layout.col#main__socialmedia--text": {
+    "title": "Col to text Social Media",
+    "children": ["rich-text#main__socialmedia--text"],
+    "props": {
+      "width": "25%",
+      "verticalAlign": "middle"
+    }
   },
   "rich-text#main__socialmedia--text": {
     "title": "Text Social Media",
@@ -39,6 +47,10 @@
       "font": "t-small",
       "textColor": "c-on-base--inverted"
     }
+  },
+  "flex-layout.col#main__socialmedia--logos": {
+    "title": "Col to logos",
+    "children": ["social-networks#main__socialmedia--logos"]
   },
   "social-networks#main__socialmedia--logos": {
     "title": "Logos Social Media",

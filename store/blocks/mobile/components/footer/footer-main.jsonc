@@ -25,8 +25,8 @@
   "flex-layout.row#footer__mobile--section2": {
     "title": "Section2 footer mobile",
     "children": [
-      "rich-text#main__socialmedia--text",
-      "social-networks#main__socialmedia--logos"
+      "flex-layout.col#main__socialmedia--text",
+      "flex-layout.col#main__socialmedia--logos"
     ],
     "props": {
       "blockClass": "footer__mobile--section2"
